@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TEMP2025",
+			"Path": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TEMP2025Editor",
+			"Path": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
