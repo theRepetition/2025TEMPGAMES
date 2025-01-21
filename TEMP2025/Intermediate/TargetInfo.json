@@ -1,24 +1,14 @@
 {
 	"Targets": [
 		{
-			"Name": "DotNetPerforceLib",
-			"Path": "E:\\UE_5.2\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce.Native\\DotNetPerforceLib.Target.cs",
-			"Type": "Program"
-		},
-		{
-			"Name": "UnrealHeaderTool",
-			"Path": "E:\\UE_5.2\\Engine\\Source\\Programs\\UnrealHeaderTool\\UnrealHeaderTool.Target.cs",
-			"Type": "Program"
-		},
-		{
-			"Name": "UnrealEditor",
-			"Path": "E:\\UE_5.2\\Engine\\Source\\UnrealEditor.Target.cs",
-			"Type": "Editor"
-		},
-		{
-			"Name": "UnrealGame",
-			"Path": "E:\\UE_5.2\\Engine\\Source\\UnrealGame.Target.cs",
+			"Name": "TEMP2025",
+			"Path": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025.Target.cs",
 			"Type": "Game"
+		},
+		{
+			"Name": "TEMP2025Editor",
+			"Path": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025Editor.Target.cs",
+			"Type": "Editor"
 		}
 	]
 }
