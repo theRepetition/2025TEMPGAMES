@@ -285,7 +285,10 @@ E:\TempGames\2025TEMPGAMES\TEMP2025\Source\TEMP2025\Private\CPP_NPC_Interaction.
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\UnrealEditor\Development\TEMP2025\Definitions.h"
+/FI"E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\TEMP2025Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\UnrealEditor\Development\TEMP2025\Definitions.TEMP2025.h"
+/Yu"E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\TEMP2025Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\TEMP2025Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
 /Fo"E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\UnrealEditor\Development\TEMP2025\CPP_NPC_Interaction.cpp.obj"
 /sourceDependencies E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\UnrealEditor\Development\TEMP2025\CPP_NPC_Interaction.cpp.dep.json
 /Zc:inline

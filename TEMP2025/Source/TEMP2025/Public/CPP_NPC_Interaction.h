@@ -16,13 +16,17 @@ public:
 	// Sets default values for this component's properties
 	UCPP_NPC_Interaction();
 
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	UFUNCTION(BlueprintCallable, Category = "Dialogue")
+	void ShowDialogue();
 
+private:
+	// NPC에서 대화 데이터를 가져오는 내부 함수
+	FString GetDialogueLine() const;
 		
 };
