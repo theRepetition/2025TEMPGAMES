@@ -32,3 +32,9 @@ void UcppNPCInteraction::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	// ...
 }
 
+struct talkWithNPC()
+{	
+	
+
+
+}
