@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch TEMP2025 (Debug)",
+			"request": "launch",
+			"program": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "TEMP2025 Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch TEMP2025 (DebugGame)",
+			"request": "launch",
+			"program": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "TEMP2025 Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch TEMP2025 (Development)",
+			"request": "launch",
+			"program": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Binaries\\Win64\\TEMP2025.exe",
+			"preLaunchTask": "TEMP2025 Win64 Development Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch TEMP2025 (Test)",
+			"request": "launch",
+			"program": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "TEMP2025 Win64 Test Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch TEMP2025 (Shipping)",
+			"request": "launch",
+			"program": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "TEMP2025 Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch TEMP2025Editor (Debug)",
+			"request": "launch",
+			"program": "E:\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "TEMP2025Editor Win64 Debug Build",
+			"args": [
+				"E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\TEMP2025.uproject"
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch TEMP2025Editor (DebugGame)",
+			"request": "launch",
+			"program": "E:\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "TEMP2025Editor Win64 DebugGame Build",
+			"args": [
+				"E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\TEMP2025.uproject"
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Launch TEMP2025Editor (Development)",
+			"request": "launch",
+			"program": "E:\\UE_5.2\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "TEMP2025Editor Win64 Development Build",
+			"args": [
+				"E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\TEMP2025.uproject"
+			],
+			"cwd": "E:\\UE_5.2",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.2\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "E:\\UE_5.2"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "E:\\UE_5.2\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\TEMP2025.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "E:\\UE_5.2"
+		}
+	]
+}

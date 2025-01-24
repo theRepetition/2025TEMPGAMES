@@ -1,0 +1,42 @@
+[
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.262.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.262.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.262.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppNPCInteraction.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.262.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppNPCInteraction.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.262.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	}
+]

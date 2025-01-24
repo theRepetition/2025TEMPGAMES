@@ -11,6 +11,9 @@
 *.gch
 *.pch
 
+# Exclude PDB files (debugging symbols)
+*.pdb
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -72,3 +75,4 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
