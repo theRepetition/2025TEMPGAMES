@@ -1,19 +1,53 @@
 #include "cppNPCInteraction.h"
 
-
 UcppNPCInteraction::UcppNPCInteraction()
 {
-
-	PrimaryComponentTick.bCanEverTick = true;
+    PrimaryComponentTick.bCanEverTick = true;
 }
 
-void UcppNPCInteraction::ProcessPlayerState(const FString& PlayerName, const FString& TestString)
+void UcppNPCInteraction::ProcessPlayerState(const FString& PlayerName, const FString& TestString, EPlayerRelation PlayerRelation)
 {
-	// Àü´Þ¹ÞÀº µ¥ÀÌÅÍ Ãâ·Â
-	if (GEngine)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green,
-			FString::Printf(TEXT("Player Name: %s, Test String: %s"),
-				*PlayerName, *TestString));
-	}
+    // 
+    if (GEngine)
+    {
+        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green,
+            FString::Printf(TEXT("Player Name: %s, Test String: %s"),
+                *PlayerName, *TestString));
+    }
+
+    // 
+    switch (PlayerRelation)
+    {
+    case EPlayerRelation::Neutral:
+        if (GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow,
+                TEXT("NPC:ì¤‘ë¦½ "));
+        }
+        break;
+
+    case EPlayerRelation::Friendly:
+        if (GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green,
+                TEXT("NPC:ë™ë§¹ "));
+        }
+        break;
+
+    case EPlayerRelation::Hostile:
+        if (GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red,
+                TEXT("NPC: ì ëŒ€"));
+        }
+        break;
+
+    default:
+        if (GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow,
+                TEXT("NPC: ."));
+        }
+        break;
+    }
 }
