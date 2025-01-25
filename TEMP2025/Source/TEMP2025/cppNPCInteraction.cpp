@@ -4,6 +4,21 @@ UcppNPCInteraction::UcppNPCInteraction()
 {
     PrimaryComponentTick.bCanEverTick = true;
 }
+EPlayerRelation UcppNPCInteraction::GetRelationFromValue(int32 RelationshipValue) const
+{
+    if (RelationshipValue < 0)
+    {
+        return EPlayerRelation::Hostile;
+    }
+    else if (RelationshipValue > 50)
+    {
+        return EPlayerRelation::Friendly;
+    }
+    else
+    {
+        return EPlayerRelation::Neutral;
+    }
+}
 
 void UcppNPCInteraction::ProcessPlayerState(const FString& PlayerName, const FString& TestString, EPlayerRelation PlayerRelation)
 {
@@ -50,4 +65,12 @@ void UcppNPCInteraction::ProcessPlayerState(const FString& PlayerName, const FSt
         }
         break;
     }
+    
+}
+
+// 관계도 기반으로 정리
+void UcppNPCInteraction::ProcessPlayerStateWithValue(const FString& PlayerName, const FString& TestString, int32 RelationshipValue)
+{
+    EPlayerRelation Relation = GetRelationFromValue(RelationshipValue);
+    ProcessPlayerState(PlayerName, TestString, Relation);
 }

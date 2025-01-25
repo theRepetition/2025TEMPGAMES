@@ -18,11 +18,15 @@ enum class EPlayerRelation : uint8;
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_SPARSE_DATA
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execProcessPlayerStateWithValue); \
+	DECLARE_FUNCTION(execGetRelationFromValue); \
 	DECLARE_FUNCTION(execProcessPlayerState);
 
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execProcessPlayerStateWithValue); \
+	DECLARE_FUNCTION(execGetRelationFromValue); \
 	DECLARE_FUNCTION(execProcessPlayerState);
 
 

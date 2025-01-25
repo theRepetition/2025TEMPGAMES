@@ -36,7 +36,7 @@
 		{
 			"name": "Launch TEMP2025 (Development)",
 			"request": "launch",
-			"program": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Binaries\\Win64\\TEMP2025.exe",
+			"program": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Binaries\\Win64\\UnrealGame.exe",
 			"preLaunchTask": "TEMP2025 Win64 Development Build",
 			"args": [
 			],
