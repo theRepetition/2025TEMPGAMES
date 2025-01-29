@@ -21,11 +21,11 @@ bool UcppdataBaseManager::OpenDatabase()
 
 void UcppdataBaseManager::QueryItems()
 {
-    if (!DBConnection.IsOpen()) // DBConnection 상태 확인
+    if (!DBConnection.Execute(TEXT("PRAGMA database_list;")))
     {
         UE_LOG(LogTemp, Error, TEXT("Database connection is invalid!"));
         return;
-    }
+    }   
 
     // SQL 쿼리 실행
     FSQLiteResultSet* ResultSet = nullptr;
@@ -33,7 +33,9 @@ void UcppdataBaseManager::QueryItems()
     {
         if (ResultSet != nullptr)
         {
-            do
+            int32 RecordCount = ResultSet->GetRecordCount();  // 총 레코드 개수 가져오기
+
+            for (int32 i = 0; i < RecordCount; i++)  // 레코드 수만큼 반복
             {
                 FString Name = ResultSet->GetString(TEXT("Name"));
                 FString Type = ResultSet->GetString(TEXT("Type"));
@@ -41,10 +43,10 @@ void UcppdataBaseManager::QueryItems()
                 float Weight = ResultSet->GetFloat(TEXT("Weight"));
 
                 UE_LOG(LogTemp, Log, TEXT("Item: %s, Type: %s, Value: %d, Weight: %f"), *Name, *Type, Value, Weight);
-            } while (ResultSet->MoveNext()); // MoveNext()로 반복 처리
+            }
         }
 
-        // ResultSet 메모리 해제
+        // ResultSet 해제
         delete ResultSet;
     }
     else
