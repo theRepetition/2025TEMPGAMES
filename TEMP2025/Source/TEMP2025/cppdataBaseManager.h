@@ -4,6 +4,7 @@
 #include "SQLiteSupport.h"
 #include "SQLiteDatabaseConnection.h"
 #include "SQLiteResultSet.h"
+#include "ItemStruct.h"
 
 #include "cppdataBaseManager.generated.h"
 
@@ -20,5 +21,5 @@ public:
     bool OpenDatabase();
 
     UFUNCTION(BlueprintCallable, Category = "Database")
-    void QueryItems();
+    TArray<FItemData> GetAllItems();
 };

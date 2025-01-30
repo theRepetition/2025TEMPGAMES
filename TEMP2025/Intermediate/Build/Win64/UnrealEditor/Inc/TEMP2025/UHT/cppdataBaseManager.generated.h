@@ -9,26 +9,27 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FItemData;
 #ifdef TEMP2025_cppdataBaseManager_generated_h
 #error "cppdataBaseManager.generated.h already included, missing '#pragma once' in cppdataBaseManager.h"
 #endif
 #define TEMP2025_cppdataBaseManager_generated_h
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_SPARSE_DATA
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_RPC_WRAPPERS \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_SPARSE_DATA
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execQueryItems); \
+	DECLARE_FUNCTION(execGetAllItems); \
 	DECLARE_FUNCTION(execOpenDatabase);
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execQueryItems); \
+	DECLARE_FUNCTION(execGetAllItems); \
 	DECLARE_FUNCTION(execOpenDatabase);
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_ACCESSORS
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_ACCESSORS
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppdataBaseManager(); \
 	friend struct Z_Construct_UClass_UcppdataBaseManager_Statics; \
@@ -37,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UcppdataBaseManager)
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_INCLASS \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUcppdataBaseManager(); \
 	friend struct Z_Construct_UClass_UcppdataBaseManager_Statics; \
@@ -46,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(UcppdataBaseManager)
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_STANDARD_CONSTRUCTORS \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UcppdataBaseManager(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UcppdataBaseManager) \
@@ -60,7 +61,7 @@ public: \
 	NO_API virtual ~UcppdataBaseManager();
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UcppdataBaseManager(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -74,27 +75,27 @@ public: \
 	NO_API virtual ~UcppdataBaseManager();
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_10_PROLOG
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_GENERATED_BODY_LEGACY \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_11_PROLOG
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_SPARSE_DATA \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_RPC_WRAPPERS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_ACCESSORS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_INCLASS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_STANDARD_CONSTRUCTORS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_SPARSE_DATA \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_RPC_WRAPPERS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_ACCESSORS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_INCLASS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_GENERATED_BODY \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_SPARSE_DATA \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_ACCESSORS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_INCLASS_NO_PURE_DECLS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_13_ENHANCED_CONSTRUCTORS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_SPARSE_DATA \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_ACCESSORS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_INCLASS_NO_PURE_DECLS \
+	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -1,4 +1,5 @@
 #include "cppdataBaseManager.h"
+#include "ItemStruct.h"
 #include "Misc/Paths.h"
 #include "Logging/LogMacros.h"
 
@@ -19,15 +20,16 @@ bool UcppdataBaseManager::OpenDatabase()
     }
 }
 
-void UcppdataBaseManager::QueryItems()
+TArray<FItemData> UcppdataBaseManager::GetAllItems()
 {
+    TArray<FItemData> ItemList;  // 아이템 데이터를 저장할 배열
+
     if (!DBConnection.Execute(TEXT("PRAGMA database_list;")))
     {
         UE_LOG(LogTemp, Error, TEXT("Database connection is invalid!"));
-        return;
-    }   
+        return ItemList;
+    }
 
-    // SQL 쿼리 실행
     FSQLiteResultSet* ResultSet = nullptr;
     if (DBConnection.Execute(TEXT("SELECT * FROM Items;"), ResultSet))
     {
@@ -37,20 +39,23 @@ void UcppdataBaseManager::QueryItems()
 
             for (int32 i = 0; i < RecordCount; i++)  // 레코드 수만큼 반복
             {
-                FString Name = ResultSet->GetString(TEXT("Name"));
-                FString Type = ResultSet->GetString(TEXT("Type"));
-                int32 Value = ResultSet->GetInt(TEXT("Value"));
-                float Weight = ResultSet->GetFloat(TEXT("Weight"));
+                FItemData NewItem;
+                NewItem.Name = ResultSet->GetString(TEXT("Name"));
+                NewItem.Type = ResultSet->GetString(TEXT("Type"));
+                NewItem.Value = ResultSet->GetInt(TEXT("Value"));
+                NewItem.Weight = ResultSet->GetFloat(TEXT("Weight"));
 
-                UE_LOG(LogTemp, Log, TEXT("Item: %s, Type: %s, Value: %d, Weight: %f"), *Name, *Type, Value, Weight);
+                ItemList.Add(NewItem);  // 배열에 추가
             }
         }
 
-        // ResultSet 해제
         delete ResultSet;
     }
     else
     {
         UE_LOG(LogTemp, Error, TEXT("Failed to execute query."));
     }
+
+    return ItemList;  // 아이템 리스트 반환
 }
+
