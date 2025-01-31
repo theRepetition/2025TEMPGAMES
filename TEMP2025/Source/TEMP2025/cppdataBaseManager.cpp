@@ -4,21 +4,50 @@
 #include "Logging/LogMacros.h"
 
 bool UcppdataBaseManager::OpenDatabase()
-{
-    FString DatabasePath = FPaths::ProjectContentDir() + "Database/temp2025items.db";
+{   UE_LOG(LogTemp, Log, TEXT("open database check"));
+    FString DatabasePath = FPaths::ProjectSavedDir() + "Database/temp2025items.db";
 
-    // 데이터베이스 연결 시도
-    if (DBConnection.Open(*DatabasePath, nullptr, nullptr))
+    UE_LOG(LogTemp, Log, TEXT("Trying to open database at: %s"), *DatabasePath);
+
+    if (!FPaths::FileExists(DatabasePath))
+    {
+        UE_LOG(LogTemp, Error, TEXT("Database file does not exist at: %s"), *DatabasePath);
+        return false;
+    }
+
+    //  Open 실패 원인 파악을 위해 로그 추가
+    bool bIsDatabaseOpen = DBConnection.Open(*DatabasePath, nullptr, nullptr);
+    if (bIsDatabaseOpen)
     {
         UE_LOG(LogTemp, Log, TEXT("Database opened successfully!"));
         return true;
     }
     else
     {
-        UE_LOG(LogTemp, Error, TEXT("Failed to open database."));
+        UE_LOG(LogTemp, Error, TEXT("Failed to open database at: %s"), *DatabasePath);
+
+        // Open 실패 원인 확인
+        FString LastError = DBConnection.GetLastError();
+        UE_LOG(LogTemp, Error, TEXT("SQLite Last Error: %s"), *LastError);
+
         return false;
     }
 }
+
+void UcppdataBaseManager::CloseDatabase()
+{
+     if (DBConnection.Execute(TEXT("PRAGMA database_list;")))
+    {
+        UE_LOG(LogTemp, Log, TEXT("Closing SQLite database."));
+        DBConnection.Close();  //  데이터베이스 닫기
+    }
+}
+void UcppdataBaseManager::BeginDestroy()
+{
+    CloseDatabase();  //  객체가 파괴될 때 데이터베이스 닫기
+    Super::BeginDestroy();
+}
+
 
 TArray<FItemData> UcppdataBaseManager::GetAllItems()
 {
@@ -26,7 +55,7 @@ TArray<FItemData> UcppdataBaseManager::GetAllItems()
 
     if (!DBConnection.Execute(TEXT("PRAGMA database_list;")))
     {
-        UE_LOG(LogTemp, Error, TEXT("Database connection is invalid!"));
+        UE_LOG(LogTemp, Error, TEXT("Database connection is invalid!!!!!!!!!!!!!!!!!!!!!"));
         return ItemList;
     }
 
@@ -46,6 +75,8 @@ TArray<FItemData> UcppdataBaseManager::GetAllItems()
                 NewItem.Weight = ResultSet->GetFloat(TEXT("Weight"));
 
                 ItemList.Add(NewItem);  // 배열에 추가
+                UE_LOG(LogTemp, Log, TEXT("Item Loaded - Name: %s, Type: %s, Value: %d, Weight: %f"),
+                       *NewItem.Name, *NewItem.Type, NewItem.Value, NewItem.Weight);
             }
         }
 

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h" 
 #include "SQLiteSupport.h"
 #include "SQLiteDatabaseConnection.h"
 #include "SQLiteResultSet.h"
@@ -15,10 +16,13 @@ class TEMP2025_API UcppdataBaseManager : public UObject
 
 private:
     FSQLiteDatabaseConnection DBConnection;
-
+    virtual void BeginDestroy() override;
 public:
     UFUNCTION(BlueprintCallable, Category = "Database")
     bool OpenDatabase();
+
+    UFUNCTION(BlueprintCallable, Category = "Database")
+    void CloseDatabase();
 
     UFUNCTION(BlueprintCallable, Category = "Database")
     TArray<FItemData> GetAllItems();
