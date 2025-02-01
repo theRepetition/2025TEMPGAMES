@@ -5,7 +5,7 @@
 
 bool UcppdataBaseManager::OpenDatabase()
 {   UE_LOG(LogTemp, Log, TEXT("open database check"));
-    FString DatabasePath = FPaths::ProjectSavedDir() + "Database/temp2025items.db";
+    FString DatabasePath = FPaths::ProjectDir() + "Content/Database/temp2025items.db";
 
     UE_LOG(LogTemp, Log, TEXT("Trying to open database at: %s"), *DatabasePath);
 
