@@ -84,8 +84,8 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 4168367098
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppdataBaseManager_eventGetAllItems_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 4168367098
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 1394131702
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppdataBaseManager_eventGetAllItems_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 1394131702
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::NewProp_ReturnValue_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::NewProp_ReturnValue,
@@ -165,7 +165,7 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UcppdataBaseManager_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase, "CloseDatabase" }, // 2243176904
-		{ &Z_Construct_UFunction_UcppdataBaseManager_GetAllItems, "GetAllItems" }, // 304342277
+		{ &Z_Construct_UFunction_UcppdataBaseManager_GetAllItems, "GetAllItems" }, // 975713685
 		{ &Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase, "OpenDatabase" }, // 3003180927
 	};
 #if WITH_METADATA
@@ -214,9 +214,9 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UcppdataBaseManager, UcppdataBaseManager::StaticClass, TEXT("UcppdataBaseManager"), &Z_Registration_Info_UClass_UcppdataBaseManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppdataBaseManager), 2356102610U) },
+		{ Z_Construct_UClass_UcppdataBaseManager, UcppdataBaseManager::StaticClass, TEXT("UcppdataBaseManager"), &Z_Registration_Info_UClass_UcppdataBaseManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppdataBaseManager), 3103717362U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_2015587986(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_3717439955(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
