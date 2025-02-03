@@ -3,6 +3,7 @@
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
 #include "cppdataBaseManager.h"
+#include "cppInventoryManager.h"
 #include "Temp2025GameInstance.generated.h"
 
 UCLASS()
@@ -12,7 +13,10 @@ class TEMP2025_API UTemp2025GameInstance : public UGameInstance
 
 public:
     UPROPERTY(BlueprintReadOnly, Category = "Database")
-    UcppdataBaseManager* DBManager;  // 데이터베이스 매니저인스턴스
+    UcppdataBaseManager* DBManager;
 
-    virtual void Init() override;  // 시작 시 실행
+    UPROPERTY(BlueprintReadOnly, Category = "Inventory")
+    UcppInventoryManager* InventoryManager;  // ✅ 인벤토리 매니저 변수 추가
+
+    virtual void Init() override;
 };
