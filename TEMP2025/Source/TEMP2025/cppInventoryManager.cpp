@@ -1,16 +1,12 @@
 #include "cppInventoryManager.h"
 #include "Logging/LogMacros.h"
 
-
-UInventoryManager::UInventoryManager()
+UcppInventoryManager::UcppInventoryManager()
 {
-
-	PrimaryComponentTick.bCanEverTick = false;
-
+    PrimaryComponentTick.bCanEverTick = false;
 }
 
-
-void UInventoryManager::LoadInventory(UcppdataBaseManager* DBManager)
+void UcppInventoryManager::LoadInventory(UcppdataBaseManager* DBManager)
 {
     if (DBManager)
     {
@@ -19,13 +15,13 @@ void UInventoryManager::LoadInventory(UcppdataBaseManager* DBManager)
     }
 }
 
-void UInventoryManager::AddItem(FItemData NewItem)
+void UcppInventoryManager::AddItem(FItemData NewItem)
 {
     InventoryItems.Add(NewItem);
     UE_LOG(LogTemp, Log, TEXT("Item added: %s"), *NewItem.Name);
 }
 
-void UInventoryManager::RemoveItem(FString ItemName)
+void UcppInventoryManager::RemoveItem(FString ItemName)
 {
     for (int32 i = 0; i < InventoryItems.Num(); i++)
     {
@@ -38,7 +34,7 @@ void UInventoryManager::RemoveItem(FString ItemName)
     }
 }
 
-TArray<FItemData> UInventoryManager::GetInventoryItems()
+TArray<FItemData> UcppInventoryManager::GetInventoryItems()
 {
     return InventoryItems;
 }

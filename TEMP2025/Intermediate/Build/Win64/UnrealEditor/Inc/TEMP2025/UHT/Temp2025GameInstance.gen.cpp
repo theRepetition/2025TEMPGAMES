@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeTemp2025GameInstance() {}
 // Cross Module References
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
 	TEMP2025_API UClass* Z_Construct_UClass_UcppdataBaseManager_NoRegister();
+	TEMP2025_API UClass* Z_Construct_UClass_UcppInventoryManager_NoRegister();
 	TEMP2025_API UClass* Z_Construct_UClass_UTemp2025GameInstance();
 	TEMP2025_API UClass* Z_Construct_UClass_UTemp2025GameInstance_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_TEMP2025();
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeTemp2025GameInstance() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_DBManager_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_DBManager;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InventoryManager_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_InventoryManager;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -54,8 +59,17 @@ void EmptyLinkFunctionForGeneratedCodeTemp2025GameInstance() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_DBManager = { "DBManager", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UTemp2025GameInstance, DBManager), Z_Construct_UClass_UcppdataBaseManager_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_DBManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_DBManager_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_InventoryManager_MetaData[] = {
+		{ "Category", "Inventory" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Temp2025GameInstance.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_InventoryManager = { "InventoryManager", nullptr, (EPropertyFlags)0x001000000008001c, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UTemp2025GameInstance, InventoryManager), Z_Construct_UClass_UcppInventoryManager_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_InventoryManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_InventoryManager_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTemp2025GameInstance_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_DBManager,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTemp2025GameInstance_Statics::NewProp_InventoryManager,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UTemp2025GameInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UTemp2025GameInstance>::IsAbstract,
@@ -95,9 +109,9 @@ void EmptyLinkFunctionForGeneratedCodeTemp2025GameInstance() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Temp2025GameInstance_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UTemp2025GameInstance, UTemp2025GameInstance::StaticClass, TEXT("UTemp2025GameInstance"), &Z_Registration_Info_UClass_UTemp2025GameInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTemp2025GameInstance), 4151679507U) },
+		{ Z_Construct_UClass_UTemp2025GameInstance, UTemp2025GameInstance::StaticClass, TEXT("UTemp2025GameInstance"), &Z_Registration_Info_UClass_UTemp2025GameInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTemp2025GameInstance), 687210003U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Temp2025GameInstance_h_1222440476(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Temp2025GameInstance_h_2419176026(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Temp2025GameInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Temp2025GameInstance_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

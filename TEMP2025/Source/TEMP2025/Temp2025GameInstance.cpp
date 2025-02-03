@@ -6,7 +6,7 @@ void UTemp2025GameInstance::Init()
 {
     Super::Init();
 
-    // cppdataBaseManager 인스턴스 생성
+    // 데이터베이스 매니저 생성
     DBManager = NewObject<UcppdataBaseManager>();
     if (DBManager)
     {
@@ -18,11 +18,11 @@ void UTemp2025GameInstance::Init()
         UE_LOG(LogTemp, Error, TEXT("Failed to create Database Manager!"));
     }
 
-    // 인벤토리 매니저 인스턴스 생성
-    UcppInventoryManager* InventoryManager = NewObject<UcppInventoryManager>();
-    if (InventoryManager && DBManager)
+    // 인벤토리 매니저 생성 (this->InventoryManager 사용)
+    this->InventoryManager = NewObject<UcppInventoryManager>();
+    if (this->InventoryManager && DBManager)
     {
-        InventoryManager->LoadInventory(DBManager);
+        this->InventoryManager->LoadInventory(DBManager);
         UE_LOG(LogTemp, Log, TEXT("Inventory Loaded at Game Start"));
     }
     else

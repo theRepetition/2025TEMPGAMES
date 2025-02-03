@@ -16,7 +16,7 @@ public:
     UcppdataBaseManager* DBManager;
 
     UPROPERTY(BlueprintReadOnly, Category = "Inventory")
-    UcppInventoryManager* InventoryManager;  // ✅ 인벤토리 매니저 변수 추가
+    UcppInventoryManager* InventoryManager;  // 🔹 올바르게 선언
 
     virtual void Init() override;
 };
