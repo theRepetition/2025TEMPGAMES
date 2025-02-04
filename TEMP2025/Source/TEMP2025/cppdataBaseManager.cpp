@@ -3,19 +3,17 @@
 #include "Misc/Paths.h"
 #include "Logging/LogMacros.h"
 
+static int32 OpenDatabaseCallCount = 0; // 호출 횟수 저장
+
 bool UcppdataBaseManager::OpenDatabase()
-{   UE_LOG(LogTemp, Log, TEXT("open database check"));
-    FString DatabasePath = FPaths::ProjectDir() + "Content/Database/temp2025items.db";
+{
+    OpenDatabaseCallCount++;
+    FString DatabasePath = FPaths::ProjectContentDir() + "Database/temp2025items.db";
 
     UE_LOG(LogTemp, Log, TEXT("Trying to open database at: %s"), *DatabasePath);
+    UE_LOG(LogTemp, Log, TEXT("OpenDatabase() called from: %s"), *FString(__FUNCTION__));
+    UE_LOG(LogTemp, Log, TEXT("OpenDatabase() called %d times"), OpenDatabaseCallCount);
 
-    if (!FPaths::FileExists(DatabasePath))
-    {
-        UE_LOG(LogTemp, Error, TEXT("Database file does not exist at: %s"), *DatabasePath);
-        return false;
-    }
-
-    //  Open 실패 원인 파악을 위해 로그 추가
     bool bIsDatabaseOpen = DBConnection.Open(*DatabasePath, nullptr, nullptr);
     if (bIsDatabaseOpen)
     {
@@ -25,11 +23,6 @@ bool UcppdataBaseManager::OpenDatabase()
     else
     {
         UE_LOG(LogTemp, Error, TEXT("Failed to open database at: %s"), *DatabasePath);
-
-        // Open 실패 원인 확인
-        FString LastError = DBConnection.GetLastError();
-        UE_LOG(LogTemp, Error, TEXT("SQLite Last Error: %s"), *LastError);
-
         return false;
     }
 }
