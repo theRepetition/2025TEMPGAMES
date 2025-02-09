@@ -9,10 +9,6 @@
             "configurationProvider": "epic.ue",
             "compileCommands": [
                 "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025.json"
-            ],
-            "includePath": [
-                "${default}",
-                "E:/UE_5.2/Engine/Source/Runtime/Core/Public"
             ]
         },
         {

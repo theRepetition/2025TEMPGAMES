@@ -66,14 +66,11 @@ TArray<FItemData> UcppdataBaseManager::GetAllItems()
                 NewItem.Type = ResultSet->GetString(TEXT("Type"));
                 NewItem.Value = ResultSet->GetInt(TEXT("Value"));
                 NewItem.Weight = ResultSet->GetFloat(TEXT("Weight"));
-                NewItem.ImagePath = ResultSet->GetString(TEXT("ImagePath")); 
-                NewItem.ModelID = ResultSet->GetString(TEXT("ModelID")); 
 
-    ItemList.Add(NewItem);  // 배열에 추가
-    UE_LOG(LogTemp, Log, TEXT("Item Loaded - Name: %s, Type: %s, Value: %d, Weight: %f, ImagePath: %s, ModelID: %s"),
-           *NewItem.Name, *NewItem.Type, NewItem.Value, NewItem.Weight, *NewItem.ImagePath, *NewItem.ModelID);
-}
-
+                ItemList.Add(NewItem);  // 배열에 추가
+                UE_LOG(LogTemp, Log, TEXT("Item Loaded - Name: %s, Type: %s, Value: %d, Weight: %f"),
+                       *NewItem.Name, *NewItem.Type, NewItem.Value, NewItem.Weight);
+            }
         }
 
         delete ResultSet;
