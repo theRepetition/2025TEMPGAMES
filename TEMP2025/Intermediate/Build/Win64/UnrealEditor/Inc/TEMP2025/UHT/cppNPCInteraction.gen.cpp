@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "TEMP2025/cppNPCInteraction.h"
+#include "../../cppNPCInteraction.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodecppNPCInteraction() {}
 // Cross Module References

@@ -1,5 +1,29 @@
 [
 	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ItemStruct.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Private\\SQLiteManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Public\\SQLiteManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
@@ -17,6 +41,54 @@
 	},
 	{
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Temp2025GameInstance.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Temp2025GameInstance.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ThirdParty\\SQLite\\sqlite3.c",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ThirdParty\\SQLite\\sqlite3.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppInventoryManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppInventoryManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
 			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.265.rsp"

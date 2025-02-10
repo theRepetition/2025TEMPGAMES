@@ -5,8 +5,8 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "TEMP2025/cppInventoryManager.h"
-#include "TEMP2025/ItemStruct.h"
+#include "../../cppInventoryManager.h"
+#include "../../ItemStruct.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodecppInventoryManager() {}
 // Cross Module References

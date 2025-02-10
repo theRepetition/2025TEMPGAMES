@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "TEMP2025/Temp2025GameInstance.h"
+#include "../../Temp2025GameInstance.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeTemp2025GameInstance() {}
 // Cross Module References

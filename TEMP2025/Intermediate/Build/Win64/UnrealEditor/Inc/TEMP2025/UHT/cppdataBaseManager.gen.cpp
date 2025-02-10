@@ -5,8 +5,8 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "TEMP2025/cppdataBaseManager.h"
-#include "TEMP2025/ItemStruct.h"
+#include "../../cppdataBaseManager.h"
+#include "../../ItemStruct.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 // Cross Module References
