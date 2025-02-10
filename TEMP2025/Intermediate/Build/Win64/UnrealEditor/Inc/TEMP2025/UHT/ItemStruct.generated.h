@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemStruct_h_9_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FItemData_Statics; \
-	static class UScriptStruct* StaticStruct();
+	TEMP2025_API static class UScriptStruct* StaticStruct();
 
 
 template<> TEMP2025_API UScriptStruct* StaticStruct<struct FItemData>();
