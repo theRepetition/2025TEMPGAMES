@@ -18,14 +18,14 @@ void UcppInventoryManager::LoadInventory(UcppdataBaseManager* DBManager)
 void UcppInventoryManager::AddItem(FItemData NewItem)
 {
     InventoryItems.Add(NewItem);
-    UE_LOG(LogTemp, Log, TEXT("Item added: %s"), *NewItem.Name);
+    UE_LOG(LogTemp, Log, TEXT("Item added: %s"), *NewItem.NAME);
 }
 
 void UcppInventoryManager::RemoveItem(FString ItemName)
 {
     for (int32 i = 0; i < InventoryItems.Num(); i++)
     {
-        if (InventoryItems[i].Name == ItemName)
+        if (InventoryItems[i].NAME == ItemName)
         {
             InventoryItems.RemoveAt(i);
             UE_LOG(LogTemp, Log, TEXT("Item removed: %s"), *ItemName);

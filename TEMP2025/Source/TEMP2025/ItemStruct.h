@@ -4,26 +4,35 @@
 #include "ItemStruct.generated.h"
 
 USTRUCT(BlueprintType)
-struct FItemData
+struct TEMP2025_API FItemData
 {
     GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadOnly, Category = "Item")
-    FString Name;
+    FItemData()
+        :NAME(TEXT(""))
+        , TYPE(TEXT(""))
+        , VALUE(0) // 기본값 설정
+        , WEIGHT(0.0f) // 기본값 설정
+        , IMAGEPATH(TEXT(""))
+        , MODELID(TEXT(""))
+    {}
 
-    UPROPERTY(BlueprintReadOnly, Category = "Item")
-    FString Type;
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item")
+    FString NAME;
 
-    UPROPERTY(BlueprintReadOnly, Category = "Item")
-    int32 Value;
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item")
+    FString TYPE;
 
-    UPROPERTY(BlueprintReadOnly, Category = "Item")
-    float Weight;
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item")
+    int32 VALUE;
 
-    UPROPERTY(BlueprintReadOnly, Category = "Item")
-    FString ImagePath;  // 아이템 이미지 경로 (UI 연동용)
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item")
+    float WEIGHT;
 
-    UPROPERTY(BlueprintReadOnly, Category = "Item")
-    FString ModelID;  // 3D 모델 ID (게임 내 오브젝트 연동용)
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item")
+    FString IMAGEPATH;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item")
+    FString MODELID;
 };

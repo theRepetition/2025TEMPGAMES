@@ -24484,15 +24484,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/DatabaseSupport/DatabaseSupport.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/SQLiteCore.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteSupport/SQLiteSupport.uplugin",
 			"Type": "UFS"
 		},
 		{
