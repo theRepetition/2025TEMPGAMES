@@ -29,80 +29,50 @@ bool UcppdataBaseManager::OpenDatabase()
 
 void UcppdataBaseManager::CloseDatabase()
 {
-    if (DBConnection.Execute(TEXT("PRAGMA database_list;")))
+     if (DBConnection.Execute(TEXT("PRAGMA database_list;")))
     {
         UE_LOG(LogTemp, Log, TEXT("Closing SQLite database."));
-        DBConnection.Close();  // 데이터베이스 닫기
+        DBConnection.Close();  //  데이터베이스 닫기
     }
 }
-
 void UcppdataBaseManager::BeginDestroy()
 {
-    CloseDatabase();  // 객체가 파괴될 때 데이터베이스 닫기
+    CloseDatabase();  //  객체가 파괴될 때 데이터베이스 닫기
     Super::BeginDestroy();
 }
 
-// 🚀 최적화된 데이터 가져오기 함수
+
 TArray<FItemData> UcppdataBaseManager::GetAllItems()
 {
     TArray<FItemData> ItemList;  // 아이템 데이터를 저장할 배열
 
     if (!DBConnection.Execute(TEXT("PRAGMA database_list;")))
     {
-        UE_LOG(LogTemp, Error, TEXT("Database connection is invalid!"));
+        UE_LOG(LogTemp, Error, TEXT("Database connection is invalid!!!!!!!!!!!!!!!!!!!!!"));
         return ItemList;
     }
 
-    // 🔹 컬럼명 확인을 위한 쿼리 실행
-    FSQLiteResultSet* ColumnCheckResult = nullptr;
-    if (DBConnection.Execute(TEXT("SELECT * FROM Items LIMIT 1;"), ColumnCheckResult))
-    {
-        if (ColumnCheckResult != nullptr)
-        {
-            TArray<FDatabaseColumnInfo> ColumnInfoArray = ColumnCheckResult->GetColumnNames();
-            for (const FDatabaseColumnInfo& ColumnInfo : ColumnInfoArray)
-            {
-                UE_LOG(LogTemp, Log, TEXT("Column in DB: %s"), *ColumnInfo.ColumnName);
-            }
-        }
-        delete ColumnCheckResult;
-    }
-
-    // 🔹 `ResultSet` 선언 추가
     FSQLiteResultSet* ResultSet = nullptr;
     if (DBConnection.Execute(TEXT("SELECT * FROM Items;"), ResultSet))
     {
         if (ResultSet != nullptr)
         {
-            int32 RecordCount = ResultSet->GetRecordCount();
-            UE_LOG(LogTemp, Log, TEXT("Total Records: %d"), RecordCount);
+            int32 RecordCount = ResultSet->GetRecordCount();  // 총 레코드 개수 가져오기
 
-            for (int32 i = 0; i < RecordCount; i++)
+            for (int32 i = 0; i < RecordCount; i++)  // 레코드 수만큼 반복
             {
                 FItemData NewItem;
                 NewItem.Name = ResultSet->GetString(TEXT("Name"));
-                if (NewItem.Name.IsEmpty())  
-                {
-                    UE_LOG(LogTemp, Warning, TEXT("Item Name is NULL or empty!"));
-                }
-
                 NewItem.Type = ResultSet->GetString(TEXT("Type"));
                 NewItem.Value = ResultSet->GetInt(TEXT("Value"));
                 NewItem.Weight = ResultSet->GetFloat(TEXT("Weight"));
 
-                ItemList.Add(NewItem);
-
+                ItemList.Add(NewItem);  // 배열에 추가
                 UE_LOG(LogTemp, Log, TEXT("Item Loaded - Name: %s, Type: %s, Value: %d, Weight: %f"),
                        *NewItem.Name, *NewItem.Type, NewItem.Value, NewItem.Weight);
-
-                // 🔹 레코드를 수동으로 이동하는 방법
-                if (!ResultSet->NextRow())  // 🚀 `NextRow()`로 다음 레코드로 이동
-                {
-                    UE_LOG(LogTemp, Error, TEXT("Failed to move to next row."));
-                    break;
-                }
             }
         }
+
         delete ResultSet;
     }
     else
@@ -112,3 +82,4 @@ TArray<FItemData> UcppdataBaseManager::GetAllItems()
 
     return ItemList;  // 아이템 리스트 반환
 }
+
