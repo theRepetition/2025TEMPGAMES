@@ -16,6 +16,13 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 	TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FItemData();
 	UPackage* Z_Construct_UPackage__Script_TEMP2025();
 // End Cross Module References
+	DEFINE_FUNCTION(UcppdataBaseManager::execDebugCheckItemID)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->DebugCheckItemID();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UcppdataBaseManager::execGetAllItems)
 	{
 		P_FINISH;
@@ -42,6 +49,7 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		UClass* Class = UcppdataBaseManager::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CloseDatabase", &UcppdataBaseManager::execCloseDatabase },
+			{ "DebugCheckItemID", &UcppdataBaseManager::execDebugCheckItemID },
 			{ "GetAllItems", &UcppdataBaseManager::execGetAllItems },
 			{ "OpenDatabase", &UcppdataBaseManager::execOpenDatabase },
 		};
@@ -57,7 +65,9 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Database" },
+		{ "Comment", "// \xe2\x9c\x85 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0\xeb\xb2\xa0\xec\x9d\xb4\xec\x8a\xa4 \xeb\x8b\xab\xea\xb8\xb0\n" },
 		{ "ModuleRelativePath", "cppdataBaseManager.h" },
+		{ "ToolTip", "\xe2\x9c\x85 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0\xeb\xb2\xa0\xec\x9d\xb4\xec\x8a\xa4 \xeb\x8b\xab\xea\xb8\xb0" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "CloseDatabase", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase_Statics::Function_MetaDataParams)) };
@@ -67,6 +77,31 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Database" },
+		{ "Comment", "// \xe2\x9c\x85 \xec\xb6\x94\xea\xb0\x80: ItemID \xec\xbb\xac\xeb\x9f\xbc \xeb\xac\xb8\xec\xa0\x9c \xeb\x94\x94\xeb\xb2\x84\xea\xb9\x85 \xed\x95\xa8\xec\x88\x98\n" },
+		{ "ModuleRelativePath", "cppdataBaseManager.h" },
+		{ "ToolTip", "\xe2\x9c\x85 \xec\xb6\x94\xea\xb0\x80: ItemID \xec\xbb\xac\xeb\x9f\xbc \xeb\xac\xb8\xec\xa0\x9c \xeb\x94\x94\xeb\xb2\x84\xea\xb9\x85 \xed\x95\xa8\xec\x88\x98" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "DebugCheckItemID", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -93,7 +128,9 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Database" },
+		{ "Comment", "// \xe2\x9c\x85 \xec\x95\x84\xec\x9d\xb4\xed\x85\x9c \xec\xa0\x84\xec\xb2\xb4 \xea\xb0\x80\xec\xa0\xb8\xec\x98\xa4\xea\xb8\xb0 (ItemID \xed\x8f\xac\xed\x95\xa8)\n" },
 		{ "ModuleRelativePath", "cppdataBaseManager.h" },
+		{ "ToolTip", "\xe2\x9c\x85 \xec\x95\x84\xec\x9d\xb4\xed\x85\x9c \xec\xa0\x84\xec\xb2\xb4 \xea\xb0\x80\xec\xa0\xb8\xec\x98\xa4\xea\xb8\xb0 (ItemID \xed\x8f\xac\xed\x95\xa8)" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "GetAllItems", nullptr, nullptr, sizeof(Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::cppdataBaseManager_eventGetAllItems_Parms), Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::Function_MetaDataParams)) };
@@ -131,7 +168,9 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Database" },
+		{ "Comment", "// \xe2\x9c\x85 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0\xeb\xb2\xa0\xec\x9d\xb4\xec\x8a\xa4 \xec\x97\xb4\xea\xb8\xb0\n" },
 		{ "ModuleRelativePath", "cppdataBaseManager.h" },
+		{ "ToolTip", "\xe2\x9c\x85 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0\xeb\xb2\xa0\xec\x9d\xb4\xec\x8a\xa4 \xec\x97\xb4\xea\xb8\xb0" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "OpenDatabase", nullptr, nullptr, sizeof(Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase_Statics::cppdataBaseManager_eventOpenDatabase_Parms), Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase_Statics::Function_MetaDataParams)) };
@@ -164,9 +203,10 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UcppdataBaseManager_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase, "CloseDatabase" }, // 2243176904
-		{ &Z_Construct_UFunction_UcppdataBaseManager_GetAllItems, "GetAllItems" }, // 975713685
-		{ &Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase, "OpenDatabase" }, // 3003180927
+		{ &Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase, "CloseDatabase" }, // 1545517493
+		{ &Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID, "DebugCheckItemID" }, // 255350420
+		{ &Z_Construct_UFunction_UcppdataBaseManager_GetAllItems, "GetAllItems" }, // 378865846
+		{ &Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase, "OpenDatabase" }, // 4162189630
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UcppdataBaseManager_Statics::Class_MetaDataParams[] = {
@@ -214,9 +254,9 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UcppdataBaseManager, UcppdataBaseManager::StaticClass, TEXT("UcppdataBaseManager"), &Z_Registration_Info_UClass_UcppdataBaseManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppdataBaseManager), 3103717362U) },
+		{ Z_Construct_UClass_UcppdataBaseManager, UcppdataBaseManager::StaticClass, TEXT("UcppdataBaseManager"), &Z_Registration_Info_UClass_UcppdataBaseManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppdataBaseManager), 1806855698U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_3717439955(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_761437809(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
