@@ -34,4 +34,15 @@ public:
     // ✅ 추가: ItemID 컬럼 문제 디버깅 함수
     UFUNCTION(BlueprintCallable, Category = "Database")
     void DebugCheckItemID();
+
+    UFUNCTION(BlueprintCallable, Category = "Database")
+    bool CreateNewDatabase();
+
+    UFUNCTION(BlueprintCallable, Category = "Database")
+    bool InsertTestData();
+
+
+    UFUNCTION(BlueprintCallable, Category = "Database")
+    bool OpenUnrealDatabase();
+
 };
