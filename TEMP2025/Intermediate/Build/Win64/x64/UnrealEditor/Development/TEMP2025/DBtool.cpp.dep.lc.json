@@ -20,7 +20,11 @@
             "e:\\ue_5.2\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitepreparedstatement.h",
             "e:\\ue_5.2\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitetypes.h",
             "e:\\ue_5.2\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitedatabase.h",
-            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\dbtool.generated.h"
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\dbtool.generated.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\gameengine.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\moviescenecapture\\public\\moviescenecapturehandle.h",
+            "e:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameengine.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

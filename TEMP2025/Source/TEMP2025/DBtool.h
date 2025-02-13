@@ -11,11 +11,15 @@ class TEMP2025_API UDBTool : public UObject
     GENERATED_BODY()
 
 public:
-    // ✅ 데이터베이스 생성 및 테이블 스키마 설정
     UFUNCTION(BlueprintCallable, Category = "Database Setup")
-    bool CreateDatabase();
+    bool CreateDatabase();  // ✅ 블루프린트에서 실행될 함수
 
-    // ✅ 초기 데이터 (테스트 데이터) 삽입
     UFUNCTION(BlueprintCallable, Category = "Database Setup")
-    bool InsertTestData();
+    bool InsertTestData();  // ✅ 블루프린트에서 실행될 함수
+
+    // ✅ 콘솔 명령어를 위한 함수 (반환 타입 `void`로 변경)
+    static void CreateDatabase_Console();
+    static void InsertTestData_Console();
+
+    static void RegisterConsoleCommands();
 };

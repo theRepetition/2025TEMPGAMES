@@ -1,13 +1,19 @@
 #include "DBTool.h"
-#include "SQLiteDatabaseConnection.h"
 #include "Misc/Paths.h"
 #include "Logging/LogMacros.h"
+#include "Engine/Engine.h"
+#include "HAL/IConsoleManager.h"
 
 bool UDBTool::CreateDatabase()
 {
     FString DatabasePath = FPaths::ProjectContentDir() + "Database/game_data.db";
 
-    // ✅ 데이터베이스 파일 새로 생성
+    if (FPaths::FileExists(DatabasePath))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("[DB_WARNING] Database already exists, skipping creation."));
+        return false;
+    }
+
     FSQLiteDatabaseConnection DBConnection;
     bool bIsDatabaseOpen = DBConnection.Open(*DatabasePath, nullptr, nullptr);
     if (!bIsDatabaseOpen)
@@ -16,9 +22,6 @@ bool UDBTool::CreateDatabase()
         return false;
     }
 
-    UE_LOG(LogTemp, Log, TEXT("[DB_DEBUG] Successfully created new database at: %s"), *DatabasePath);
-
-    // ✅ 테이블 생성 (필요한 데이터 구조 정의)
     FString CreateTableQuery = TEXT(R"(
         CREATE TABLE IF NOT EXISTS Items (
             ItemID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -37,7 +40,7 @@ bool UDBTool::CreateDatabase()
         return false;
     }
 
-    UE_LOG(LogTemp, Log, TEXT("[DB_DEBUG] Items table created successfully."));
+    UE_LOG(LogTemp, Log, TEXT("[DB_DEBUG] Database and table initialized successfully."));
     DBConnection.Close();
     return true;
 }
@@ -46,7 +49,6 @@ bool UDBTool::InsertTestData()
 {
     FString DatabasePath = FPaths::ProjectContentDir() + "Database/game_data.db";
 
-    // ✅ 기존 DB 열기
     FSQLiteDatabaseConnection DBConnection;
     bool bIsDatabaseOpen = DBConnection.Open(*DatabasePath, nullptr, nullptr);
     if (!bIsDatabaseOpen)
@@ -55,7 +57,6 @@ bool UDBTool::InsertTestData()
         return false;
     }
 
-    // ✅ 테스트 데이터 삽입
     FString InsertQuery = TEXT(R"(
         INSERT INTO Items (Name, Type, Value, Weight, ImagePath, ModelID) 
         VALUES 
@@ -72,4 +73,51 @@ bool UDBTool::InsertTestData()
     UE_LOG(LogTemp, Log, TEXT("[DB_DEBUG] Test data inserted successfully."));
     DBConnection.Close();
     return true;
+}
+
+// ✅ 콘솔 명령어 실행을 위한 래퍼 함수 (반환 타입 `void`)
+void UDBTool::CreateDatabase_Console()
+{
+    UDBTool* DBToolInstance = NewObject<UDBTool>();
+    if (DBToolInstance->CreateDatabase())
+    {
+        UE_LOG(LogTemp, Log, TEXT("[DB_CONSOLE] Database successfully created."));
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("[DB_CONSOLE] Database creation failed or already exists."));
+    }
+}
+
+void UDBTool::InsertTestData_Console()
+{
+    UDBTool* DBToolInstance = NewObject<UDBTool>();
+    if (DBToolInstance->InsertTestData())
+    {
+        UE_LOG(LogTemp, Log, TEXT("[DB_CONSOLE] Test data successfully inserted."));
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("[DB_CONSOLE] Test data insertion failed."));
+    }
+}
+
+// ✅ Unreal 콘솔 명령어 등록 (반환 타입 `void`로 설정)
+void UDBTool::RegisterConsoleCommands()
+{
+    IConsoleManager::Get().RegisterConsoleCommand(
+        TEXT("db_create"),
+        TEXT("Creates the game database"),
+        FConsoleCommandDelegate::CreateStatic(&UDBTool::CreateDatabase_Console),
+        ECVF_Default
+    );
+
+    IConsoleManager::Get().RegisterConsoleCommand(
+        TEXT("db_insert"),
+        TEXT("Inserts test data into the database"),
+        FConsoleCommandDelegate::CreateStatic(&UDBTool::InsertTestData_Console),
+        ECVF_Default
+    );
+
+    UE_LOG(LogTemp, Log, TEXT("[DB_CONSOLE] Console commands registered: db_create, db_insert"));
 }

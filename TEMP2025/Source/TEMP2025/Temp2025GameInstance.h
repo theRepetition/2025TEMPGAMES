@@ -4,6 +4,7 @@
 #include "Engine/GameInstance.h"
 #include "cppdataBaseManager.h"
 #include "cppInventoryManager.h"
+#include "DBTool.h"  // ✅ DBTool 추가
 #include "Temp2025GameInstance.generated.h"
 
 UCLASS()

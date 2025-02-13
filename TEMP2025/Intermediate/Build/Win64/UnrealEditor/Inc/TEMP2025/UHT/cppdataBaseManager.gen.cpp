@@ -16,34 +16,6 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 	TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FItemData();
 	UPackage* Z_Construct_UPackage__Script_TEMP2025();
 // End Cross Module References
-	DEFINE_FUNCTION(UcppdataBaseManager::execOpenUnrealDatabase)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->OpenUnrealDatabase();
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(UcppdataBaseManager::execInsertTestData)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->InsertTestData();
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(UcppdataBaseManager::execCreateNewDatabase)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->CreateNewDatabase();
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(UcppdataBaseManager::execDebugCheckItemID)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->DebugCheckItemID();
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(UcppdataBaseManager::execGetAllItems)
 	{
 		P_FINISH;
@@ -70,12 +42,8 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		UClass* Class = UcppdataBaseManager::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CloseDatabase", &UcppdataBaseManager::execCloseDatabase },
-			{ "CreateNewDatabase", &UcppdataBaseManager::execCreateNewDatabase },
-			{ "DebugCheckItemID", &UcppdataBaseManager::execDebugCheckItemID },
 			{ "GetAllItems", &UcppdataBaseManager::execGetAllItems },
-			{ "InsertTestData", &UcppdataBaseManager::execInsertTestData },
 			{ "OpenDatabase", &UcppdataBaseManager::execOpenDatabase },
-			{ "OpenUnrealDatabase", &UcppdataBaseManager::execOpenUnrealDatabase },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -101,69 +69,6 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics
-	{
-		struct cppdataBaseManager_eventCreateNewDatabase_Parms
-		{
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((cppdataBaseManager_eventCreateNewDatabase_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(cppdataBaseManager_eventCreateNewDatabase_Parms), &Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Database" },
-		{ "ModuleRelativePath", "cppdataBaseManager.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "CreateNewDatabase", nullptr, nullptr, sizeof(Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::cppdataBaseManager_eventCreateNewDatabase_Parms), Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics
-	{
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Database" },
-		{ "Comment", "// \xe2\x9c\x85 \xec\xb6\x94\xea\xb0\x80: ItemID \xec\xbb\xac\xeb\x9f\xbc \xeb\xac\xb8\xec\xa0\x9c \xeb\x94\x94\xeb\xb2\x84\xea\xb9\x85 \xed\x95\xa8\xec\x88\x98\n" },
-		{ "ModuleRelativePath", "cppdataBaseManager.h" },
-		{ "ToolTip", "\xe2\x9c\x85 \xec\xb6\x94\xea\xb0\x80: ItemID \xec\xbb\xac\xeb\x9f\xbc \xeb\xac\xb8\xec\xa0\x9c \xeb\x94\x94\xeb\xb2\x84\xea\xb9\x85 \xed\x95\xa8\xec\x88\x98" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "DebugCheckItemID", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -202,44 +107,6 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		if (!ReturnFunction)
 		{
 			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_GetAllItems_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics
-	{
-		struct cppdataBaseManager_eventInsertTestData_Parms
-		{
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((cppdataBaseManager_eventInsertTestData_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(cppdataBaseManager_eventInsertTestData_Parms), &Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Database" },
-		{ "ModuleRelativePath", "cppdataBaseManager.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "InsertTestData", nullptr, nullptr, sizeof(Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::cppdataBaseManager_eventInsertTestData_Parms), Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UcppdataBaseManager_InsertTestData()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_InsertTestData_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -283,44 +150,6 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics
-	{
-		struct cppdataBaseManager_eventOpenUnrealDatabase_Parms
-		{
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((cppdataBaseManager_eventOpenUnrealDatabase_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(cppdataBaseManager_eventOpenUnrealDatabase_Parms), &Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Database" },
-		{ "ModuleRelativePath", "cppdataBaseManager.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppdataBaseManager, nullptr, "OpenUnrealDatabase", nullptr, nullptr, sizeof(Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::cppdataBaseManager_eventOpenUnrealDatabase_Parms), Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UcppdataBaseManager);
 	UClass* Z_Construct_UClass_UcppdataBaseManager_NoRegister()
 	{
@@ -342,12 +171,8 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UcppdataBaseManager_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UcppdataBaseManager_CloseDatabase, "CloseDatabase" }, // 1545517493
-		{ &Z_Construct_UFunction_UcppdataBaseManager_CreateNewDatabase, "CreateNewDatabase" }, // 3704188363
-		{ &Z_Construct_UFunction_UcppdataBaseManager_DebugCheckItemID, "DebugCheckItemID" }, // 255350420
 		{ &Z_Construct_UFunction_UcppdataBaseManager_GetAllItems, "GetAllItems" }, // 378865846
-		{ &Z_Construct_UFunction_UcppdataBaseManager_InsertTestData, "InsertTestData" }, // 1190527218
 		{ &Z_Construct_UFunction_UcppdataBaseManager_OpenDatabase, "OpenDatabase" }, // 4162189630
-		{ &Z_Construct_UFunction_UcppdataBaseManager_OpenUnrealDatabase, "OpenUnrealDatabase" }, // 2327814688
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UcppdataBaseManager_Statics::Class_MetaDataParams[] = {
@@ -395,9 +220,9 @@ void EmptyLinkFunctionForGeneratedCodecppdataBaseManager() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UcppdataBaseManager, UcppdataBaseManager::StaticClass, TEXT("UcppdataBaseManager"), &Z_Registration_Info_UClass_UcppdataBaseManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppdataBaseManager), 524199845U) },
+		{ Z_Construct_UClass_UcppdataBaseManager, UcppdataBaseManager::StaticClass, TEXT("UcppdataBaseManager"), &Z_Registration_Info_UClass_UcppdataBaseManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppdataBaseManager), 2270682352U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_1244762769(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_2833611953(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

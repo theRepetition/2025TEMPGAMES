@@ -62,9 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeDBtool() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Database Setup" },
-		{ "Comment", "// \xe2\x9c\x85 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0\xeb\xb2\xa0\xec\x9d\xb4\xec\x8a\xa4 \xec\x83\x9d\xec\x84\xb1 \xeb\xb0\x8f \xed\x85\x8c\xec\x9d\xb4\xeb\xb8\x94 \xec\x8a\xa4\xed\x82\xa4\xeb\xa7\x88 \xec\x84\xa4\xec\xa0\x95\n" },
 		{ "ModuleRelativePath", "DBtool.h" },
-		{ "ToolTip", "\xe2\x9c\x85 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0\xeb\xb2\xa0\xec\x9d\xb4\xec\x8a\xa4 \xec\x83\x9d\xec\x84\xb1 \xeb\xb0\x8f \xed\x85\x8c\xec\x9d\xb4\xeb\xb8\x94 \xec\x8a\xa4\xed\x82\xa4\xeb\xa7\x88 \xec\x84\xa4\xec\xa0\x95" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDBTool, nullptr, "CreateDatabase", nullptr, nullptr, sizeof(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::DBTool_eventCreateDatabase_Parms), Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::Function_MetaDataParams)) };
@@ -102,9 +100,9 @@ void EmptyLinkFunctionForGeneratedCodeDBtool() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDBTool_InsertTestData_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Database Setup" },
-		{ "Comment", "// \xe2\x9c\x85 \xec\xb4\x88\xea\xb8\xb0 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0 (\xed\x85\x8c\xec\x8a\xa4\xed\x8a\xb8 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0) \xec\x82\xbd\xec\x9e\x85\n" },
+		{ "Comment", "// \xe2\x9c\x85 \xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8\xec\x97\x90\xec\x84\x9c \xec\x8b\xa4\xed\x96\x89\xeb\x90\xa0 \xed\x95\xa8\xec\x88\x98\n" },
 		{ "ModuleRelativePath", "DBtool.h" },
-		{ "ToolTip", "\xe2\x9c\x85 \xec\xb4\x88\xea\xb8\xb0 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0 (\xed\x85\x8c\xec\x8a\xa4\xed\x8a\xb8 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0) \xec\x82\xbd\xec\x9e\x85" },
+		{ "ToolTip", "\xe2\x9c\x85 \xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8\xec\x97\x90\xec\x84\x9c \xec\x8b\xa4\xed\x96\x89\xeb\x90\xa0 \xed\x95\xa8\xec\x88\x98" },
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDBTool_InsertTestData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDBTool, nullptr, "InsertTestData", nullptr, nullptr, sizeof(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::DBTool_eventInsertTestData_Parms), Z_Construct_UFunction_UDBTool_InsertTestData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::Function_MetaDataParams)) };
@@ -137,8 +135,8 @@ void EmptyLinkFunctionForGeneratedCodeDBtool() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UDBTool_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UDBTool_CreateDatabase, "CreateDatabase" }, // 4037471422
-		{ &Z_Construct_UFunction_UDBTool_InsertTestData, "InsertTestData" }, // 2098460283
+		{ &Z_Construct_UFunction_UDBTool_CreateDatabase, "CreateDatabase" }, // 2461889502
+		{ &Z_Construct_UFunction_UDBTool_InsertTestData, "InsertTestData" }, // 647911229
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDBTool_Statics::Class_MetaDataParams[] = {
@@ -186,9 +184,9 @@ void EmptyLinkFunctionForGeneratedCodeDBtool() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UDBTool, UDBTool::StaticClass, TEXT("UDBTool"), &Z_Registration_Info_UClass_UDBTool, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDBTool), 2487337259U) },
+		{ Z_Construct_UClass_UDBTool, UDBTool::StaticClass, TEXT("UDBTool"), &Z_Registration_Info_UClass_UDBTool, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDBTool), 1301088945U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h_1869493371(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h_2447719117(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

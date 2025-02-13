@@ -18,10 +18,6 @@ struct FItemData;
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_15_SPARSE_DATA
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_15_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOpenUnrealDatabase); \
-	DECLARE_FUNCTION(execInsertTestData); \
-	DECLARE_FUNCTION(execCreateNewDatabase); \
-	DECLARE_FUNCTION(execDebugCheckItemID); \
 	DECLARE_FUNCTION(execGetAllItems); \
 	DECLARE_FUNCTION(execCloseDatabase); \
 	DECLARE_FUNCTION(execOpenDatabase);
@@ -29,10 +25,6 @@ struct FItemData;
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOpenUnrealDatabase); \
-	DECLARE_FUNCTION(execInsertTestData); \
-	DECLARE_FUNCTION(execCreateNewDatabase); \
-	DECLARE_FUNCTION(execDebugCheckItemID); \
 	DECLARE_FUNCTION(execGetAllItems); \
 	DECLARE_FUNCTION(execCloseDatabase); \
 	DECLARE_FUNCTION(execOpenDatabase);
