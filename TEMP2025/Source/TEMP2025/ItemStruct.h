@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "ItemStruct.generated.h"
+#include "ItemType.h"
 
 USTRUCT(BlueprintType)
 struct FItemData
@@ -13,7 +14,7 @@ public:
     FString Name;
 
     UPROPERTY(BlueprintReadOnly, Category = "Item")
-    FString Type;
+    EItemType Type;
 
     UPROPERTY(BlueprintReadOnly, Category = "Item")
     int32 Value;
@@ -26,4 +27,5 @@ public:
 
     UPROPERTY(BlueprintReadOnly, Category = "Item")
     FString ModelID;  // 3D 모델 ID (게임 내 오브젝트 연동용)
+    
 };
