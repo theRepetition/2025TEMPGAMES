@@ -34,6 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeObjectType() {}
 		static const UECodeGen_Private::FEnumParams EnumParams;
 	};
 	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_TEMP2025_EObjectType_Statics::Enumerators[] = {
+		{ "EObjectType::None", (int64)EObjectType::None },
 		{ "EObjectType::Item", (int64)EObjectType::Item },
 		{ "EObjectType::NPC", (int64)EObjectType::NPC },
 		{ "EObjectType::Misc", (int64)EObjectType::Misc },
@@ -59,6 +60,8 @@ void EmptyLinkFunctionForGeneratedCodeObjectType() {}
 		{ "MovableOBJ.DisplayName", "MovableOBJ" },
 		{ "MovableOBJ.Name", "EObjectType::MovableOBJ" },
 		{ "MovableOBJ.ToolTip", "\xea\xb8\xb0\xed\x83\x80 \xec\x83\x81\xed\x98\xb8\xec\x9e\x91\xec\x9a\xa9 \xea\xb0\x80\xeb\x8a\xa5\xed\x95\x9c \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8 ex)\xec\x9d\x98\xec\x9e\x90, \xec\xb9\xa8\xeb\x8d\xb0 \xeb\x93\xb1" },
+		{ "None.DisplayName", "None" },
+		{ "None.Name", "EObjectType::None" },
 		{ "NPC.DisplayName", "NPC" },
 		{ "NPC.Name", "EObjectType::NPC" },
 	};
@@ -88,9 +91,9 @@ void EmptyLinkFunctionForGeneratedCodeObjectType() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_Statics::EnumInfo[] = {
-		{ EObjectType_StaticEnum, TEXT("EObjectType"), &Z_Registration_Info_UEnum_EObjectType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3420816754U) },
+		{ EObjectType_StaticEnum, TEXT("EObjectType"), &Z_Registration_Info_UEnum_EObjectType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3927084028U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_2568321536(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_2995987031(TEXT("/Script/TEMP2025"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_Statics::EnumInfo));

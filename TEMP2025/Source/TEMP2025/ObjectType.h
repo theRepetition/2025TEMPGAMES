@@ -4,7 +4,8 @@
 
 UENUM(BlueprintType)
 enum class EObjectType : uint8
-{
+{	
+	None UMETA(DisplayName = "None"),
 	Item UMETA(DisplayName = "Item"),
 	NPC UMETA(DisplayName = "NPC"),
 	Misc UMETA(DisplayName = "Misc"),

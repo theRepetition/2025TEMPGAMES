@@ -19,6 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FOREACH_ENUM_EOBJECTTYPE(op) \
+	op(EObjectType::None) \
 	op(EObjectType::Item) \
 	op(EObjectType::NPC) \
 	op(EObjectType::Misc) \
