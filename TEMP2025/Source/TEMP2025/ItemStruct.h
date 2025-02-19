@@ -1,8 +1,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ItemStruct.generated.h"
 #include "ItemType.h"
+#include "ItemStruct.generated.h"
+
 
 USTRUCT(BlueprintType)
 struct FItemData

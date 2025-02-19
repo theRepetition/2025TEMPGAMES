@@ -97,15 +97,11 @@ TArray<FItemData> UcppdataBaseManager::GetAllItems()
         }
 
         // ✅ 3. 다른 필드 값 디버깅 로그 추가
-        NewItem.Type = ResultSet->GetString(TEXT("Type"));
+
         NewItem.Value = ResultSet->GetInt(TEXT("Value"));
         NewItem.Weight = ResultSet->GetFloat(TEXT("Weight"));
         NewItem.ImagePath = ResultSet->GetString(TEXT("ImagePath"));
         NewItem.ModelID = ResultSet->GetString(TEXT("ModelID"));
-
-        // ✅ 4. 전체 로드된 데이터 로그 출력
-        UE_LOG(LogTemp, Log, TEXT("[DB_DEBUG] Item Loaded - Name: %s, Type: %s, Value: %d, Weight: %f, ImagePath: %s, ModelID: %s"),
-               *NewItem.Name, *NewItem.Type, NewItem.Value, NewItem.Weight, *NewItem.ImagePath, *NewItem.ModelID);
 
         ItemList.Add(NewItem);
     }
