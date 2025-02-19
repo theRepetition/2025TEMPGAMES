@@ -3,7 +3,7 @@
 #include "ObjectType.generated.h"
 
 UENUM(BlueprintType)
-enum class EObjectype : uint8
+enum class EObjectType : uint8
 {
 	Item UMETA(DisplayName = "Item"),
 	NPC UMETA(DisplayName = "NPC"),

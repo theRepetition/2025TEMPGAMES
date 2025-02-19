@@ -18,16 +18,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h
 
 
-#define FOREACH_ENUM_EOBJECTYPE(op) \
-	op(EObjectype::Item) \
-	op(EObjectype::NPC) \
-	op(EObjectype::Misc) \
-	op(EObjectype::Door) \
-	op(EObjectype::IntracntionOBJ) \
-	op(EObjectype::MovableOBJ) 
+#define FOREACH_ENUM_EOBJECTTYPE(op) \
+	op(EObjectType::Item) \
+	op(EObjectType::NPC) \
+	op(EObjectType::Misc) \
+	op(EObjectType::Door) \
+	op(EObjectType::IntracntionOBJ) \
+	op(EObjectType::MovableOBJ) 
 
-enum class EObjectype : uint8;
-template<> struct TIsUEnumClass<EObjectype> { enum { Value = true }; };
-template<> TEMP2025_API UEnum* StaticEnum<EObjectype>();
+enum class EObjectType : uint8;
+template<> struct TIsUEnumClass<EObjectType> { enum { Value = true }; };
+template<> TEMP2025_API UEnum* StaticEnum<EObjectType>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
