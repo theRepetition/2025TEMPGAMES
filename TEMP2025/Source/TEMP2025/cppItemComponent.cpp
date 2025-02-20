@@ -24,7 +24,7 @@ void UcppItemComponent::BeginPlay()
 }
 void UcppItemComponent::PickUpItem(FItemData NewItem) // 아이템 줍기 컴포넌트
 {
-
+	
 }
 
 

@@ -23,6 +23,9 @@ public:
     UPROPERTY(BlueprintReadOnly, Category = "Item")
     float Weight;
 
+    UPROPERTY(BlueprintReadOnly, Category = "Item") 
+    int32 Quantity;// 아이템 수량
+
     UPROPERTY(BlueprintReadOnly, Category = "Item")
     FString ImagePath;  // 아이템 이미지 경로 (UI 연동용)
 
