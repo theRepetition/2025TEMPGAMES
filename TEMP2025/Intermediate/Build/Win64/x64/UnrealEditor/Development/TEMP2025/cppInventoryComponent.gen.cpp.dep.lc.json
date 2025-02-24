@@ -6,7 +6,11 @@
         "PCH": "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\temp2025editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
         "Includes": [
             "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\temp2025\\definitions.temp2025.h",
-            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\public\\cppinventorycomponent.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\cppinventorycomponent.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\itemstruct.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\itemtype.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\itemtype.generated.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\itemstruct.generated.h",
             "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\cppinventorycomponent.generated.h"
         ],
         "ImportedModules": [],

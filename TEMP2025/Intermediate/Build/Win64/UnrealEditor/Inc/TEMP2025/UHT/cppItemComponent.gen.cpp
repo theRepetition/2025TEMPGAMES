@@ -10,6 +10,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodecppItemComponent() {}
 // Cross Module References
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	TEMP2025_API UClass* Z_Construct_UClass_UcppItemComponent();
 	TEMP2025_API UClass* Z_Construct_UClass_UcppItemComponent_NoRegister();
@@ -18,10 +19,10 @@ void EmptyLinkFunctionForGeneratedCodecppItemComponent() {}
 // End Cross Module References
 	DEFINE_FUNCTION(UcppItemComponent::execPickUpItem)
 	{
-		P_GET_STRUCT(FItemData,Z_Param_NewItem);
+		P_GET_OBJECT(AActor,Z_Param_ItemActor);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->PickUpItem(Z_Param_NewItem);
+		*(FItemData*)Z_Param__Result=P_THIS->PickUpItem(Z_Param_ItemActor);
 		P_NATIVE_END;
 	}
 	void UcppItemComponent::StaticRegisterNativesUcppItemComponent()
@@ -36,18 +37,22 @@ void EmptyLinkFunctionForGeneratedCodecppItemComponent() {}
 	{
 		struct cppItemComponent_eventPickUpItem_Parms
 		{
-			FItemData NewItem;
+			AActor* ItemActor;
+			FItemData ReturnValue;
 		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_NewItem;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ItemActor;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_NewItem = { "NewItem", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppItemComponent_eventPickUpItem_Parms, NewItem), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 364338591
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ItemActor = { "ItemActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppItemComponent_eventPickUpItem_Parms, ItemActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppItemComponent_eventPickUpItem_Parms, ReturnValue), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_NewItem,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ItemActor,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::Function_MetaDataParams[] = {
@@ -85,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodecppItemComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UcppItemComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppItemComponent_PickUpItem, "PickUpItem" }, // 954896906
+		{ &Z_Construct_UFunction_UcppItemComponent_PickUpItem, "PickUpItem" }, // 3776773452
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UcppItemComponent_Statics::Class_MetaDataParams[] = {
@@ -132,9 +137,9 @@ void EmptyLinkFunctionForGeneratedCodecppItemComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UcppItemComponent, UcppItemComponent::StaticClass, TEXT("UcppItemComponent"), &Z_Registration_Info_UClass_UcppItemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppItemComponent), 1348539356U) },
+		{ Z_Construct_UClass_UcppItemComponent, UcppItemComponent::StaticClass, TEXT("UcppItemComponent"), &Z_Registration_Info_UClass_UcppItemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppItemComponent), 1839993384U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h_823672180(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h_3392653911(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

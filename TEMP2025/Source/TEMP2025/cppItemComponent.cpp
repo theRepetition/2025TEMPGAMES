@@ -22,10 +22,20 @@ void UcppItemComponent::BeginPlay()
 	// ...
 	
 }
-void UcppItemComponent::PickUpItem(FItemData NewItem) // 아이템 줍기 컴포넌트
+FItemData UcppItemComponent::PickUpItem(AActor* ItemActor)
 {
-	
+    if (!ItemActor) return FItemData(); // 유효한 액터인지 확인
+
+    //  `FItemData`를 가져오기
+    FItemData ItemData;
+    if (ItemActor->GetClass()->ImplementsInterface(UItemInterface::StaticClass()))
+    {
+        ItemData = IItemInterface::Execute_GetItemData(ItemActor);
+    }
+
+    return ItemData; //  `FItemData` 반환
 }
+
 
 
 void UcppItemComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)

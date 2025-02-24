@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "ItemStruct.h"
+#include "ItemInterface.h"
 #include "cppItemComponent.generated.h"
 
 
@@ -26,6 +27,6 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	
 	UFUNCTION(BlueprintCallable, Category = "Interaction")
-	void PickUpItem(FItemData NewItem);
+	FItemData PickUpItem(AActor* ItemActor);
 		
 };
