@@ -18,21 +18,21 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 // End Cross Module References
 	DEFINE_FUNCTION(UcppInventoryComponent::execRemoveItem)
 	{
-		P_GET_TARRAY_REF(FItemData,Z_Param_Out_PlayerInventory);
-		P_GET_STRUCT(FItemData,Z_Param_ItemToRemove);
+		P_GET_TARRAY_REF(FItemData,Z_Param_Out_TargetInventory);
+		P_GET_STRUCT_REF(FItemData,Z_Param_Out_ItemToRemove);
 		P_GET_PROPERTY(FIntProperty,Z_Param_count);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->RemoveItem(Z_Param_Out_PlayerInventory,Z_Param_ItemToRemove,Z_Param_count);
+		*(TArray<FItemData>*)Z_Param__Result=P_THIS->RemoveItem(Z_Param_Out_TargetInventory,Z_Param_Out_ItemToRemove,Z_Param_count);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UcppInventoryComponent::execAddItem)
 	{
-		P_GET_TARRAY_REF(FItemData,Z_Param_Out_PlayerInventory);
-		P_GET_STRUCT(FItemData,Z_Param_NewItem);
+		P_GET_TARRAY_REF(FItemData,Z_Param_Out_TargetInventory);
+		P_GET_STRUCT_REF(FItemData,Z_Param_Out_NewItem);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->AddItem(Z_Param_Out_PlayerInventory,Z_Param_NewItem);
+		*(TArray<FItemData>*)Z_Param__Result=P_THIS->AddItem(Z_Param_Out_TargetInventory,Z_Param_Out_NewItem);
 		P_NATIVE_END;
 	}
 	void UcppInventoryComponent::StaticRegisterNativesUcppInventoryComponent()
@@ -48,25 +48,48 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 	{
 		struct cppInventoryComponent_eventAddItem_Parms
 		{
-			TArray<FItemData> PlayerInventory;
+			TArray<FItemData> TargetInventory;
 			FItemData NewItem;
+			TArray<FItemData> ReturnValue;
 		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_PlayerInventory_Inner;
-		static const UECodeGen_Private::FArrayPropertyParams NewProp_PlayerInventory;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_TargetInventory_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TargetInventory_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_TargetInventory;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_NewItem_MetaData[];
+#endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_NewItem;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue_Inner;
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_PlayerInventory_Inner = { "PlayerInventory", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_PlayerInventory = { "PlayerInventory", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventAddItem_Parms, PlayerInventory), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 408481391
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_NewItem = { "NewItem", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventAddItem_Parms, NewItem), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_TargetInventory_Inner = { "TargetInventory", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_TargetInventory_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_TargetInventory = { "TargetInventory", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventAddItem_Parms, TargetInventory), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_TargetInventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_TargetInventory_MetaData)) }; // 408481391
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_NewItem_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_NewItem = { "NewItem", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventAddItem_Parms, NewItem), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_NewItem_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_NewItem_MetaData)) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventAddItem_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 408481391
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_PlayerInventory_Inner,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_PlayerInventory,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_TargetInventory_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_TargetInventory,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_NewItem,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_ReturnValue_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppInventoryComponent_AddItem_Statics::Function_MetaDataParams[] = {
@@ -88,29 +111,52 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 	{
 		struct cppInventoryComponent_eventRemoveItem_Parms
 		{
-			TArray<FItemData> PlayerInventory;
+			TArray<FItemData> TargetInventory;
 			FItemData ItemToRemove;
 			int32 count;
+			TArray<FItemData> ReturnValue;
 		};
-		static const UECodeGen_Private::FStructPropertyParams NewProp_PlayerInventory_Inner;
-		static const UECodeGen_Private::FArrayPropertyParams NewProp_PlayerInventory;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_TargetInventory_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TargetInventory_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_TargetInventory;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ItemToRemove_MetaData[];
+#endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_ItemToRemove;
 		static const UECodeGen_Private::FIntPropertyParams NewProp_count;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue_Inner;
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_PlayerInventory_Inner = { "PlayerInventory", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_PlayerInventory = { "PlayerInventory", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventRemoveItem_Parms, PlayerInventory), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 408481391
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ItemToRemove = { "ItemToRemove", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventRemoveItem_Parms, ItemToRemove), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_TargetInventory_Inner = { "TargetInventory", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_TargetInventory_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_TargetInventory = { "TargetInventory", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventRemoveItem_Parms, TargetInventory), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_TargetInventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_TargetInventory_MetaData)) }; // 408481391
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ItemToRemove_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ItemToRemove = { "ItemToRemove", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventRemoveItem_Parms, ItemToRemove), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ItemToRemove_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ItemToRemove_MetaData)) }; // 408481391
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_count = { "count", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventRemoveItem_Parms, count), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventRemoveItem_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 408481391
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_PlayerInventory_Inner,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_PlayerInventory,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_TargetInventory_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_TargetInventory,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ItemToRemove,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_count,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ReturnValue_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppInventoryComponent_RemoveItem_Statics::Function_MetaDataParams[] = {
@@ -154,8 +200,8 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UcppInventoryComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppInventoryComponent_AddItem, "AddItem" }, // 1439908025
-		{ &Z_Construct_UFunction_UcppInventoryComponent_RemoveItem, "RemoveItem" }, // 3329303329
+		{ &Z_Construct_UFunction_UcppInventoryComponent_AddItem, "AddItem" }, // 915332336
+		{ &Z_Construct_UFunction_UcppInventoryComponent_RemoveItem, "RemoveItem" }, // 2940509092
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UcppInventoryComponent_Statics::Class_MetaDataParams[] = {
@@ -214,9 +260,9 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UcppInventoryComponent, UcppInventoryComponent::StaticClass, TEXT("UcppInventoryComponent"), &Z_Registration_Info_UClass_UcppInventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppInventoryComponent), 582008705U) },
+		{ Z_Construct_UClass_UcppInventoryComponent, UcppInventoryComponent::StaticClass, TEXT("UcppInventoryComponent"), &Z_Registration_Info_UClass_UcppInventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppInventoryComponent), 2897535941U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_1713266089(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_3031627259(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

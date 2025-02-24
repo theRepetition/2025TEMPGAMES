@@ -25,9 +25,13 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
     TArray<FItemData> Inventory;
+
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
-	void AddItem(TArray<FItemData>& PlayerInventory, FItemData NewItem);
+	TArray<FItemData> AddItem(const TArray<FItemData>& TargetInventory, const FItemData& NewItem);
+	
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
-    void RemoveItem(TArray<FItemData>& PlayerInventory, FItemData ItemToRemove, int32 count);
+	TArray<FItemData> RemoveItem(const TArray<FItemData>& TargetInventory, const FItemData& ItemToRemove, int32 count);
+	
+
 		
 };
