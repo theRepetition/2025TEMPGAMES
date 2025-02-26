@@ -18,12 +18,14 @@ struct FItemData;
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_12_SPARSE_DATA
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSortInventory); \
 	DECLARE_FUNCTION(execRemoveItem); \
 	DECLARE_FUNCTION(execAddItem);
 
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execSortInventory); \
 	DECLARE_FUNCTION(execRemoveItem); \
 	DECLARE_FUNCTION(execAddItem);
 

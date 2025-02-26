@@ -62,3 +62,15 @@ TArray<FItemData> UcppInventoryComponent::RemoveItem(const TArray<FItemData>& Ta
     return UpdatedInventory;  //  변경된 배열 반환
 }
 
+TArray<FItemData> UcppInventoryComponent::SortInventory(TArray<FItemData> TargetInventory)
+{
+    TargetInventory.Sort([](const FItemData& A, const FItemData& B) {
+        if (A.Name != B.Name) {
+            return A.Name < B.Name;  // 이름 기준 정렬
+        }
+        return A.Type < B.Type;  // 이름이 같다면 타입 기준 정렬
+    });
+
+    return TargetInventory;  // 정렬된 배열 반환
+}
+

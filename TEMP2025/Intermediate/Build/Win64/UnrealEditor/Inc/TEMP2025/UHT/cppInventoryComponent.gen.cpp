@@ -16,6 +16,14 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 	TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FItemData();
 	UPackage* Z_Construct_UPackage__Script_TEMP2025();
 // End Cross Module References
+	DEFINE_FUNCTION(UcppInventoryComponent::execSortInventory)
+	{
+		P_GET_TARRAY(FItemData,Z_Param_TargetInventory);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(TArray<FItemData>*)Z_Param__Result=P_THIS->SortInventory(Z_Param_TargetInventory);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UcppInventoryComponent::execRemoveItem)
 	{
 		P_GET_TARRAY_REF(FItemData,Z_Param_Out_TargetInventory);
@@ -41,6 +49,7 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddItem", &UcppInventoryComponent::execAddItem },
 			{ "RemoveItem", &UcppInventoryComponent::execRemoveItem },
+			{ "SortInventory", &UcppInventoryComponent::execSortInventory },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -174,6 +183,49 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics
+	{
+		struct cppInventoryComponent_eventSortInventory_Parms
+		{
+			TArray<FItemData> TargetInventory;
+			TArray<FItemData> ReturnValue;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_TargetInventory_Inner;
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_TargetInventory;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue_Inner;
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_TargetInventory_Inner = { "TargetInventory", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_TargetInventory = { "TargetInventory", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventSortInventory_Parms, TargetInventory), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(cppInventoryComponent_eventSortInventory_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) }; // 408481391
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_TargetInventory_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_TargetInventory,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_ReturnValue_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Inventory" },
+		{ "ModuleRelativePath", "cppInventoryComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UcppInventoryComponent, nullptr, "SortInventory", nullptr, nullptr, sizeof(Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::cppInventoryComponent_eventSortInventory_Parms), Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UcppInventoryComponent_SortInventory()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UcppInventoryComponent_SortInventory_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UcppInventoryComponent);
 	UClass* Z_Construct_UClass_UcppInventoryComponent_NoRegister()
 	{
@@ -202,6 +254,7 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UcppInventoryComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UcppInventoryComponent_AddItem, "AddItem" }, // 915332336
 		{ &Z_Construct_UFunction_UcppInventoryComponent_RemoveItem, "RemoveItem" }, // 2940509092
+		{ &Z_Construct_UFunction_UcppInventoryComponent_SortInventory, "SortInventory" }, // 2905612304
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UcppInventoryComponent_Statics::Class_MetaDataParams[] = {
@@ -260,9 +313,9 @@ void EmptyLinkFunctionForGeneratedCodecppInventoryComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UcppInventoryComponent, UcppInventoryComponent::StaticClass, TEXT("UcppInventoryComponent"), &Z_Registration_Info_UClass_UcppInventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppInventoryComponent), 2897535941U) },
+		{ Z_Construct_UClass_UcppInventoryComponent, UcppInventoryComponent::StaticClass, TEXT("UcppInventoryComponent"), &Z_Registration_Info_UClass_UcppInventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppInventoryComponent), 705901441U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_3031627259(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_1012166061(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

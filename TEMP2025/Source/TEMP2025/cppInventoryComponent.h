@@ -32,6 +32,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Inventory")
 	TArray<FItemData> RemoveItem(const TArray<FItemData>& TargetInventory, const FItemData& ItemToRemove, int32 count);
 	
-
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	TArray<FItemData> SortInventory(TArray<FItemData> TargetInventory);
+	
 		
 };
