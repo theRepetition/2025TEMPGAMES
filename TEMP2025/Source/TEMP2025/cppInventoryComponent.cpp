@@ -19,7 +19,7 @@ void UcppInventoryComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 
 TArray<FItemData> UcppInventoryComponent::AddItem(const TArray<FItemData>& TargetInventory, const FItemData& NewItem)
 {
-    TArray<FItemData> UpdatedInventory = TargetInventory;  //  원본을 수정하지 않고 복사본 사용
+    TArray<FItemData> UpdatedInventory = TargetInventory;  // 원본을 수정하지 않고 복사본 사용
 
     FItemData* ExistingItem = UpdatedInventory.FindByPredicate([&](const FItemData& Item)
     {
@@ -32,10 +32,12 @@ TArray<FItemData> UcppInventoryComponent::AddItem(const TArray<FItemData>& Targe
     }
     else
     {
-        UpdatedInventory.Add(NewItem);
+        FItemData NewItemCopy = NewItem;
+        NewItemCopy.UniqueIndex = UpdatedInventory.Num() + 1; // 현재 배열 크기를 기반으로 UniqueIndex 할당
+        UpdatedInventory.Add(NewItemCopy);
     }
 
-    return UpdatedInventory;  //  변경된 배열 반환
+    return UpdatedInventory;  // 변경된 배열 반환
 }
 
 TArray<FItemData> UcppInventoryComponent::RemoveItem(const TArray<FItemData>& TargetInventory, const FItemData& ItemToRemove, int32 count)
@@ -55,12 +57,14 @@ TArray<FItemData> UcppInventoryComponent::RemoveItem(const TArray<FItemData>& Ta
         }
         else
         {
+            UpdatedInventory[Index].UniqueIndex = 0; // 제거될 때 UniqueIndex 초기화
             UpdatedInventory.RemoveAt(Index);
         }
     }
 
-    return UpdatedInventory;  //  변경된 배열 반환
+    return UpdatedInventory;  // 변경된 배열 반환
 }
+
 
 TArray<FItemData> UcppInventoryComponent::SortInventory(TArray<FItemData> TargetInventory)
 {

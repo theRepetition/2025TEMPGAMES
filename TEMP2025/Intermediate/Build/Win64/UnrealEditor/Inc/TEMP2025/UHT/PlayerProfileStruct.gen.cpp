@@ -124,7 +124,7 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FPlayerProfile>()
 		{ "ToolTip", "\xec\x9e\xa5\xeb\xb9\x84 \xec\x8a\xac\xeb\xa1\xaf (\xea\xb0\x9c\xeb\xb3\x84 \xeb\xb3\x80\xec\x88\x98 \xeb\xb0\xa9\xec\x8b\x9d)" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_RightHand = { "RightHand", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, RightHand), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_RightHand_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_RightHand_MetaData)) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_RightHand = { "RightHand", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, RightHand), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_RightHand_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_RightHand_MetaData)) }; // 2624522578
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_LeftHand_MetaData[] = {
 		{ "Category", "PlayerProfile" },
@@ -133,7 +133,7 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FPlayerProfile>()
 		{ "ToolTip", "\xec\x98\xa4\xeb\xa5\xb8\xec\x86\x90 \xeb\xac\xb4\xea\xb8\xb0" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_LeftHand = { "LeftHand", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, LeftHand), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_LeftHand_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_LeftHand_MetaData)) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_LeftHand = { "LeftHand", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, LeftHand), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_LeftHand_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_LeftHand_MetaData)) }; // 2624522578
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Accessory_MetaData[] = {
 		{ "Category", "PlayerProfile" },
@@ -142,7 +142,7 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FPlayerProfile>()
 		{ "ToolTip", "\xec\x99\xbc\xec\x86\x90 \xeb\xac\xb4\xea\xb8\xb0" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Accessory = { "Accessory", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, Accessory), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Accessory_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Accessory_MetaData)) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Accessory = { "Accessory", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, Accessory), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Accessory_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Accessory_MetaData)) }; // 2624522578
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Helmet_MetaData[] = {
 		{ "Category", "PlayerProfile" },
@@ -151,7 +151,7 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FPlayerProfile>()
 		{ "ToolTip", "\xec\x9e\xa5\xec\x8b\xa0\xea\xb5\xac" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Helmet = { "Helmet", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, Helmet), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Helmet_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Helmet_MetaData)) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Helmet = { "Helmet", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, Helmet), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Helmet_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Helmet_MetaData)) }; // 2624522578
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor_MetaData[] = {
 		{ "Category", "PlayerProfile" },
@@ -160,7 +160,7 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FPlayerProfile>()
 		{ "ToolTip", "\xed\x88\xac\xea\xb5\xac" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor = { "Armor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, Armor), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor_MetaData)) }; // 408481391
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor = { "Armor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlayerProfile, Armor), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor_MetaData)) }; // 2624522578
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPlayerProfile_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_PlayerName,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Level,
@@ -198,9 +198,9 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FPlayerProfile>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h_Statics::ScriptStructInfo[] = {
-		{ FPlayerProfile::StaticStruct, Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewStructOps, TEXT("PlayerProfile"), &Z_Registration_Info_UScriptStruct_PlayerProfile, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPlayerProfile), 2194841809U) },
+		{ FPlayerProfile::StaticStruct, Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewStructOps, TEXT("PlayerProfile"), &Z_Registration_Info_UScriptStruct_PlayerProfile, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPlayerProfile), 1878572393U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h_2233664614(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h_1123763887(TEXT("/Script/TEMP2025"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h_Statics::ScriptStructInfo),
 		nullptr, 0);

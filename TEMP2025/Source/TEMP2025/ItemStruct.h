@@ -31,6 +31,10 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     FString ModelID;  // 3D 모델 ID (게임 내 오브젝트 연동용)
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
+    int32 UniqueIndex;  // 인벤토리 안에서 사용할 고유 인덱스 변수
+   
    
     
 };
