@@ -6,11 +6,13 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "TEMP2025/ItemStruct.h"
+#include "TEMP2025/WeaponStruct.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeItemStruct() {}
 // Cross Module References
 	TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EItemType();
 	TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FItemData();
+	TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FWeaponData();
 	UPackage* Z_Construct_UPackage__Script_TEMP2025();
 // End Cross Module References
 	static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_ItemData;
@@ -65,6 +67,10 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FItemData>()
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_UniqueIndex_MetaData[];
 #endif
 		static const UECodeGen_Private::FIntPropertyParams NewProp_UniqueIndex;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_WeaponStats_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_WeaponStats;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -143,6 +149,16 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FItemData>()
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FItemData_Statics::NewProp_UniqueIndex = { "UniqueIndex", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FItemData, UniqueIndex), METADATA_PARAMS(Z_Construct_UScriptStruct_FItemData_Statics::NewProp_UniqueIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FItemData_Statics::NewProp_UniqueIndex_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FItemData_Statics::NewProp_WeaponStats_MetaData[] = {
+		{ "Category", "ItemData" },
+		{ "Comment", "// \xec\x9d\xb8\xeb\xb2\xa4\xed\x86\xa0\xeb\xa6\xac \xec\x95\x88\xec\x97\x90\xec\x84\x9c \xec\x82\xac\xec\x9a\xa9\xed\x95\xa0 \xea\xb3\xa0\xec\x9c\xa0 \xec\x9d\xb8\xeb\x8d\xb1\xec\x8a\xa4 \xeb\xb3\x80\xec\x88\x98\n" },
+		{ "EditCondition", "ItemType == EItemType::Weapon" },
+		{ "ModuleRelativePath", "ItemStruct.h" },
+		{ "ToolTip", "\xec\x9d\xb8\xeb\xb2\xa4\xed\x86\xa0\xeb\xa6\xac \xec\x95\x88\xec\x97\x90\xec\x84\x9c \xec\x82\xac\xec\x9a\xa9\xed\x95\xa0 \xea\xb3\xa0\xec\x9c\xa0 \xec\x9d\xb8\xeb\x8d\xb1\xec\x8a\xa4 \xeb\xb3\x80\xec\x88\x98" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FItemData_Statics::NewProp_WeaponStats = { "WeaponStats", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FItemData, WeaponStats), Z_Construct_UScriptStruct_FWeaponData, METADATA_PARAMS(Z_Construct_UScriptStruct_FItemData_Statics::NewProp_WeaponStats_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FItemData_Statics::NewProp_WeaponStats_MetaData)) }; // 1143220515
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FItemData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FItemData_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FItemData_Statics::NewProp_Type_Underlying,
@@ -153,6 +169,7 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FItemData>()
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FItemData_Statics::NewProp_ImagePath,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FItemData_Statics::NewProp_ModelID,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FItemData_Statics::NewProp_UniqueIndex,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FItemData_Statics::NewProp_WeaponStats,
 	};
 	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FItemData_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -180,9 +197,9 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FItemData>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemStruct_h_Statics::ScriptStructInfo[] = {
-		{ FItemData::StaticStruct, Z_Construct_UScriptStruct_FItemData_Statics::NewStructOps, TEXT("ItemData"), &Z_Registration_Info_UScriptStruct_ItemData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FItemData), 2624522578U) },
+		{ FItemData::StaticStruct, Z_Construct_UScriptStruct_FItemData_Statics::NewStructOps, TEXT("ItemData"), &Z_Registration_Info_UScriptStruct_ItemData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FItemData), 3367904852U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemStruct_h_4145351144(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemStruct_h_3569941625(TEXT("/Script/TEMP2025"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemStruct_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemStruct_h_Statics::ScriptStructInfo),
 		nullptr, 0);

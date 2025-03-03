@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "ItemType.h"
+#include "WeaponStruct.h"
 #include "ItemStruct.generated.h"
 
 
@@ -34,7 +35,9 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     int32 UniqueIndex;  // 인벤토리 안에서 사용할 고유 인덱스 변수
-   
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (EditCondition = "ItemType == EItemType::Weapon"))
+    FWeaponData WeaponStats; 
    
     
 };
