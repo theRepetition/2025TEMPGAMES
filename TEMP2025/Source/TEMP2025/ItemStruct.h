@@ -3,6 +3,8 @@
 #include "CoreMinimal.h"
 #include "ItemType.h"
 #include "WeaponStruct.h"
+#include "IsEquipped.h"
+
 #include "ItemStruct.generated.h"
 
 
@@ -17,6 +19,9 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     EItemType Type; //Weapon Armor Consumable Misc Book 
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
+    EIsEquipped IsEquipped; //아이템 장착 여부
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     int32 Value;

@@ -50,7 +50,7 @@ void EmptyLinkFunctionForGeneratedCodeItemInterface() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UItemInterface_GetItemData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ItemInterface_eventGetItemData_Parms, ReturnValue), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 3367904852
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UItemInterface_GetItemData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ItemInterface_eventGetItemData_Parms, ReturnValue), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(nullptr, 0) }; // 2164371480
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UItemInterface_GetItemData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UItemInterface_GetItemData_Statics::NewProp_ReturnValue,
 	};
@@ -92,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeItemInterface() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UItemInterface_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UItemInterface_GetItemData, "GetItemData" }, // 1800588116
+		{ &Z_Construct_UFunction_UItemInterface_GetItemData, "GetItemData" }, // 1454063644
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UItemInterface_Statics::Class_MetaDataParams[] = {
@@ -156,9 +156,9 @@ void EmptyLinkFunctionForGeneratedCodeItemInterface() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UItemInterface, UItemInterface::StaticClass, TEXT("UItemInterface"), &Z_Registration_Info_UClass_UItemInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemInterface), 3698135624U) },
+		{ Z_Construct_UClass_UItemInterface, UItemInterface::StaticClass, TEXT("UItemInterface"), &Z_Registration_Info_UClass_UItemInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemInterface), 1356458258U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_826665484(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_3169632558(TEXT("/Script/TEMP2025"),
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
