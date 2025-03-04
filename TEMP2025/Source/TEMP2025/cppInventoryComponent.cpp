@@ -1,4 +1,5 @@
 #include "ItemStruct.h"
+#include "IsEquipped.h"
 #include "cppInventoryComponent.h"
 
 // Sets default values for this component's properties
@@ -56,7 +57,8 @@ TArray<FItemData> UcppInventoryComponent::RemoveItem(const TArray<FItemData>& Ta
             UpdatedInventory[Index].Quantity -= count;
         }
         else
-        {
+        {   
+            UpdatedInventory[Index].IsEquipped = EIsEquipped::None;
             UpdatedInventory[Index].UniqueIndex = 0; // 제거될 때 UniqueIndex 초기화
             UpdatedInventory.RemoveAt(Index);
         }
