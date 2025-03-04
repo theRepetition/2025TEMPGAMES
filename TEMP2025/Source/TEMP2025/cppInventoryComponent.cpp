@@ -56,7 +56,8 @@ TArray<FItemData> UcppInventoryComponent::RemoveItem(const TArray<FItemData>& Ta
             UpdatedInventory[Index].Quantity -= count;
         }
         else
-        {
+        {   
+            UpdatedInventory[Index].IsEquipped = EIsEquipped::None; // 장착중인것도 none으로 돌리기
             UpdatedInventory[Index].UniqueIndex = 0; // 제거될 때 UniqueIndex 초기화
             UpdatedInventory.RemoveAt(Index);
         }
