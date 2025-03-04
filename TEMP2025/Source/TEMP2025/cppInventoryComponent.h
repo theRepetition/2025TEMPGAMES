@@ -3,7 +3,6 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "ItemStruct.h"
-#include "IsEquipped.h"
 #include "cppInventoryComponent.generated.h"
 
 
