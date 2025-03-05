@@ -21,6 +21,7 @@ TArray<FItemData> UcppInventoryComponent::AddItem(const TArray<FItemData>& Targe
 {
     TArray<FItemData> UpdatedInventory = TargetInventory;  // 원본을 수정하지 않고 복사본 사용
 
+    //  기존 아이템이 있는지 확인
     FItemData* ExistingItem = UpdatedInventory.FindByPredicate([&](const FItemData& Item)
     {
         return Item.Name == NewItem.Name;
@@ -28,17 +29,34 @@ TArray<FItemData> UcppInventoryComponent::AddItem(const TArray<FItemData>& Targe
 
     if (ExistingItem)
     {
+        //  이미 존재하는 아이템이면 개수만 증가
         ExistingItem->Quantity += NewItem.Quantity;
     }
     else
     {
+        //  사용된 UniqueIndex를 저장하는 TSet 생성
+        TSet<int32> UsedIndices;
+        for (const FItemData& Item : UpdatedInventory)
+        {
+            UsedIndices.Add(Item.UniqueIndex);
+        }
+
+        //  가장 작은 사용되지 않은 UniqueIndex 찾기
+        int32 NewUniqueIndex = 1;
+        while (UsedIndices.Contains(NewUniqueIndex))
+        {
+            NewUniqueIndex++;
+        }
+
+        //  새로운 아이템 추가
         FItemData NewItemCopy = NewItem;
-        NewItemCopy.UniqueIndex = UpdatedInventory.Num() + 1; // 현재 배열 크기를 기반으로 UniqueIndex 할당
+        NewItemCopy.UniqueIndex = NewUniqueIndex;  // 중복되지 않는 UniqueIndex 할당
         UpdatedInventory.Add(NewItemCopy);
     }
 
     return UpdatedInventory;  // 변경된 배열 반환
 }
+
 
 TArray<FItemData> UcppInventoryComponent::RemoveItem(const TArray<FItemData>& TargetInventory, const FItemData& ItemToRemove, int32 count)
 {
