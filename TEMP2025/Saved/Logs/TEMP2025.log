@@ -1101,3 +1101,1169 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.06-19.53.05:251][  0]LogFileCache: Scanning file cache for directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/Saved/Collections/' took 0.00s
 [2025.03.06-19.53.05:254][  0]LogFileCache: Scanning file cache for directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/Content/Developers/ahn/Collections/' took 0.00s
 [2025.03.06-19.53.05:256][  0]LogFileCache: Scanning file cache for directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/Content/Collections/' took 0.00s
+[2025.03.06-19.53.05:596][  0]LogClass: Error: EnumProperty FItemData::Type is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: EnumProperty FItemData::IsEquipped is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: IntProperty FItemData::Value is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: FloatProperty FItemData::Weight is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: IntProperty FItemData::Quantity is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: IntProperty FItemData::UniqueIndex is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: EnumProperty FWeaponData::TYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: EnumProperty FWeaponData::HandedTYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: IntProperty FWeaponData::DMG is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: FloatProperty FWeaponData::ATKSPEED is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: EnumProperty FWeaponData::COST is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: FloatProperty FWeaponData::RANGE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Error: FloatProperty FWeaponData::WEIGHT is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:596][  0]LogClass: Display: 13 Uninitialized script struct members found including 0 object properties
+[2025.03.06-19.53.05:616][  0]LogClass: Warning: Property ArrayProperty UPresetSettingsProperties::ActivePresetCollectionsPaths defines MetaData key "MetaClass" which contains short type name "InteractiveToolsPresetCollectionAsset". Suggested pathname: "/Script/PresetAsset.InteractiveToolsPresetCollectionAsset". Module:ModelingToolsEditorMode File:Public/ModelingToolsEditorModeToolkit.h
+[2025.03.06-19.53.05:626][  0]LogClass: Display: 1 short type names in reflected types' MetaData
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: UObject.Class AttemptToFindUninitializedScriptStructMembers will be marked as failing due to errors being logged
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: EnumProperty FItemData::Type is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: EnumProperty FItemData::IsEquipped is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: IntProperty FItemData::Value is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: FloatProperty FItemData::Weight is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: IntProperty FItemData::Quantity is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: IntProperty FItemData::UniqueIndex is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: EnumProperty FWeaponData::TYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: EnumProperty FWeaponData::HandedTYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: IntProperty FWeaponData::DMG is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: FloatProperty FWeaponData::ATKSPEED is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: EnumProperty FWeaponData::COST is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: FloatProperty FWeaponData::RANGE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Error: LogClass: FloatProperty FWeaponData::WEIGHT is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.03.06-19.53.05:628][  0]LogAutomationTest: Warning: LogClass: Property ArrayProperty UPresetSettingsProperties::ActivePresetCollectionsPaths defines MetaData key "MetaClass" which contains short type name "InteractiveToolsPresetCollectionAsset". Suggested pathname: "/Script/PresetAsset.InteractiveToolsPresetCollectionAsset". Module:ModelingToolsEditorMode File:Public/ModelingToolsEditorModeToolkit.h
+[2025.03.06-19.53.05:629][  0]LogEngine: Initializing Engine...
+[2025.03.06-19.53.05:635][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.03.06-19.53.05:636][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.03.06-19.53.05:639][  0]LogMaterial: Display: Missing cached shadermap for WireframeMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 93d65068658a927251d9d68e072c561c75e706e8), compiling. Is special engine material.
+[2025.03.06-19.53.05:642][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: d59c1ae1602691a520e5d327bf5d9efa91647172), compiling. Is special engine material.
+[2025.03.06-19.53.05:645][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationUnlitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 2a3f9348952db8570161c27cb2611e5dde021998), compiling. Is special engine material.
+[2025.03.06-19.53.05:648][  0]LogMaterial: Display: Missing cached shadermap for MAT_LevelColorationLitLightmapUV in PCD3D_SM6, Default, SM6 (DDC key hash: ecd4912d1cd1ebe8c34a7b0eba21ce6e27e5518e), compiling. Is special engine material.
+[2025.03.06-19.53.05:651][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: eb043fbe214f77a7be04ae7bf594011ebfa4bc51), compiling. Is special engine material.
+[2025.03.06-19.53.05:653][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationUnlitMateri in PCD3D_SM6, Default, SM6 (DDC key hash: 94fd722245657acaae5a379409b5096281088a0b), compiling. Is special engine material.
+[2025.03.06-19.53.05:722][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.03.06-19.53.05:730][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-19.53.05:731][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-19.53.05:742][  0]LogAIModule: Creating AISystem for world Untitled
+[2025.03.06-19.53.05:745][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.03.06-19.53.05:745][  0]LogInit: Texture streaming: Enabled
+[2025.03.06-19.53.05:759][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.2.1-26001984+++UE5+Release-5.2
+[2025.03.06-19.53.05:768][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.03.06-19.53.05:776][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.03.06-19.53.05:777][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.03.06-19.53.05:777][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2025.03.06-19.53.05:779][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2025.03.06-19.53.05:779][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2025.03.06-19.53.05:779][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2025.03.06-19.53.05:779][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2025.03.06-19.53.05:779][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.03.06-19.53.05:779][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.03.06-19.53.05:779][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.06-19.53.05:779][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.06-19.53.05:779][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.06-19.53.05:779][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.06-19.53.05:779][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.06-19.53.05:779][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.03.06-19.53.05:779][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.06-19.53.05:779][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.06-19.53.05:780][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.06-19.53.05:780][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.06-19.53.05:780][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.06-19.53.05:786][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.06-19.53.05:808][  0]LogAudioMixer: Display: Using Audio Hardware Device 스피커(High Definition Audio Device)
+[2025.03.06-19.53.05:808][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.06-19.53.05:810][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.06-19.53.05:810][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.06-19.53.05:811][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.03.06-19.53.05:811][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.03.06-19.53.05:813][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.03.06-19.53.05:813][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.03.06-19.53.05:813][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.03.06-19.53.05:813][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.03.06-19.53.05:813][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.03.06-19.53.05:826][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.03.06-19.53.05:832][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.03.06-19.53.05:832][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: TEMP2025Editor Win64 Development
+[2025.03.06-19.53.05:834][  0]LogLiveCoding: Display: First instance in process group "UE_TEMP2025_0x8dfb7d7c", spawning console
+[2025.03.06-19.53.05:838][  0]LogLiveCoding: Display: Waiting for server
+[2025.03.06-19.53.05:845][  0]LogInit: Undo buffer set to 32 MB
+[2025.03.06-19.53.05:845][  0]LogInit: Transaction tracking system initialized
+[2025.03.06-19.53.05:881][  0]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-3V2OFO6: (Name=DESKTOP-3V2OFO6, Type=Computer, Status=Valid, , Flags="Device_InstallSoftwareValid")
+[2025.03.06-19.53.05:889][  0]LogSlate: Took 0.001550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2025.03.06-19.53.05:889][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.03.06-19.53.06:020][  0]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.03.06-19.53.06:022][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/SourceControl/UncontrolledChangelists.json
+[2025.03.06-19.53.06:022][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2025.03.06-19.53.06:024][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.002413 seconds (Found 0 uncontrolled assets)
+[2025.03.06-19.53.06:050][  0]BlueprintLog: New page: 에디터 로드
+[2025.03.06-19.53.06:141][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2025.03.06-19.53.06:164][  0]TimingProfiler: Initialize
+[2025.03.06-19.53.06:165][  0]TimingProfiler: OnSessionChanged
+[2025.03.06-19.53.06:165][  0]LoadingProfiler: Initialize
+[2025.03.06-19.53.06:165][  0]LoadingProfiler: OnSessionChanged
+[2025.03.06-19.53.06:165][  0]NetworkingProfiler: Initialize
+[2025.03.06-19.53.06:165][  0]NetworkingProfiler: OnSessionChanged
+[2025.03.06-19.53.06:165][  0]MemoryProfiler: Initialize
+[2025.03.06-19.53.06:165][  0]MemoryProfiler: OnSessionChanged
+[2025.03.06-19.53.06:360][  0]LogFileCache: Scanning file cache for directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/Content/' took 0.01s
+[2025.03.06-19.53.06:473][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.03.06-19.53.06:606][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.03.06-19.53.06:607][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.658
+[2025.03.06-19.53.06:607][  0]Cmd: MAP LOAD FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.03.06-19.53.06:607][  0]LightingResults: New page: 라이팅 빌드
+[2025.03.06-19.53.06:610][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-19.53.06:610][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-19.53.06:610][  0]MapCheck: New page: 맵 체크
+[2025.03.06-19.53.06:610][  0]LightingResults: New page: 라이팅 빌드
+[2025.03.06-19.53.06:616][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.06-19.53.06:619][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.03.06-19.53.06:674][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.03.06-19.53.06:778][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2025.03.06-19.53.06:778][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-19.53.06:778][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-19.53.06:778][  0]LogAIModule: Creating AISystem for world NewMap
+[2025.03.06-19.53.06:826][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.03.06-19.53.06:834][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.03.06-19.53.06:834][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.03.06-19.53.06:834][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.101ms.
+[2025.03.06-19.53.06:834][  0]LogFileHelpers: Loading map 'NewMap' took 0.227
+[2025.03.06-19.53.06:840][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.891
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: ================================================
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: RAM used: 240.00 B of 1.60 GiB budget. Usage: 0.00%
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.03.06-19.53.06:840][  0]LogShaderCompilers: Display: ================================================
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:915][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.03.06-19.53.06:933][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.06-19.53.06:939][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.06-19.53.06:947][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.06-19.53.06:951][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.06-19.53.06:973][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:974][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:974][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:975][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:975][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:976][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:976][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:976][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:977][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.03.06-19.53.06:977][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.2/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.03.06-19.53.07:065][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.03.06-19.53.07:067][  0]LogSlate: Took 0.001507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2025.03.06-19.53.07:068][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.03.06-19.53.07:069][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.03.06-19.53.07:070][  0]LogSlate: Took 0.001322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2025.03.06-19.53.07:072][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:073][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:074][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:074][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:075][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:076][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:076][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:076][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:077][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.53.07:101][  0]LogViewport: Scene viewport resized to 1094x602, mode Windowed.
+[2025.03.06-19.53.07:150][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.06-19.53.07:387][  0]LogStall: Startup...
+[2025.03.06-19.53.07:389][  0]LogStall: Startup complete.
+[2025.03.06-19.53.07:395][  0]LogLoad: (Engine Initialization) Total time: 8.45 seconds
+[2025.03.06-19.53.07:395][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2025.03.06-19.53.07:478][  0]LogAssetRegistry: AssetRegistryGather time 0.1065s: AssetDataDiscovery 0.0179s, AssetDataGather 0.0452s, StoreResults 0.0434s.
+[2025.03.06-19.53.07:486][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2025.03.06-19.53.07:652][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.03.06-19.53.07:688][  0]LogViewport: Scene viewport resized to 1094x564, mode Windowed.
+[2025.03.06-19.53.14:066][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-19.53.16:149][ 28]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.03.06-19.54.08:571][938]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.03.06-19.54.19:345][505]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RuntimeVirtualTextureVolume
+[2025.03.06-19.54.19:345][505]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RuntimeVirtualTextureVolume
+[2025.03.06-19.54.19:347][505]LogActorFactory: Actor Factory spawned Class /Script/Engine.RuntimeVirtualTextureVolume as actor: RuntimeVirtualTextureVolume /Game/NewMap.NewMap:PersistentLevel.RuntimeVirtualTextureVolume_0
+[2025.03.06-19.54.19:347][505]LogActorFactory: Actor Factory spawned Class /Script/Engine.RuntimeVirtualTextureVolume as actor: RuntimeVirtualTextureVolume /Game/NewMap.NewMap:PersistentLevel.RuntimeVirtualTextureVolume_0
+[2025.03.06-19.54.19:402][505]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.54.25:897][ 69]Cmd: DELETE
+[2025.03.06-19.54.25:897][ 69]Cmd: ACTOR DELETE
+[2025.03.06-19.54.25:917][ 69]LogEditorActor: Deleted Actor: RuntimeVirtualTextureVolume
+[2025.03.06-19.54.25:928][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.03.06-19.54.25:929][ 69]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2025.03.06-19.55.20:767][267]LogDerivedDataCache: C:/Users/ahn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.143 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10836 files in 12685 folders with total size 4064 MiB.
+[2025.03.06-19.56.06:959][549]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-19.56.12:458][932]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-19.56.14:535][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: ================================================
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Total job queries 101, among them cache hits 15 (14.85%)
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Tracking 83 distinct input hashes that result in 62 distinct outputs (74.70%)
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: RAM used: 2.01 MiB of 1.60 GiB budget. Usage: 0.12%
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Shaders Compiled: 1
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 0.53 s
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Job life time (pending + execution): average 0.62 s, max 0.62
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.62 s
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Average processing rate: 1.60 jobs/sec
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Total thread time: 0.36 s
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Total thread preprocess time: 0.012 s
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Percentage time preprocessing: 3.46%
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Effective parallelization: 0.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.03.06-19.56.15:176][139]LogShaderCompilers: Display: ================================================
+[2025.03.06-19.56.26:454][623]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField
+[2025.03.06-19.56.26:457][623]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-19.56.26:457][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-19.56.26:685][623]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2025.03.06-19.56.26:750][623]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.06-19.56.29:924][719]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-19.56.35:124][915]Cmd: TRANSACTION UNDO
+[2025.03.06-19.56.35:124][915]LogEditorTransaction: Undo AO Intensity 편집
+[2025.03.06-19.56.35:261][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:261][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:261][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:262][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:262][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:262][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:263][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:263][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.35:263][915]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.45:992][316]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.56.46:038][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-19.56.46:044][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.03.06-19.56.46:049][316]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.003754 seconds
+[2025.03.06-19.56.46:058][316]LogSerialization: UsePackageTrailer: 'true'
+[2025.03.06-19.56.46:131][316]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-19.56.46:132][316]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMapFC23B34B482690DE3EAE028BF4E81E1C.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-19.56.46:140][316]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-19.56.46:140][316]LogFileHelpers: Saving map 'NewMap' took 0.103
+[2025.03.06-19.56.46:158][316]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms
+[2025.03.06-19.56.46:160][316]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-19.56.46:160][316]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-19.56.53:260][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.56.53:318][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StylizedProvencal/Materials/MI_GrassField" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset" SILENT=true
+[2025.03.06-19.56.53:323][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.03.06-19.56.53:446][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.03.06-19.56.53:449][621]LogSavePackage: Moving output files for package: /Game/StylizedProvencal/Materials/MI_GrassField
+[2025.03.06-19.56.53:449][621]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/MI_GrassFieldD4C084B14B1EE27812AAB99B02C38555.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset'
+[2025.03.06-19.56.53:465][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 369 ms)
+[2025.03.06-19.56.53:468][621]AssetCheck: New page: 에셋 저장:  MI_GrassField
+[2025.03.06-19.56.53:468][621]LogContentValidation: Display: /Script/Engine.MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField 유효성 검사 중
+[2025.03.06-19.56.55:423][727]Cmd: TRANSACTION UNDO
+[2025.03.06-19.56.55:423][727]LogEditorTransaction: Undo 편집 조건 변경됨
+[2025.03.06-19.56.55:498][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:498][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:499][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:499][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:499][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:499][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:500][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:500][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.55:500][727]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:047][780]Cmd: TRANSACTION UNDO
+[2025.03.06-19.56.57:048][780]LogEditorTransaction: Undo RVT Color 편집
+[2025.03.06-19.56.57:158][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:159][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:159][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:159][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:159][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:160][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:160][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:160][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:161][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.56.57:915][804]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.56.57:977][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-19.56.57:985][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.03.06-19.56.58:073][804]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-19.56.58:074][804]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMapF7B4D48E43C4ABBF47948DB036DF7094.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-19.56.58:082][804]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-19.56.58:082][804]LogFileHelpers: Saving map 'NewMap' took 0.106
+[2025.03.06-19.56.58:115][804]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 569 ms)
+[2025.03.06-19.56.58:118][804]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-19.56.58:118][804]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-19.57.38:229][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.57.38:273][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StylizedProvencal/Materials/MI_GrassField" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset" SILENT=true
+[2025.03.06-19.57.38:278][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.03.06-19.57.38:286][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.03.06-19.57.38:289][856]LogSavePackage: Moving output files for package: /Game/StylizedProvencal/Materials/MI_GrassField
+[2025.03.06-19.57.38:289][856]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/MI_GrassField3211F3DD4D6CAB663AAC8C94FBA82D3E.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset'
+[2025.03.06-19.57.38:304][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 644 ms)
+[2025.03.06-19.57.38:307][856]AssetCheck: New page: 에셋 저장:  MI_GrassField
+[2025.03.06-19.57.38:307][856]LogContentValidation: Display: /Script/Engine.MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField 유효성 검사 중
+[2025.03.06-19.57.39:903][937]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.57.39:949][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StylizedProvencal/Materials/MI_GrassField" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset" SILENT=true
+[2025.03.06-19.57.39:954][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.03.06-19.57.39:961][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.03.06-19.57.39:964][937]LogSavePackage: Moving output files for package: /Game/StylizedProvencal/Materials/MI_GrassField
+[2025.03.06-19.57.39:964][937]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/MI_GrassField0A26B8134934D40B2E1005A609037101.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset'
+[2025.03.06-19.57.39:978][937]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 718 ms)
+[2025.03.06-19.57.39:981][937]AssetCheck: New page: 에셋 저장:  MI_GrassField
+[2025.03.06-19.57.39:981][937]LogContentValidation: Display: /Script/Engine.MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField 유효성 검사 중
+[2025.03.06-19.57.44:086][148]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.57.44:136][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StylizedProvencal/Materials/MI_GrassField" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset" SILENT=true
+[2025.03.06-19.57.44:142][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.03.06-19.57.44:150][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.03.06-19.57.44:153][148]LogSavePackage: Moving output files for package: /Game/StylizedProvencal/Materials/MI_GrassField
+[2025.03.06-19.57.44:153][148]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/MI_GrassField5EB832AE47112685B7D86D949D4196F7.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset'
+[2025.03.06-19.57.44:168][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 800 ms)
+[2025.03.06-19.57.44:171][148]AssetCheck: New page: 에셋 저장:  MI_GrassField
+[2025.03.06-19.57.44:171][148]LogContentValidation: Display: /Script/Engine.MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField 유효성 검사 중
+[2025.03.06-19.57.59:127][817]Cmd: TRANSACTION UNDO
+[2025.03.06-19.57.59:127][817]LogEditorTransaction: Undo Color 02 Blend Intensity 편집
+[2025.03.06-19.57.59:254][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:254][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:254][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:255][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:255][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:255][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:256][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:256][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:256][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:441][822]Cmd: TRANSACTION UNDO
+[2025.03.06-19.57.59:441][822]LogEditorTransaction: Undo Color 02 Blend Intensity 편집
+[2025.03.06-19.57.59:529][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:529][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:530][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:530][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:531][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:531][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:531][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:531][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.57.59:531][822]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-19.58.00:402][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.58.00:485][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StylizedProvencal/Materials/MI_GrassField" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset" SILENT=true
+[2025.03.06-19.58.00:490][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.03.06-19.58.00:497][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.03.06-19.58.00:500][849]LogSavePackage: Moving output files for package: /Game/StylizedProvencal/Materials/MI_GrassField
+[2025.03.06-19.58.00:501][849]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/MI_GrassFieldF570E60348F292690D0FDDA9A6FE1708.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset'
+[2025.03.06-19.58.00:533][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 931 ms)
+[2025.03.06-19.58.00:536][849]AssetCheck: New page: 에셋 저장:  MI_GrassField
+[2025.03.06-19.58.00:536][849]LogContentValidation: Display: /Script/Engine.MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField 유효성 검사 중
+[2025.03.06-19.58.23:726][928]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-19.58.37:561][345]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-19.58.38:651][402]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-19.58.38:680][402]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-19.58.38:685][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.03.06-19.58.38:740][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.03.06-19.58.38:767][402]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-19.58.38:767][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-19.58.39:227][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.58.39:267][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-19.58.39:273][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.03.06-19.58.39:355][437]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-19.58.39:355][437]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMapD41F826A4883C11A1E93D7AF69F047F6.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-19.58.39:364][437]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-19.58.39:364][437]LogFileHelpers: Saving map 'NewMap' took 0.097
+[2025.03.06-19.58.39:376][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 1.08 sec)
+[2025.03.06-19.58.39:379][437]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-19.58.39:379][437]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-19.58.55:466][111]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField
+[2025.03.06-19.58.55:468][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-19.58.55:468][111]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-19.58.55:648][111]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-19.59.12:051][848]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-19.59.13:944][941]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.59.13:985][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-19.59.13:990][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.03.06-19.59.14:081][941]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-19.59.14:081][941]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMap70927C3C4259B84E2455E6843D46D4D0.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-19.59.14:089][941]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-19.59.14:089][941]LogFileHelpers: Saving map 'NewMap' took 0.105
+[2025.03.06-19.59.14:103][941]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 1.23 sec)
+[2025.03.06-19.59.14:106][941]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-19.59.14:106][941]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-19.59.23:797][ 82]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-19.59.23:825][ 82]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-19.59.23:831][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.03.06-19.59.23:885][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.03.06-19.59.23:912][ 82]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-19.59.23:912][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-19.59.26:908][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.59.26:948][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-19.59.26:955][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.03.06-19.59.27:044][337]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-19.59.27:045][337]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMap49DDFF9E4BF1B5057CC35489764C9629.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-19.59.27:055][337]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-19.59.27:055][337]LogFileHelpers: Saving map 'NewMap' took 0.107
+[2025.03.06-19.59.27:069][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 1.40 sec)
+[2025.03.06-19.59.27:073][337]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-19.59.27:073][337]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-19.59.47:804][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-19.59.47:839][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-19.59.47:846][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.03.06-19.59.47:932][ 17]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-19.59.47:932][ 17]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMap0D743AD54796D670095CD29FCC467C5E.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-19.59.47:941][ 17]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-19.59.47:941][ 17]LogFileHelpers: Saving map 'NewMap' took 0.103
+[2025.03.06-19.59.47:956][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 1.55 sec)
+[2025.03.06-19.59.47:960][ 17]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-19.59.47:960][ 17]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-20.00.17:567][271]LogViewport: Scene viewport resized to 849x564, mode Windowed.
+[2025.03.06-20.00.21:298][607]Cmd: TRANSACTION UNDO
+[2025.03.06-20.00.21:298][607]LogEditorTransaction: Undo 랜드스케이프 편집중: 스컬프팅
+[2025.03.06-20.00.21:428][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:428][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:428][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:429][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:429][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:429][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:430][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:430][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:431][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: ================================================
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Total job queries 150, among them cache hits 20 (13.33%)
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Tracking 130 distinct input hashes that result in 82 distinct outputs (63.08%)
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: RAM used: 3.02 MiB of 1.60 GiB budget. Usage: 0.18%
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Shaders Compiled: 4
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Job execution time: average 0.63 s, max 0.73 s
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Job life time (pending + execution): average 0.73 s, max 0.83
+[2025.03.06-20.00.21:988][623]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.83 s
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Average processing rate: 4.83 jobs/sec
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Total thread time: 1.703 s
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Total thread preprocess time: 0.06 s
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Percentage time preprocessing: 3.51%
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Effective parallelization: 2.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.91% of total time (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.27% of total time (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                                 FLumenCardVS - 22.69% of total time (compiled    1 times, average 0.39 sec, max 0.39 sec, min 0.39 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 21.12% of total time (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.03.06-20.00.21:989][623]LogShaderCompilers: Display: ================================================
+[2025.03.06-20.00.33:597][613]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-20.00.33:630][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-20.00.33:637][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.03.06-20.00.33:640][613]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_2(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.33:641][613]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_4(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.33:642][613]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_6(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.33:643][613]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_10(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.33:728][613]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-20.00.33:728][613]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMap8909C24A40464CF0A56A6EBCA576BAE2.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-20.00.33:736][613]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-20.00.33:736][613]LogFileHelpers: Saving map 'NewMap' took 0.106
+[2025.03.06-20.00.33:751][613]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 1.70 sec)
+[2025.03.06-20.00.33:754][613]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-20.00.33:754][613]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-20.00.52:183][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-20.00.52:217][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-20.00.52:224][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.03.06-20.00.52:228][242]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_2(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.52:229][242]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_4(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.52:230][242]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_6(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.52:231][242]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_10(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.52:232][242]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_14(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.52:233][242]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_18(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.52:234][242]LogTexture: Display: 텍스처 빌드 중: /Game/NewMap.NewMap:PersistentLevel.Landscape_1.Weightmap_20(BGRA8, 64x64 x1x1x1)(예상 필요 메모리: 0.187492MB), 인코딩 속도: Fast
+[2025.03.06-20.00.52:330][242]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-20.00.52:330][242]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMap21D2A02146DEF88F0D435A923E6CCC1F.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-20.00.52:338][242]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-20.00.52:338][242]LogFileHelpers: Saving map 'NewMap' took 0.122
+[2025.03.06-20.00.52:353][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 1.87 sec)
+[2025.03.06-20.00.52:357][242]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-20.00.52:357][242]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-20.00.54:173][395]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_Flora.MI_Flora
+[2025.03.06-20.00.54:174][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-20.00.54:174][395]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-20.00.54:346][395]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-20.01.06:381][947]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StylizedProvencal/Materials/MM_Master_Flora.MM_Master_Flora
+[2025.03.06-20.01.06:387][947]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-20.01.06:387][947]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-20.01.06:511][947]MaterialEditorStats: Texture samplers: 0/16
+[2025.03.06-20.01.06:511][947]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.03.06-20.01.06:511][947]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.06-20.01.06:511][947]MaterialEditorStats: Shader Count: 0
+[2025.03.06-20.01.06:517][947]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.03.06-20.01.06:523][947]LogViewport: Scene viewport resized to 468x251, mode Windowed.
+[2025.03.06-20.01.07:421][974]MaterialEditorStats: Base pass vertex shader: 403 instructions
+[2025.03.06-20.01.07:422][974]MaterialEditorStats: Texture samplers: 1/16
+[2025.03.06-20.01.07:422][974]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.03.06-20.01.07:422][974]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.06-20.01.07:422][974]MaterialEditorStats: Shader Count: 3
+[2025.03.06-20.01.07:648][981]MaterialEditorStats: Base pass shader: 294 instructions
+[2025.03.06-20.01.07:648][981]MaterialEditorStats: Base pass vertex shader: 403 instructions
+[2025.03.06-20.01.07:648][981]MaterialEditorStats: Texture samplers: 5/16
+[2025.03.06-20.01.07:648][981]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.03.06-20.01.07:648][981]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.06-20.01.07:648][981]MaterialEditorStats: Shader Count: 6
+[2025.03.06-20.01.08:597][ 25]LogSlate: Window 'MM_Master_Flora' being destroyed
+[2025.03.06-20.01.08:606][ 25]LogSlate: Window 'MM_Master_Flora' being destroyed
+[2025.03.06-20.01.08:620][ 25]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.01.08:620][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.01.08:639][ 25]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.01.08:639][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.01.10:945][192]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField
+[2025.03.06-20.01.10:947][192]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-20.01.10:947][192]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-20.01.11:141][192]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-20.01.16:687][477]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-20.01.16:716][477]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-20.01.16:724][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.03.06-20.01.16:781][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.03.06-20.01.16:808][477]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.01.16:808][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.01.18:393][621]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_Flora.MI_Flora
+[2025.03.06-20.01.18:394][621]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-20.01.18:394][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-20.01.18:562][621]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-20.01.21:817][770]LogSlate: Window 'MI_Flora' being destroyed
+[2025.03.06-20.01.21:846][770]LogSlate: Window 'MI_Flora' being destroyed
+[2025.03.06-20.01.21:859][770]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.01.21:859][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.01.22:889][852]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_Flora_02_TwoSided.MI_Flora_02_TwoSided
+[2025.03.06-20.01.22:890][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-20.01.22:890][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-20.01.23:062][852]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-20.01.27:533][ 77]LogSlate: Window 'MI_Flora_02_TwoSided' being destroyed
+[2025.03.06-20.01.27:562][ 77]LogSlate: Window 'MI_Flora_02_TwoSided' being destroyed
+[2025.03.06-20.01.27:576][ 77]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.01.27:576][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.01.28:478][150]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_Flora_Flowers.MI_Flora_Flowers
+[2025.03.06-20.01.28:480][150]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-20.01.28:480][150]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-20.01.28:660][150]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-20.01.31:568][286]LogSlate: Window 'MI_Flora_Flowers' being destroyed
+[2025.03.06-20.01.31:598][286]LogSlate: Window 'MI_Flora_Flowers' being destroyed
+[2025.03.06-20.01.31:610][286]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.01.31:610][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.01.33:331][406]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField
+[2025.03.06-20.01.33:332][406]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.06-20.01.33:332][406]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.06-20.01.33:526][406]LogViewport: Scene viewport resized to 880x508, mode Windowed.
+[2025.03.06-20.01.58:499][287]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-20.02.04:565][564]LogViewport: Scene viewport resized to 1094x564, mode Windowed.
+[2025.03.06-20.02.17:892][ 95]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-20.02.29:544][517]LogSlate: Window '색 선택 툴' being destroyed
+[2025.03.06-20.02.33:597][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-20.02.33:625][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.03.06-20.02.33:635][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.03.06-20.02.33:723][727]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.03.06-20.02.33:724][727]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/NewMap21F67FB34D26A0F5DA26909ACE90DCA6.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/NewMap.umap'
+[2025.03.06-20.02.33:733][727]LogFileHelpers: 저장할 변경내용이 없습니다!
+[2025.03.06-20.02.33:733][727]LogFileHelpers: Saving map 'NewMap' took 0.108
+[2025.03.06-20.02.33:747][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 2.02 sec)
+[2025.03.06-20.02.33:750][727]AssetCheck: New page: 에셋 저장:  NewMap
+[2025.03.06-20.02.33:750][727]LogContentValidation: Display: /Script/Engine.World /Game/NewMap.NewMap 유효성 검사 중
+[2025.03.06-20.02.34:399][752]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-20.02.34:428][752]LogSlate: Window 'MI_GrassField' being destroyed
+[2025.03.06-20.02.34:434][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.03.06-20.02.34:491][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.03.06-20.02.34:562][752]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.02.34:562][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.02.35:220][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.03.06-20.02.36:007][801]LogSlate: Window '콘텐츠 저장' being destroyed
+[2025.03.06-20.02.36:100][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-20.02.36:158][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StylizedProvencal/Materials/MI_GrassField" FILE="../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset" SILENT=true
+[2025.03.06-20.02.36:161][801]LogSavePackage: Moving output files for package: /Game/StylizedProvencal/Materials/MI_GrassField
+[2025.03.06-20.02.36:161][801]LogSavePackage: Moving '../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/MI_GrassFieldE48867AD414DB2FEDCD9129D3C470CAF.tmp' to '../../../../TempGames/2025TEMPGAMES/TEMP2025/Content/StylizedProvencal/Materials/MI_GrassField.uasset'
+[2025.03.06-20.02.36:175][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 2.10 sec)
+[2025.03.06-20.02.36:175][801]LogStall: Shutdown...
+[2025.03.06-20.02.36:180][801]LogStall: Shutdown complete.
+[2025.03.06-20.02.36:209][801]LogSlate: Window 'TEMP2025 - 언리얼 에디터' being destroyed
+[2025.03.06-20.02.36:256][801]AssetCheck: New page: 에셋 저장:  MI_GrassField
+[2025.03.06-20.02.36:256][801]LogContentValidation: Display: /Script/Engine.MaterialInstanceConstant /Game/StylizedProvencal/Materials/MI_GrassField.MI_GrassField 유효성 검사 중
+[2025.03.06-20.02.36:257][802]Cmd: QUIT_EDITOR
+[2025.03.06-20.02.36:257][802]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.06-20.02.36:260][802]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.06-20.02.36:260][802]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.06-20.02.36:260][802]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.06-20.02.36:262][802]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.02.36:262][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.06-20.02.36:262][802]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.03.06-20.02.36:263][802]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.06-20.02.36:304][802]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.06-20.02.36:304][802]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.06-20.02.36:304][802]LogAudio: Display: Audio Device unregistered from world 'NewMap'.
+[2025.03.06-20.02.36:304][802]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2025.03.06-20.02.36:304][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.06-20.02.36:306][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.03.06-20.02.36:310][802]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.06-20.02.36:313][802]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.06-20.02.36:313][802]LogExit: Preparing to exit.
+[2025.03.06-20.02.36:322][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.03.06-20.02.37:224][802]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.02.37:224][802]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.03.06-20.02.37:232][802]LogDirectoryWatcher: Display: Refresh of ReadDirectoryChangesW failed. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [E:/TempGames/2025TEMPGAMES/TEMP2025/Content/]. Aborting watch request...
+[2025.03.06-20.02.37:246][802]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.06-20.02.37:252][802]LogExit: Editor shut down
+[2025.03.06-20.02.37:253][802]LogExit: Transaction tracking system shut down
+[2025.03.06-20.02.37:312][802]LogExit: Object subsystem successfully closed.
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: ================================================
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Total job queries 192, among them cache hits 34 (17.71%)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Tracking 158 distinct input hashes that result in 95 distinct outputs (60.13%)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: RAM used: 3.69 MiB of 1.60 GiB budget. Usage: 0.23%
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Shaders Compiled: 28
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Jobs assigned 28, completed 28 (100.00%)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Average time worker was idle: 62.17 s
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 0.83 s
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Job execution time: average 0.65 s, max 1.16 s
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Job life time (pending + execution): average 0.77 s, max 1.35
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.10 s
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Jobs were issued in 28 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Average processing rate: 5.49 jobs/sec
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Total thread time: 11.708 s
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Total thread preprocess time: 0.519 s
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Percentage time preprocessing: 4.43%
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Effective parallelization: 2.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.68 sec, max 0.68 sec, min 0.68 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.62 sec, max 0.71 sec, min 0.53 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.55 sec, max 0.66 sec, min 0.43 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.50 sec, max 0.60 sec, min 0.40 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:                                                  FHitProxyVS - 13.54% of total time (compiled    4 times, average 0.40 sec, max 0.46 sec, min 0.35 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.92% of total time (compiled    3 times, average 0.47 sec, max 0.51 sec, min 0.39 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:                                                  FHitProxyPS - 11.13% of total time (compiled    4 times, average 0.33 sec, max 0.43 sec, min 0.26 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.59% of total time (compiled    2 times, average 0.62 sec, max 0.71 sec, min 0.53 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.07% of total time (compiled    3 times, average 0.39 sec, max 0.41 sec, min 0.36 sec)
+[2025.03.06-20.02.37:317][802]LogShaderCompilers: Display: ================================================
+[2025.03.06-20.02.37:379][802]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.06-20.02.37:393][802]LogVirtualization: UE::Virtualization was shutdown
+[2025.03.06-20.02.37:403][802]LogModuleManager: Shutting down and abandoning module MaterialEditor (1033)
+[2025.03.06-20.02.37:403][802]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1031)
+[2025.03.06-20.02.37:403][802]LogModuleManager: Shutting down and abandoning module AddContentDialog (1029)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1028)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1025)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module SceneOutliner (1023)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module StatusBar (1021)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1019)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1017)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module StatsViewer (1015)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1013)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AutomationWorker (1011)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1009)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1007)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1005)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1003)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WebMMedia (1001)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (999)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (997)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (995)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (993)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (991)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (989)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (987)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (985)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (983)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (981)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WaterEditor (979)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module PlanarCut (977)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module FractureEngine (975)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module CharacterAI (973)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module WaveTableEditor (971)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (969)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ControlRigEditor (967)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module GooglePADEditor (965)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (963)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module SequenceRecorder (962)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (959)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (957)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (955)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (953)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module TextureAlignMode (951)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module BspMode (949)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module GeometryMode (947)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (945)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module IKRigEditor (943)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module SmartSnapping (941)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module SessionServices (939)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module MeshPaint (937)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (935)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module PlacementMode (934)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module FoliageEdit (931)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module LandscapeEditor (929)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (927)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ActorPickerMode (925)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ViewportSnapping (923)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ViewportInteraction (921)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module ClothPainter (919)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module LogVisualizer (917)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (915)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (913)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (912)
+[2025.03.06-20.02.37:404][802]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (910)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (907)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (905)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (903)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (901)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (899)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (897)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module AnimationSettings (895)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (893)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module CSVtoSVG (891)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (889)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module EditorConfig (887)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module EditorFramework (885)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (883)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module TraceInsights (881)
+[2025.03.06-20.02.37:436][802]MemoryProfiler: Shutdown
+[2025.03.06-20.02.37:436][802]NetworkingProfiler: Shutdown
+[2025.03.06-20.02.37:436][802]LoadingProfiler: Shutdown
+[2025.03.06-20.02.37:436][802]TimingProfiler: Shutdown
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module TraceServices (880)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module TraceAnalysis (879)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (875)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (874)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module InputBindingEditor (871)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module MergeActors (869)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (867)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module LocalizationService (866)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module HardwareTargeting (863)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (861)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module UndoHistory (859)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module XmlParser (857)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module Blutility (855)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (853)
+[2025.03.06-20.02.37:436][802]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (852)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (849)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (848)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module SettingsEditor (845)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module ProjectLauncher (843)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module SessionFrontend (841)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module ProfilerClient (839)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module DeviceManager (837)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module AutomationController (835)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module AutomationWindow (833)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module Layers (831)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (829)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module DetailCustomizations (827)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module PackagesDialog (825)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (823)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module Persona (821)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (820)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module Kismet (817)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module KismetWidgets (816)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module GraphEditor (813)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module StructViewer (811)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module ClassViewer (809)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module NaniteTools (807)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (805)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (803)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module SourceControlWindows (801)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module OutputLog (799)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module Documentation (797)
+[2025.03.06-20.02.37:437][802]LogModuleManager: Shutting down and abandoning module LiveCoding (795)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (793)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (791)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module MovieScene (789)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (787)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (785)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (783)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module AudioMixer (782)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module AudioMixerCore (781)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module LauncherPlatform (777)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module AnalyticsET (775)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module PortalServices (773)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module PortalRpc (771)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module MessagingRpc (769)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module AIModule (767)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module GameplayDebugger (766)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module AITestSuite (764)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module NavigationSystem (762)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module DataLayerEditor (759)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module EditorWidgets (758)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (755)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (753)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module TypedElementFramework (751)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (749)
+[2025.03.06-20.02.37:446][802]LogModuleManager: Shutting down and abandoning module ProfilerService (747)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (745)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (743)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (741)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (739)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module TakesCore (737)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (735)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module MegascansPlugin (733)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module Bridge (731)
+[2025.03.06-20.02.37:696][802]LogModuleManager: Shutting down and abandoning module SQLiteSupport (729)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module DatabaseSupport (727)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (725)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (723)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (721)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module CollectionManager (720)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module LightMixer (717)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (715)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module SkeletalMeshModelingTools (713)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (712)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AlembicImporter (709)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AlembicLibrary (708)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (705)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeTests (703)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module TakeSequencer (701)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module TakeMovieScene (699)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (697)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MediaPlate (695)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MediaCompositing (693)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ImgMedia (691)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module VariantManager (689)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (688)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (685)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (683)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (681)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeEditor (679)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (677)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (675)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (673)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (671)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (669)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangePipelines (667)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeExport (665)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeMessages (663)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeImport (661)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (659)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InterchangeNodes (657)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (653)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module UVEditorTools (651)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module UVEditor (649)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module PresetAsset (647)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (645)
+[2025.03.06-20.02.37:697][802]LogOpenImageDenoise: OIDN shutting down
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MeshLODToolset (643)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (641)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (639)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (637)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (635)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module LandmassEditor (633)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module Landmass (631)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (629)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (627)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (625)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (623)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (621)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (620)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (618)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (615)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module DataflowNodes (613)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (611)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module DataflowEditor (609)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (607)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (605)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ChaosNiagara (603)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module FractureEditor (601)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (599)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module BackChannel (597)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (595)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AutomationUtils (593)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (591)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module SynthesisEditor (589)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ResonanceAudio (587)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (585)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (583)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (581)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ModelingOperators (579)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (577)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ModelingComponents (575)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryFramework (574)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (571)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MeshModelingTools (569)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (567)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module InputDebugging (565)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GooglePAD (563)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module DynamicMesh (561)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (559)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (557)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCache (555)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (553)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (551)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (549)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AssetTags (547)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AudioCapture (545)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (544)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (541)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (539)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AppleImageUtils (537)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module AndroidPermission (535)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (533)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (531)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (529)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module SequencerScripting (527)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module TemplateSequence (525)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (523)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module StylusInput (521)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (519)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (517)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (515)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module PluginBrowser (513)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (511)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (509)
+[2025.03.06-20.02.37:697][802]LogModuleManager: Shutting down and abandoning module GLTFImporter (507)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module GLTFCore (505)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (503)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module EditorDebugTools (501)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module CurveEditorTools (499)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (497)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module CryptoKeys (495)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ChangelistReview (493)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (491)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (489)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ControlRigSpline (487)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (485)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (483)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (481)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module UObjectPlugin (479)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (477)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (475)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module PluginUtils (473)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module DumpGPUServices (471)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (469)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (467)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module GitSourceControl (465)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (463)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (461)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module Paper2DEditor (459)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (457)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module TraceUtilities (455)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (453)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (451)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module InputEditor (449)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module BlueprintGraph (448)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module TEMP2025 (445)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module SQLiteCore (443)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (441)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (439)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module GameplayCameras (437)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module SignificanceManager (435)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (433)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module PBIK (431)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module FullBodyIK (429)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (427)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module TakeRecorder (426)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ChaosCaching (423)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (421)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module Niagara (419)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module NiagaraEditor (418)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module NiagaraCore (415)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module Synthesis (413)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module SoundFields (411)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (409)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (407)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (405)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ControlRig (403)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module Constraints (402)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module LevelSequence (400)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MetasoundEditor (397)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AudioWidgets (396)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (395)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (391)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MetasoundEngine (389)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module WaveTable (388)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (386)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (383)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (381)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (379)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (377)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (375)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (373)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module CableComponent (371)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (369)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (368)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (365)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module SignalProcessing (364)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module ActorSequence (361)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (359)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (357)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module FacialAnimation (355)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module DataValidation (353)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (351)
+[2025.03.06-20.02.37:698][802]LogModuleManager: Shutting down and abandoning module LevelEditor (350)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (349)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (347)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module MainFrame (345)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module HotReload (344)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module ContentBrowser (340)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module ToolMenus (339)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module ContentBrowserData (337)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module TreeMap (334)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (331)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module IKRig (329)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module AnimationData (327)
+[2025.03.06-20.02.37:700][802]LogModuleManager: Shutting down and abandoning module TcpMessaging (325)
+[2025.03.06-20.02.37:802][802]LogModuleManager: Shutting down and abandoning module UdpMessaging (323)
+[2025.03.06-20.02.37:903][802]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (321)
+[2025.03.06-20.02.37:903][802]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (319)
+[2025.03.06-20.02.37:903][802]LogModuleManager: Shutting down and abandoning module AnimationSharing (317)
+[2025.03.06-20.02.37:903][802]LogModuleManager: Shutting down and abandoning module Paper2D (315)
+[2025.03.06-20.02.37:903][802]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (313)
+[2025.03.06-20.02.37:903][802]LogModuleManager: Shutting down and abandoning module EnhancedInput (311)
+[2025.03.06-20.02.37:903][802]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (309)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (307)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module AndroidFileServer (305)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module BlueprintMaterialTextureNodes (303)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (301)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module PacketHandler (299)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (297)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module AnimGraph (295)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module TimeManagement (293)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module AnimationDataController (291)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (289)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (287)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module MediaAssets (285)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module Overlay (283)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module OverlayEditor (282)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module VREditor (279)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module StringTableEditor (277)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (275)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (273)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module FunctionalTesting (271)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (269)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (268)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module UMG (265)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module UMGEditor (264)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module EditorStyle (259)
+[2025.03.06-20.02.37:905][802]LogModuleManager: Shutting down and abandoning module SlateReflector (257)
+[2025.03.06-20.02.37:906][802]LogModuleManager: Shutting down and abandoning module Slate (255)
+[2025.03.06-20.02.37:906][802]LogModuleManager: Shutting down and abandoning module SlateCore (253)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (251)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (249)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module UnrealEd (247)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MRMesh (245)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module Messaging (243)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (241)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (239)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module Networking (237)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module Core (235)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module AssetDefinition (233)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MovieSceneTools (231)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module CurveEditor (230)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module Sequencer (228)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module KismetCompiler (225)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MeshBuilder (223)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module NaniteBuilder (221)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MeshUtilities (219)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (218)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (217)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (216)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (214)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (212)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (210)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module MaterialBaking (206)
+[2025.03.06-20.02.37:908][802]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (203)
+[2025.03.06-20.02.37:919][802]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (199)
+[2025.03.06-20.02.37:919][802]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (197)
+[2025.03.06-20.02.37:919][802]LogModuleManager: Shutting down and abandoning module DerivedDataCache (195)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TargetPlatform (193)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (192)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (190)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (188)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (186)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (184)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module AudioFormatBink (182)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (177)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (175)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (171)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (169)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (167)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (165)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (163)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (161)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TextureFormat (159)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (156)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (154)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (152)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (150)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (148)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (146)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module TurnkeySupport (143)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module InputCore (140)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module Settings (138)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (136)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (134)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (133)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module Chaos (130)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module GeometryCore (129)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (126)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (125)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module AVEncoder (124)
+[2025.03.06-20.02.37:922][802]LogModuleManager: Shutting down and abandoning module D3D12RHI (120)
+[2025.03.06-20.02.37:923][802]LogModuleManager: Shutting down and abandoning module AISupportModule (118)
+[2025.03.06-20.02.37:923][802]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (116)
+[2025.03.06-20.02.37:923][802]LogModuleManager: Shutting down and abandoning module WmfMedia (114)
+[2025.03.06-20.02.37:923][802]LogModuleManager: Shutting down and abandoning module Media (113)
+[2025.03.06-20.02.37:924][802]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (110)
+[2025.03.06-20.02.37:924][802]LogModuleManager: Shutting down and abandoning module VariantManagerContent (108)
+[2025.03.06-20.02.37:924][802]LogModuleManager: Shutting down and abandoning module GLTFExporter (106)
+[2025.03.06-20.02.37:924][802]LogModuleManager: Shutting down and abandoning module DatasmithContent (104)
+[2025.03.06-20.02.37:924][802]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (102)
+[2025.03.06-20.02.37:924][802]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (100)
+[2025.03.06-20.02.37:924][802]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (98)
+[2025.03.06-20.02.37:925][802]LogModuleManager: Shutting down and abandoning module XMPP (93)
+[2025.03.06-20.02.37:925][802]LogModuleManager: Shutting down and abandoning module WebSockets (92)
+[2025.03.06-20.02.37:940][802]LogModuleManager: Shutting down and abandoning module HTTP (89)
+[2025.03.06-20.02.37:940][802]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2025.03.06-20.02.37:940][802]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCB99920D-4BCE-90A5-C64C-BEA2DA9CF3CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=a825a5024cce4df2ca2155b41354bb9d%7Cced12d3f133e480bab5c5a187f1d5c50%7Cbe51e3d3-6bae-432d-a0d7-a7a98231096c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module SSL (88)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (84)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (82)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (80)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module Water (78)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module ChaosCloth (76)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (74)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module NiagaraShader (72)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (70)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module ChunkDownloader (66)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (64)
+[2025.03.06-20.02.37:971][802]RenderDocPlugin: plugin has been unloaded.
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module PixWinPlugin (62)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module DesktopPlatform (60)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (58)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (56)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (54)
+[2025.03.06-20.02.37:971][802]LogModuleManager: Shutting down and abandoning module PlatformCrypto (52)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (50)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (48)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module SourceControl (47)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2025.03.06-20.02.37:972][802]LogXGEController: Cleaning working directory: C:/Users/ahn/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2025.03.06-20.02.37:972][802]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2025.03.06-20.02.37:974][802]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2025.03.06-20.02.38:132][802]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.03.06-20.02.38:154][802]LogExit: Exiting.
+[2025.03.06-20.02.38:185][802]Log file closed, 03/07/25 05:02:38
