@@ -76,6 +76,10 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# 특정 폴더 무시
+TEMP2025/content/StylizedEnvironment/*
+TEMP2025/content/Stylized_PBR_Nature/*
+
 TEMP2025/Binaries/Win64/UnrealEditor-TEMP2025.pdb
 *.pdb
 *.pdb
