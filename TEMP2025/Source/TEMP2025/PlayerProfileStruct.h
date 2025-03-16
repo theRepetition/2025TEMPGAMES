@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "ItemStruct.h"
+#include "MyWorldType.h"
 #include "PlayerProfileStruct.generated.h"
 
 USTRUCT(BlueprintType)
@@ -36,6 +37,9 @@ struct FPlayerProfile
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     FItemData Armor;  // 갑옷
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    EMyWorldType World; //현재 월드 타입
 
     // 기본 생성자
     FPlayerProfile()

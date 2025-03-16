@@ -70,7 +70,7 @@
 /DBUILD_VERSION=++UE5+Release-5.2-CL-26001984
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
-/DPROJECT_PRODUCT_NAME="First Person BP Game Template"
+/DPROJECT_PRODUCT_NAME="Temp Games Project 2025"
 /DPROJECT_PRODUCT_IDENTIFIER=TEMP2025
 /fo "E:\TempGames\2025TEMPGAMES\TEMP2025\Intermediate\Build\Win64\x64\UnrealEditor\Development\TEMP2025\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
