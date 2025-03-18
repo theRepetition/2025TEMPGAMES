@@ -30,7 +30,10 @@ struct FPlayerProfile
     FItemData LeftHand;  // 왼손 무기
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    FItemData Accessory;  // 장신구
+    FItemData AccessoryL;  // 왼손 장신구
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FItemData AccessoryR;  // 왼손 장신구
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     FItemData Helmet;  // 투구
@@ -49,7 +52,8 @@ struct FPlayerProfile
         , Stamina(100.0f)
         , RightHand()
         , LeftHand()
-        , Accessory()
+        , AccessoryR()
+        , AccessoryL()
         , Helmet()
         , Armor()
     {
