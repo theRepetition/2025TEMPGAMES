@@ -10,7 +10,8 @@ enum class EObjectType : uint8
 	NPC UMETA(DisplayName = "NPC"),
 	Misc UMETA(DisplayName = "Misc"),
 	Door UMETA(DisplayName = "Door"), //문, 지역 이동
-	IntracntionOBJ UMETA(DisplayName = "InteractionOBJ"), //기타 상호작용 가능한 오브젝트 ex)의자, 침데 등
+	IntracntionOBJ UMETA(DisplayName = "InteractionOBJ"), //기타 상호작용 가능한 오브젝트 ex)의자, 침대 등
+	LootableOBJ UMETA(DisplayName = "LootableOBJ"), //파밍용 오브젝트, ex)시체, 상자 등
 	MovableOBJ UMETA(DisplayName = "MovableOBJ"), //이동만 가능한 오브젝트
 
 };

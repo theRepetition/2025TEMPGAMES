@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeObjectType() {}
 		{ "EObjectType::Misc", (int64)EObjectType::Misc },
 		{ "EObjectType::Door", (int64)EObjectType::Door },
 		{ "EObjectType::IntracntionOBJ", (int64)EObjectType::IntracntionOBJ },
+		{ "EObjectType::LootableOBJ", (int64)EObjectType::LootableOBJ },
 		{ "EObjectType::MovableOBJ", (int64)EObjectType::MovableOBJ },
 	};
 #if WITH_METADATA
@@ -53,13 +54,17 @@ void EmptyLinkFunctionForGeneratedCodeObjectType() {}
 		{ "IntracntionOBJ.ToolTip", "\xeb\xac\xb8, \xec\xa7\x80\xec\x97\xad \xec\x9d\xb4\xeb\x8f\x99" },
 		{ "Item.DisplayName", "Item" },
 		{ "Item.Name", "EObjectType::Item" },
+		{ "LootableOBJ.Comment", "//\xea\xb8\xb0\xed\x83\x80 \xec\x83\x81\xed\x98\xb8\xec\x9e\x91\xec\x9a\xa9 \xea\xb0\x80\xeb\x8a\xa5\xed\x95\x9c \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8 ex)\xec\x9d\x98\xec\x9e\x90, \xec\xb9\xa8\xeb\x8c\x80 \xeb\x93\xb1\n" },
+		{ "LootableOBJ.DisplayName", "LootableOBJ" },
+		{ "LootableOBJ.Name", "EObjectType::LootableOBJ" },
+		{ "LootableOBJ.ToolTip", "\xea\xb8\xb0\xed\x83\x80 \xec\x83\x81\xed\x98\xb8\xec\x9e\x91\xec\x9a\xa9 \xea\xb0\x80\xeb\x8a\xa5\xed\x95\x9c \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8 ex)\xec\x9d\x98\xec\x9e\x90, \xec\xb9\xa8\xeb\x8c\x80 \xeb\x93\xb1" },
 		{ "Misc.DisplayName", "Misc" },
 		{ "Misc.Name", "EObjectType::Misc" },
 		{ "ModuleRelativePath", "ObjectType.h" },
-		{ "MovableOBJ.Comment", "//\xea\xb8\xb0\xed\x83\x80 \xec\x83\x81\xed\x98\xb8\xec\x9e\x91\xec\x9a\xa9 \xea\xb0\x80\xeb\x8a\xa5\xed\x95\x9c \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8 ex)\xec\x9d\x98\xec\x9e\x90, \xec\xb9\xa8\xeb\x8d\xb0 \xeb\x93\xb1\n" },
+		{ "MovableOBJ.Comment", "//\xed\x8c\x8c\xeb\xb0\x8d\xec\x9a\xa9 \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8, ex)\xec\x8b\x9c\xec\xb2\xb4, \xec\x83\x81\xec\x9e\x90 \xeb\x93\xb1\n" },
 		{ "MovableOBJ.DisplayName", "MovableOBJ" },
 		{ "MovableOBJ.Name", "EObjectType::MovableOBJ" },
-		{ "MovableOBJ.ToolTip", "\xea\xb8\xb0\xed\x83\x80 \xec\x83\x81\xed\x98\xb8\xec\x9e\x91\xec\x9a\xa9 \xea\xb0\x80\xeb\x8a\xa5\xed\x95\x9c \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8 ex)\xec\x9d\x98\xec\x9e\x90, \xec\xb9\xa8\xeb\x8d\xb0 \xeb\x93\xb1" },
+		{ "MovableOBJ.ToolTip", "\xed\x8c\x8c\xeb\xb0\x8d\xec\x9a\xa9 \xec\x98\xa4\xeb\xb8\x8c\xec\xa0\x9d\xed\x8a\xb8, ex)\xec\x8b\x9c\xec\xb2\xb4, \xec\x83\x81\xec\x9e\x90 \xeb\x93\xb1" },
 		{ "None.DisplayName", "None" },
 		{ "None.Name", "EObjectType::None" },
 		{ "NPC.DisplayName", "NPC" },
@@ -91,9 +96,9 @@ void EmptyLinkFunctionForGeneratedCodeObjectType() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_Statics::EnumInfo[] = {
-		{ EObjectType_StaticEnum, TEXT("EObjectType"), &Z_Registration_Info_UEnum_EObjectType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3927084028U) },
+		{ EObjectType_StaticEnum, TEXT("EObjectType"), &Z_Registration_Info_UEnum_EObjectType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 461463210U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_2995987031(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_1988203180(TEXT("/Script/TEMP2025"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h_Statics::EnumInfo));

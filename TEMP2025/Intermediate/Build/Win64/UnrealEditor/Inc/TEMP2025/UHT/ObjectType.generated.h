@@ -25,6 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(EObjectType::Misc) \
 	op(EObjectType::Door) \
 	op(EObjectType::IntracntionOBJ) \
+	op(EObjectType::LootableOBJ) \
 	op(EObjectType::MovableOBJ) 
 
 enum class EObjectType : uint8;
