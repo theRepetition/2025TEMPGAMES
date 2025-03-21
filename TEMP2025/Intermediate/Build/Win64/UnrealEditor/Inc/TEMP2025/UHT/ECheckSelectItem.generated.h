@@ -18,13 +18,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h
 
 
-#define FOREACH_ENUM_ECHECKSELETITEM(op) \
-	op(ECheckSeletItem::None) \
-	op(ECheckSeletItem::Invenotry) \
-	op(ECheckSeletItem::Looting) 
+#define FOREACH_ENUM_ECHECKSELECTITEM(op) \
+	op(ECheckSelectItem::None) \
+	op(ECheckSelectItem::Invenotry) \
+	op(ECheckSelectItem::Looting) 
 
-enum class ECheckSeletItem : uint8;
-template<> struct TIsUEnumClass<ECheckSeletItem> { enum { Value = true }; };
-template<> TEMP2025_API UEnum* StaticEnum<ECheckSeletItem>();
+enum class ECheckSelectItem : uint8;
+template<> struct TIsUEnumClass<ECheckSelectItem> { enum { Value = true }; };
+template<> TEMP2025_API UEnum* StaticEnum<ECheckSelectItem>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
