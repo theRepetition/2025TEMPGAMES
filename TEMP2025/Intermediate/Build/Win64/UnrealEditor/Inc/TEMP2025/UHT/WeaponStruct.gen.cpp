@@ -114,7 +114,7 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FWeaponData>()
 		{ "ToolTip", "\xec\x9d\xb4\xeb\xa6\x84" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_TYPE = { "TYPE", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWeaponData, TYPE), Z_Construct_UEnum_TEMP2025_EWeaponType, METADATA_PARAMS(Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_TYPE_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_TYPE_MetaData)) }; // 828962515
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_TYPE = { "TYPE", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWeaponData, TYPE), Z_Construct_UEnum_TEMP2025_EWeaponType, METADATA_PARAMS(Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_TYPE_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_TYPE_MetaData)) }; // 1904136176
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_HandedTYPE_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_HandedTYPE_MetaData[] = {
@@ -242,9 +242,9 @@ template<> TEMP2025_API UScriptStruct* StaticStruct<FWeaponData>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h_Statics::ScriptStructInfo[] = {
-		{ FWeaponData::StaticStruct, Z_Construct_UScriptStruct_FWeaponData_Statics::NewStructOps, TEXT("WeaponData"), &Z_Registration_Info_UScriptStruct_WeaponData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponData), 1143220515U) },
+		{ FWeaponData::StaticStruct, Z_Construct_UScriptStruct_FWeaponData_Statics::NewStructOps, TEXT("WeaponData"), &Z_Registration_Info_UScriptStruct_WeaponData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponData), 1376275907U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h_2737247225(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h_774203812(TEXT("/Script/TEMP2025"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h_Statics::ScriptStructInfo),
 		nullptr, 0);

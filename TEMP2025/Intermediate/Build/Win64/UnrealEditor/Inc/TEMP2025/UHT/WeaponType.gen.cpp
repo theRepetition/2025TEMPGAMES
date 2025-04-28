@@ -34,6 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 		static const UECodeGen_Private::FEnumParams EnumParams;
 	};
 	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_TEMP2025_EWeaponType_Statics::Enumerators[] = {
+		{ "EWeaponType::Nothing", (int64)EWeaponType::Nothing },
 		{ "EWeaponType::OneHandedSword", (int64)EWeaponType::OneHandedSword },
 		{ "EWeaponType::TwoHandedSword", (int64)EWeaponType::TwoHandedSword },
 		{ "EWeaponType::OneHandedAxe", (int64)EWeaponType::OneHandedAxe },
@@ -59,6 +60,8 @@ void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 		{ "LongBow.DisplayName", "LongBow" },
 		{ "LongBow.Name", "EWeaponType::LongBow" },
 		{ "ModuleRelativePath", "WeaponType.h" },
+		{ "Nothing.DisplayName", "Nothing" },
+		{ "Nothing.Name", "EWeaponType::Nothing" },
 		{ "OneHandedAxe.DisplayName", "One-Handed Axe" },
 		{ "OneHandedAxe.Name", "EWeaponType::OneHandedAxe" },
 		{ "OneHandedMace.DisplayName", "One-Handed Mace" },
@@ -108,9 +111,9 @@ void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h_Statics::EnumInfo[] = {
-		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 828962515U) },
+		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1904136176U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h_3448075468(TEXT("/Script/TEMP2025"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h_2582244728(TEXT("/Script/TEMP2025"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h_Statics::EnumInfo));

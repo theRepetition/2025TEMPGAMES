@@ -19,6 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FOREACH_ENUM_EWEAPONTYPE(op) \
+	op(EWeaponType::Nothing) \
 	op(EWeaponType::OneHandedSword) \
 	op(EWeaponType::TwoHandedSword) \
 	op(EWeaponType::OneHandedAxe) \
