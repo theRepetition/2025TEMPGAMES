@@ -22,6 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(EObjectType::None) \
 	op(EObjectType::Item) \
 	op(EObjectType::NPC) \
+	op(EObjectType::Corpse) \
 	op(EObjectType::Misc) \
 	op(EObjectType::Door) \
 	op(EObjectType::IntracntionOBJ) \

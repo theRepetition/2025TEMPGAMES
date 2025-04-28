@@ -8,6 +8,7 @@ enum class EObjectType : uint8
 	None UMETA(DisplayName = "None"),
 	Item UMETA(DisplayName = "Item"),
 	NPC UMETA(DisplayName = "NPC"),
+	Corpse UMETA(DisplayName = "corpse"),
 	Misc UMETA(DisplayName = "Misc"),
 	Door UMETA(DisplayName = "Door"), //문, 지역 이동
 	IntracntionOBJ UMETA(DisplayName = "InteractionOBJ"), //기타 상호작용 가능한 오브젝트 ex)의자, 침대 등
