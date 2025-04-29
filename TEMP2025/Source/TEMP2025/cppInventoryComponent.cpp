@@ -1,5 +1,6 @@
-#include "ItemStruct.h"
 #include "cppInventoryComponent.h"
+#include "ItemStruct.h"
+
 
 // Sets default values for this component's properties
 UcppInventoryComponent::UcppInventoryComponent()
