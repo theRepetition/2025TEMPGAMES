@@ -14,6 +14,9 @@ struct FItemData
     GENERATED_BODY()
 
 public:
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
+    int32 ItemID;
+
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     FString Name;
 
