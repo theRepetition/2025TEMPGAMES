@@ -1,9 +1,25 @@
 [
 	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\CPP_Looting_Component.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\CPP_Looting_Component.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\CostType.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -11,7 +27,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\DBtool.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -19,7 +35,31 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\DBtool.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ECheckSelectItem.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\HandedType.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\IsEquipped.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -27,7 +67,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ItemInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -35,7 +75,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ItemStruct.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -43,7 +83,15 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ItemType.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\MyWorldType.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -51,7 +99,15 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\ObjectType.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\PlayerProfileStruct.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -59,7 +115,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -67,7 +123,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -75,7 +131,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\TEMP2025.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -83,7 +139,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Temp2025GameInstance.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -91,7 +147,15 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Temp2025GameInstance.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
+		],
+		"directory": "E:\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\UIType.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -99,7 +163,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\WeaponEffect.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -107,7 +171,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\WeaponStruct.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -115,7 +179,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\WeaponType.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -123,7 +187,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppInventoryComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -131,7 +195,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppInventoryComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -139,7 +203,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppInventoryManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -147,7 +211,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppInventoryManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -155,7 +219,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppItemComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -163,7 +227,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppItemComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -171,7 +235,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppNPCInteraction.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -179,7 +243,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppNPCInteraction.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -187,7 +251,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppdataBaseManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	},
@@ -195,7 +259,7 @@
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\cppdataBaseManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.265.rsp"
+			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_TEMP2025\\TEMP2025.270.rsp"
 		],
 		"directory": "E:\\UE_5.2\\Engine\\Source"
 	}
