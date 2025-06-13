@@ -20,7 +20,6 @@
 			"MyWorldType.gen.cpp.obj",
 			"ObjectType.gen.cpp.obj",
 			"PlayerProfileStruct.gen.cpp.obj",
-			"TEMP2025.init.gen.cpp.obj",
 			"Temp2025GameInstance.gen.cpp.obj",
 			"UIType.gen.cpp.obj",
 			"WeaponEffect.gen.cpp.obj",
@@ -33,7 +32,10 @@
 			"cppNPCInteraction.cpp.obj",
 			"DBtool.cpp.obj",
 			"TEMP2025.cpp.obj",
-			"Temp2025GameInstance.cpp.obj"
+			"Temp2025GameInstance.cpp.obj",
+			"cppClosestPointLibrary.gen.cpp.obj",
+			"TEMP2025.init.gen.cpp.obj",
+			"cppClosestPointLibrary.cpp.obj"
 		]
 	}
 }
