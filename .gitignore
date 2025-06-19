@@ -89,6 +89,9 @@ TEMP2025/content/3dModel_Asset/*
 TEMP2025/content/Dungeon/*
 TEMP2025/content/Dungeon_Modular_V1/*
 TEMP2025/content/AnimStarterPack/*
+TEMP2025/content/FreeAnimationLibrary/*
+TEMP2025/content/FreeSampleAnimationset/*
+TEMP2025/content/__ExternalActors__/*
 
 TEMP2025/Binaries/Win64/UnrealEditor-TEMP2025.pdb
 *.pdb
