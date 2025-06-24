@@ -3,6 +3,7 @@
 	{
 		"Module.TEMP2025.cpp.obj": [
 			"CostType.gen.cpp.obj",
+			"cppClosestPointLibrary.gen.cpp.obj",
 			"cppdataBaseManager.gen.cpp.obj",
 			"cppInventoryComponent.gen.cpp.obj",
 			"cppInventoryManager.gen.cpp.obj",
@@ -25,6 +26,7 @@
 			"WeaponEffect.gen.cpp.obj",
 			"WeaponStruct.gen.cpp.obj",
 			"WeaponType.gen.cpp.obj",
+			"cppClosestPointLibrary.cpp.obj",
 			"cppdataBaseManager.cpp.obj",
 			"cppInventoryComponent.cpp.obj",
 			"cppInventoryManager.cpp.obj",
@@ -33,9 +35,10 @@
 			"DBtool.cpp.obj",
 			"TEMP2025.cpp.obj",
 			"Temp2025GameInstance.cpp.obj",
-			"cppClosestPointLibrary.gen.cpp.obj",
+			"EAttackDirection.gen.cpp.obj",
 			"TEMP2025.init.gen.cpp.obj",
-			"cppClosestPointLibrary.cpp.obj"
+			"UHitboxComponent.gen.cpp.obj",
+			"UHitboxComponent.cpp.obj"
 		]
 	}
 }
