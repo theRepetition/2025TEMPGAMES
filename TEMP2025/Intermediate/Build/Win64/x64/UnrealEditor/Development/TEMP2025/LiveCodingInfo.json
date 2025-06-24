@@ -11,6 +11,7 @@
 			"cppNPCInteraction.gen.cpp.obj",
 			"DBtool.gen.cpp.obj",
 			"DialogueStruct.gen.cpp.obj",
+			"EAttackDirection.gen.cpp.obj",
 			"ECheckSelectItem.gen.cpp.obj",
 			"EDefType.gen.cpp.obj",
 			"HandedType.gen.cpp.obj",
@@ -21,7 +22,9 @@
 			"MyWorldType.gen.cpp.obj",
 			"ObjectType.gen.cpp.obj",
 			"PlayerProfileStruct.gen.cpp.obj",
+			"TEMP2025.init.gen.cpp.obj",
 			"Temp2025GameInstance.gen.cpp.obj",
+			"UHitboxComponent.gen.cpp.obj",
 			"UIType.gen.cpp.obj",
 			"WeaponEffect.gen.cpp.obj",
 			"WeaponStruct.gen.cpp.obj",
@@ -35,9 +38,6 @@
 			"DBtool.cpp.obj",
 			"TEMP2025.cpp.obj",
 			"Temp2025GameInstance.cpp.obj",
-			"EAttackDirection.gen.cpp.obj",
-			"TEMP2025.init.gen.cpp.obj",
-			"UHitboxComponent.gen.cpp.obj",
 			"UHitboxComponent.cpp.obj"
 		]
 	}
