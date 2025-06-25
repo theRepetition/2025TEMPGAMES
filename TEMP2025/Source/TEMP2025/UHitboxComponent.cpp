@@ -6,8 +6,9 @@ UHitboxComponent::UHitboxComponent()
     HitZoneType = EAttackDirection::None; 
 
     // 충돌 설정 (기본적으로 Query만, 필요한 경우 변경 가능)
+    SetGenerateOverlapEvents(true);
     SetCollisionEnabled(ECollisionEnabled::QueryOnly);
     SetCollisionObjectType(ECC_WorldDynamic);
     SetCollisionResponseToAllChannels(ECR_Ignore);
-    SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap); // 예시: Pawn과만 충돌
+    SetCollisionResponseToChannel(ECC_WorldDynamic, ECR_Overlap); 
 }
