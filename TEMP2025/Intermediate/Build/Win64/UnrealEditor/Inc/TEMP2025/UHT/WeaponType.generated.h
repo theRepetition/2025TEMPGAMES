@@ -5,19 +5,22 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "WeaponType.h"
-#include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef TEMP2025_WeaponType_generated_h
 #error "WeaponType.generated.h already included, missing '#pragma once' in WeaponType.h"
 #endif
 #define TEMP2025_WeaponType_generated_h
 
+#include "Templates/IsUEnumClass.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h
 
-
+// ********** Begin Enum EWeaponType ***************************************************************
 #define FOREACH_ENUM_EWEAPONTYPE(op) \
 	op(EWeaponType::Nothing) \
 	op(EWeaponType::OneHandedSword) \
@@ -38,5 +41,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 enum class EWeaponType : uint8;
 template<> struct TIsUEnumClass<EWeaponType> { enum { Value = true }; };
 template<> TEMP2025_API UEnum* StaticEnum<EWeaponType>();
+// ********** End Enum EWeaponType *****************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
