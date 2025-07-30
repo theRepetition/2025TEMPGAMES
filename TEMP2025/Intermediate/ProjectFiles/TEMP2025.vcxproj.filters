@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TEMP2025.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TEMP2025.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TEMP2025Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\ClayPots.png" />
+    <None Include="..\..\StylizedEnvironment.png" />
+    <None Include="..\..\SylizedProvencal.png" />
+    <None Include="..\..\TEMP2025.code-workspace" />
+    <None Include="..\..\untitled.blend" />
+    <None Include="..\..\untitled.blend1" />
+    <None Include="..\..\지도 키는거 구성.txt" />
+    <None Include="..\..\할일 2.txt" />
+    <None Include="..\..\할일.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TEMP2025">
+      <UniqueIdentifier>{9F4D4627-1F4A-3828-A40A-4DF2AEB93A55}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TEMP2025\CostType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\cppClosestPointLibrary.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\cppClosestPointLibrary.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\cppdataBaseManager.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\cppdataBaseManager.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\cppInventoryComponent.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\cppInventoryComponent.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\cppInventoryManager.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\cppInventoryManager.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\cppItemComponent.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\cppItemComponent.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\cppNPCInteraction.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\cppNPCInteraction.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\DBtool.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\DBtool.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\DialogueStruct.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\EAttackDirection.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\ECheckSelectItem.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\EDefType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\HandedType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\IsEquipped.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\ItemInterface.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\ItemStruct.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\ItemType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\MyWorldType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\ObjectType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\PlayerProfileStruct.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TEMP2025\TEMP2025.Build.cs">
+      <Filter>Source\TEMP2025</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TEMP2025\TEMP2025.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\TEMP2025.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\Temp2025GameInstance.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\Temp2025GameInstance.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\UHitboxComponent.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\UHitboxComponent.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\UIType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\WeaponEffect.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\WeaponStruct.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\WeaponType.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
