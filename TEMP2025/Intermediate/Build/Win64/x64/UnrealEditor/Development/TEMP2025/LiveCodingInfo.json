@@ -2,17 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.TEMP2025.cpp.obj": [
-			"PerModuleInline.gen.cpp.obj",
-			"cppClosestPointLibrary.cpp.obj",
-			"cppdataBaseManager.cpp.obj",
-			"cppInventoryComponent.cpp.obj",
-			"cppInventoryManager.cpp.obj",
-			"cppItemComponent.cpp.obj",
-			"cppNPCInteraction.cpp.obj",
-			"DBtool.cpp.obj",
-			"TEMP2025.cpp.obj",
-			"Temp2025GameInstance.cpp.obj",
-			"UHitboxComponent.cpp.obj",
 			"CostType.gen.cpp.obj",
 			"cppClosestPointLibrary.gen.cpp.obj",
 			"cppdataBaseManager.gen.cpp.obj",
@@ -39,7 +28,18 @@
 			"UIType.gen.cpp.obj",
 			"WeaponEffect.gen.cpp.obj",
 			"WeaponStruct.gen.cpp.obj",
-			"WeaponType.gen.cpp.obj"
+			"WeaponType.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"cppClosestPointLibrary.cpp.obj",
+			"cppdataBaseManager.cpp.obj",
+			"cppInventoryComponent.cpp.obj",
+			"cppInventoryManager.cpp.obj",
+			"cppItemComponent.cpp.obj",
+			"cppNPCInteraction.cpp.obj",
+			"DBtool.cpp.obj",
+			"TEMP2025.cpp.obj",
+			"Temp2025GameInstance.cpp.obj",
+			"UHitboxComponent.cpp.obj"
 		]
 	}
 }
