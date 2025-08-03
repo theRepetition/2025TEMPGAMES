@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\temp2025\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\temp2025editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\temp2025\\definitions.temp2025.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
