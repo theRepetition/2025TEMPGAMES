@@ -8,8 +8,6 @@
 #include "SecondStatsStruct.h"
 #include "BasicStatsStruct.h"
 #include "FinalStatsStruct.h"
-#include "WeaponStruct.h"
-#include "WeaponEffect.h"
 #include "PlayerProfileStruct.h"
 #include "cppStatsCalcComponent.generated.h"
 
@@ -32,7 +30,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Char")
-	FFinalStatsStruct CalcFinalStats(const FBasicStatsStruct &BaseStats, const FWeaponData &weaponS);
+	FinalStatsStruct CalcFinalStats(const BasicStatsStruct &BaseStats);
 	
 		
 };
