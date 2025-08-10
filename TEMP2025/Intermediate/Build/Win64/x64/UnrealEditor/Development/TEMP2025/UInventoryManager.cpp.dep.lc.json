@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\private\\uinventorymanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\temp2025editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\temp2025\\definitions.temp2025.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\public\\uinventorymanager.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
