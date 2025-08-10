@@ -14,8 +14,6 @@
     <ProjectReference Include="..\..\..\..\..\..\..\UE_5.6\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj"><Private>false</Private></ProjectReference>
   </ItemGroup>
   <ItemGroup>
-  <Compile Include="..\..\..\..\Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\VisualStudioBlueprintDebuggerHelper.Build.cs"><Link>Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\VisualStudioBlueprintDebuggerHelper.Build.cs</Link></Compile>
-  <Compile Include="..\..\..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\VisualStudioTools.Build.cs"><Link>Plugins\VisualStudioTools\Source\VisualStudioTools\VisualStudioTools.Build.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\TEMP2025.Target.cs"><Link>Source\TEMP2025.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\TEMP2025Editor.Target.cs"><Link>Source\TEMP2025Editor.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\TEMP2025\TEMP2025.Build.cs"><Link>Source\TEMP2025\TEMP2025.Build.cs</Link></Compile>
