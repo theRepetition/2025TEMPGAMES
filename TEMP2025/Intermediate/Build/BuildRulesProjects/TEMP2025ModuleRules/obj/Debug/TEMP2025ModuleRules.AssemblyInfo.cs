@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TEMP2025ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e7524c85c160fc5be82287da18218bbffc0d08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fe596178cae2d19d0d7075d6cd895eaf132efbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TEMP2025ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TEMP2025ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
