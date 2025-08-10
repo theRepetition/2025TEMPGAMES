@@ -5,24 +5,27 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "SecondStatsStruct.h"
-#include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef TEMP2025_SecondStatsStruct_generated_h
 #error "SecondStatsStruct.generated.h already included, missing '#pragma once' in SecondStatsStruct.h"
 #endif
 #define TEMP2025_SecondStatsStruct_generated_h
 
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
+// ********** Begin ScriptStruct FSecondStatsStruct ************************************************
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_SecondStatsStruct_h_9_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSecondStatsStruct_Statics; \
 	TEMP2025_API static class UScriptStruct* StaticStruct();
 
 
-template<> TEMP2025_API UScriptStruct* StaticStruct<struct FSecondStatsStruct>();
+struct FSecondStatsStruct;
+// ********** End ScriptStruct FSecondStatsStruct **************************************************
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_SecondStatsStruct_h
-
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

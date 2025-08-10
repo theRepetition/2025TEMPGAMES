@@ -44,7 +44,7 @@
                                     "uri": "file:///E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/PlayerProfileStruct.h"
                                 },
                                 "region": {
-                                    "startLine": 56,
+                                    "startLine": 61,
                                     "startColumn": 11,
                                     "snippet": {
                                         "text": "        , AccessoryR()"

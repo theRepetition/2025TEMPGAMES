@@ -5,70 +5,43 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "cppNPCInteraction.h"
-#include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-enum class EPlayerRelation : uint8;
 #ifdef TEMP2025_cppNPCInteraction_generated_h
 #error "cppNPCInteraction.generated.h already included, missing '#pragma once' in cppNPCInteraction.h"
 #endif
 #define TEMP2025_cppNPCInteraction_generated_h
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_SPARSE_DATA
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execProcessPlayerStateWithValue); \
-	DECLARE_FUNCTION(execGetRelationFromValue); \
-	DECLARE_FUNCTION(execProcessPlayerState);
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+enum class EPlayerRelation : uint8;
+
+// ********** Begin Class UcppNPCInteraction *******************************************************
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
- \
 	DECLARE_FUNCTION(execProcessPlayerStateWithValue); \
 	DECLARE_FUNCTION(execGetRelationFromValue); \
 	DECLARE_FUNCTION(execProcessPlayerState);
 
 
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_ACCESSORS
+TEMP2025_API UClass* Z_Construct_UClass_UcppNPCInteraction_NoRegister();
+
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppNPCInteraction(); \
 	friend struct Z_Construct_UClass_UcppNPCInteraction_Statics; \
+	static UClass* GetPrivateStaticClass(); \
+	friend TEMP2025_API UClass* Z_Construct_UClass_UcppNPCInteraction_NoRegister(); \
 public: \
-	DECLARE_CLASS(UcppNPCInteraction, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), NO_API) \
+	DECLARE_CLASS2(UcppNPCInteraction, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UcppNPCInteraction_NoRegister) \
 	DECLARE_SERIALIZER(UcppNPCInteraction)
-
-
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_INCLASS \
-private: \
-	static void StaticRegisterNativesUcppNPCInteraction(); \
-	friend struct Z_Construct_UClass_UcppNPCInteraction_Statics; \
-public: \
-	DECLARE_CLASS(UcppNPCInteraction, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), NO_API) \
-	DECLARE_SERIALIZER(UcppNPCInteraction)
-
-
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_STANDARD_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UcppNPCInteraction(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UcppNPCInteraction) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UcppNPCInteraction); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UcppNPCInteraction); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UcppNPCInteraction(UcppNPCInteraction&&); \
-	NO_API UcppNPCInteraction(const UcppNPCInteraction&); \
-public: \
-	NO_API virtual ~UcppNPCInteraction();
 
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_ENHANCED_CONSTRUCTORS \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UcppNPCInteraction(UcppNPCInteraction&&); \
-	NO_API UcppNPCInteraction(const UcppNPCInteraction&); \
-public: \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	UcppNPCInteraction(UcppNPCInteraction&&) = delete; \
+	UcppNPCInteraction(const UcppNPCInteraction&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UcppNPCInteraction); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UcppNPCInteraction); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UcppNPCInteraction) \
@@ -76,36 +49,24 @@ public: \
 
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_16_PROLOG
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_GENERATED_BODY_LEGACY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_SPARSE_DATA \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_RPC_WRAPPERS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_ACCESSORS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_INCLASS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_SPARSE_DATA \
 	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_ACCESSORS \
 	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_INCLASS_NO_PURE_DECLS \
 	FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> TEMP2025_API UClass* StaticClass<class UcppNPCInteraction>();
+class UcppNPCInteraction;
+
+// ********** End Class UcppNPCInteraction *********************************************************
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h
 
-
+// ********** Begin Enum EPlayerRelation ***********************************************************
 #define FOREACH_ENUM_EPLAYERRELATION(op) \
 	op(EPlayerRelation::Neutral) \
 	op(EPlayerRelation::Friendly) \
@@ -114,5 +75,6 @@ template<> TEMP2025_API UClass* StaticClass<class UcppNPCInteraction>();
 enum class EPlayerRelation : uint8;
 template<> struct TIsUEnumClass<EPlayerRelation> { enum { Value = true }; };
 template<> TEMP2025_API UEnum* StaticEnum<EPlayerRelation>();
+// ********** End Enum EPlayerRelation *************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

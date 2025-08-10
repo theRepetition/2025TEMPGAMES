@@ -5,6 +5,7 @@
 #include "MyWorldType.h"
 #include "EDefType.h"
 #include "FinalStatsStruct.h"
+#include "BasicStatsStruct.h"
 #include "SecondStatsStruct.h"
 #include "PlayerProfileStruct.generated.h"
 
@@ -45,9 +46,13 @@ struct FPlayerProfile
     FFinalStatsStruct PlayerFinalStat;  // 최종 스탯
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FBasicStatsStruct PlayerBasicStat;  // 최종 스탯
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
     EMyWorldType World; //현재 월드 타입
 
     // 기본 생성자
+    
     FPlayerProfile()
         : PlayerName(TEXT("DefaultPlayer"))
         , Level(1)
