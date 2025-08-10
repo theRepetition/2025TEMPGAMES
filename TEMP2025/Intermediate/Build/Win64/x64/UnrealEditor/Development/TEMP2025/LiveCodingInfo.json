@@ -39,8 +39,7 @@
 			"DBtool.cpp.obj",
 			"TEMP2025.cpp.obj",
 			"Temp2025GameInstance.cpp.obj",
-			"UHitboxComponent.cpp.obj",
-			"MyClass.cpp.obj"
+			"UHitboxComponent.cpp.obj"
 		]
 	}
 }
