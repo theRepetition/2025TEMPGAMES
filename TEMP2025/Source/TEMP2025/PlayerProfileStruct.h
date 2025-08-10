@@ -17,12 +17,6 @@ struct FPlayerProfile
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     int32 Level;  // 플레이어 레벨
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    float Health;  // 체력
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    float Stamina;  // 스태미나
-
     // 장비 슬롯 (개별 변수 방식)
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     FItemData RightHand;  // 오른손 무기
@@ -52,8 +46,6 @@ struct FPlayerProfile
     FPlayerProfile()
         : PlayerName(TEXT("DefaultPlayer"))
         , Level(1)
-        , Health(100.0f)
-        , Stamina(100.0f)
         , RightHand()
         , LeftHand()
         , AccessoryR()

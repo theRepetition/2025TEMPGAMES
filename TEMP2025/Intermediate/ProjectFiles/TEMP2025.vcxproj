@@ -458,9 +458,11 @@
     <None Include="..\..\TEMP2025.uproject"/>
     <None Include="..\..\Source\TEMP2025.Target.cs"/>
     <None Include="..\..\Source\TEMP2025Editor.Target.cs"/>
+    <None Include="..\..\.editorconfig"/>
     <None Include="..\..\.ignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\ClayPots.png"/>
+    <None Include="..\..\shadertoolsconfig.json"/>
     <None Include="..\..\StylizedEnvironment.png"/>
     <None Include="..\..\SylizedProvencal.png"/>
     <None Include="..\..\TEMP2025.code-workspace"/>
@@ -586,6 +588,12 @@
     <ClInclude Include="..\..\Source\TEMP2025\ItemInterface.h"/>
     <ClInclude Include="..\..\Source\TEMP2025\ItemStruct.h"/>
     <ClInclude Include="..\..\Source\TEMP2025\ItemType.h"/>
+    <ClCompile Include="..\..\Source\TEMP2025\MyClass.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_2)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_2)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions_1)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\MyClass.h"/>
     <ClInclude Include="..\..\Source\TEMP2025\MyWorldType.h"/>
     <ClInclude Include="..\..\Source\TEMP2025\ObjectType.h"/>
     <ClInclude Include="..\..\Source\TEMP2025\PlayerProfileStruct.h"/>
