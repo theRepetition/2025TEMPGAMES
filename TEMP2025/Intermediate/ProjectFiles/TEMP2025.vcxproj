@@ -253,6 +253,7 @@
     <None Include="..\..\Source\TEMP2025.Target.cs"/>
     <None Include="..\..\Source\TEMP2025Editor.Target.cs"/>
     <None Include="..\..\.ignore"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\ClayPots.png"/>
     <None Include="..\..\StylizedEnvironment.png"/>
     <None Include="..\..\SylizedProvencal.png"/>
