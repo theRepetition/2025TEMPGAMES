@@ -24,14 +24,15 @@
 			"ItemType.gen.cpp.obj",
 			"MyWorldType.gen.cpp.obj",
 			"ObjectType.gen.cpp.obj",
+			"PlayerProfileStruct.gen.cpp.obj",
 			"SecondStatsStruct.gen.cpp.obj",
+			"TEMP2025.init.gen.cpp.obj",
 			"Temp2025GameInstance.gen.cpp.obj",
 			"UHitboxComponent.gen.cpp.obj",
 			"UIType.gen.cpp.obj",
 			"WeaponEffect.gen.cpp.obj",
 			"WeaponStruct.gen.cpp.obj",
 			"WeaponType.gen.cpp.obj",
-			"PerModuleInline.gen.cpp.obj",
 			"cppClosestPointLibrary.cpp.obj",
 			"cppdataBaseManager.cpp.obj",
 			"cppInventoryComponent.cpp.obj",
@@ -43,9 +44,7 @@
 			"MyClass.cpp.obj",
 			"TEMP2025.cpp.obj",
 			"Temp2025GameInstance.cpp.obj",
-			"UHitboxComponent.cpp.obj",
-			"PlayerProfileStruct.gen.cpp.obj",
-			"TEMP2025.init.gen.cpp.obj"
+			"UHitboxComponent.cpp.obj"
 		]
 	}
 }

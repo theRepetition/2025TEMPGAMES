@@ -6,34 +6,43 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "TEMP2025/EAttackDirection.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 void EmptyLinkFunctionForGeneratedCodeEAttackDirection() {}
-
-// ********** Begin Cross Module References ********************************************************
-TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EAttackDirection();
-UPackage* Z_Construct_UPackage__Script_TEMP2025();
-// ********** End Cross Module References **********************************************************
-
-// ********** Begin Enum EAttackDirection **********************************************************
-static FEnumRegistrationInfo Z_Registration_Info_UEnum_EAttackDirection;
-static UEnum* EAttackDirection_StaticEnum()
-{
-	if (!Z_Registration_Info_UEnum_EAttackDirection.OuterSingleton)
+// Cross Module References
+	TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EAttackDirection();
+	UPackage* Z_Construct_UPackage__Script_TEMP2025();
+// End Cross Module References
+	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EAttackDirection;
+	static UEnum* EAttackDirection_StaticEnum()
 	{
-		Z_Registration_Info_UEnum_EAttackDirection.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_TEMP2025_EAttackDirection, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("EAttackDirection"));
+		if (!Z_Registration_Info_UEnum_EAttackDirection.OuterSingleton)
+		{
+			Z_Registration_Info_UEnum_EAttackDirection.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_TEMP2025_EAttackDirection, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("EAttackDirection"));
+		}
+		return Z_Registration_Info_UEnum_EAttackDirection.OuterSingleton;
 	}
-	return Z_Registration_Info_UEnum_EAttackDirection.OuterSingleton;
-}
-template<> TEMP2025_API UEnum* StaticEnum<EAttackDirection>()
-{
-	return EAttackDirection_StaticEnum();
-}
-struct Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics
-{
+	template<> TEMP2025_API UEnum* StaticEnum<EAttackDirection>()
+	{
+		return EAttackDirection_StaticEnum();
+	}
+	struct Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics
+	{
+		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FEnumParams EnumParams;
+	};
+	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enumerators[] = {
+		{ "EAttackDirection::None", (int64)EAttackDirection::None },
+		{ "EAttackDirection::Left", (int64)EAttackDirection::Left },
+		{ "EAttackDirection::Right", (int64)EAttackDirection::Right },
+		{ "EAttackDirection::Up", (int64)EAttackDirection::Up },
+		{ "EAttackDirection::Med", (int64)EAttackDirection::Med },
+		{ "EAttackDirection::Back", (int64)EAttackDirection::Back },
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enum_MetaDataParams[] = {
 		{ "Back.DisplayName", "Back" },
 		{ "Back.Name", "EAttackDirection::Back" },
 		{ "BlueprintType", "true" },
@@ -49,50 +58,36 @@ struct Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics
 		{ "Up.DisplayName", "Up" },
 		{ "Up.Name", "EAttackDirection::Up" },
 	};
-#endif // WITH_METADATA
-	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
-		{ "EAttackDirection::None", (int64)EAttackDirection::None },
-		{ "EAttackDirection::Left", (int64)EAttackDirection::Left },
-		{ "EAttackDirection::Right", (int64)EAttackDirection::Right },
-		{ "EAttackDirection::Up", (int64)EAttackDirection::Up },
-		{ "EAttackDirection::Med", (int64)EAttackDirection::Med },
-		{ "EAttackDirection::Back", (int64)EAttackDirection::Back },
+#endif
+	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::EnumParams = {
+		(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
+		nullptr,
+		"EAttackDirection",
+		"EAttackDirection",
+		Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enumerators,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enumerators),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EEnumFlags::None,
+		(uint8)UEnum::ECppForm::EnumClass,
+		METADATA_PARAMS(Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enum_MetaDataParams))
 	};
-	static const UECodeGen_Private::FEnumParams EnumParams;
-};
-const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::EnumParams = {
-	(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
-	nullptr,
-	"EAttackDirection",
-	"EAttackDirection",
-	Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enumerators,
-	RF_Public|RF_Transient|RF_MarkAsNative,
-	UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enumerators),
-	EEnumFlags::None,
-	(uint8)UEnum::ECppForm::EnumClass,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enum_MetaDataParams), Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::Enum_MetaDataParams)
-};
-UEnum* Z_Construct_UEnum_TEMP2025_EAttackDirection()
-{
-	if (!Z_Registration_Info_UEnum_EAttackDirection.InnerSingleton)
+	UEnum* Z_Construct_UEnum_TEMP2025_EAttackDirection()
 	{
-		UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EAttackDirection.InnerSingleton, Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::EnumParams);
+		if (!Z_Registration_Info_UEnum_EAttackDirection.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EAttackDirection.InnerSingleton, Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics::EnumParams);
+		}
+		return Z_Registration_Info_UEnum_EAttackDirection.InnerSingleton;
 	}
-	return Z_Registration_Info_UEnum_EAttackDirection.InnerSingleton;
-}
-// ********** End Enum EAttackDirection ************************************************************
-
-// ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_Statics
-{
-	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EAttackDirection_StaticEnum, TEXT("EAttackDirection"), &Z_Registration_Info_UEnum_EAttackDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4248136193U) },
+	struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h_Statics
+	{
+		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_2671569321(TEXT("/Script/TEMP2025"),
-	nullptr, 0,
-	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_Statics::EnumInfo));
-// ********** End Registration *********************************************************************
-
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h_Statics::EnumInfo[] = {
+		{ EAttackDirection_StaticEnum, TEXT("EAttackDirection"), &Z_Registration_Info_UEnum_EAttackDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3642086813U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h_423056548(TEXT("/Script/TEMP2025"),
+		nullptr, 0,
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

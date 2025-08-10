@@ -6,34 +6,43 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "TEMP2025/UIType.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 void EmptyLinkFunctionForGeneratedCodeUIType() {}
-
-// ********** Begin Cross Module References ********************************************************
-TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EUIType();
-UPackage* Z_Construct_UPackage__Script_TEMP2025();
-// ********** End Cross Module References **********************************************************
-
-// ********** Begin Enum EUIType *******************************************************************
-static FEnumRegistrationInfo Z_Registration_Info_UEnum_EUIType;
-static UEnum* EUIType_StaticEnum()
-{
-	if (!Z_Registration_Info_UEnum_EUIType.OuterSingleton)
+// Cross Module References
+	TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EUIType();
+	UPackage* Z_Construct_UPackage__Script_TEMP2025();
+// End Cross Module References
+	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EUIType;
+	static UEnum* EUIType_StaticEnum()
 	{
-		Z_Registration_Info_UEnum_EUIType.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_TEMP2025_EUIType, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("EUIType"));
+		if (!Z_Registration_Info_UEnum_EUIType.OuterSingleton)
+		{
+			Z_Registration_Info_UEnum_EUIType.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_TEMP2025_EUIType, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("EUIType"));
+		}
+		return Z_Registration_Info_UEnum_EUIType.OuterSingleton;
 	}
-	return Z_Registration_Info_UEnum_EUIType.OuterSingleton;
-}
-template<> TEMP2025_API UEnum* StaticEnum<EUIType>()
-{
-	return EUIType_StaticEnum();
-}
-struct Z_Construct_UEnum_TEMP2025_EUIType_Statics
-{
+	template<> TEMP2025_API UEnum* StaticEnum<EUIType>()
+	{
+		return EUIType_StaticEnum();
+	}
+	struct Z_Construct_UEnum_TEMP2025_EUIType_Statics
+	{
+		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FEnumParams EnumParams;
+	};
+	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enumerators[] = {
+		{ "EUIType::None", (int64)EUIType::None },
+		{ "EUIType::Map", (int64)EUIType::Map },
+		{ "EUIType::Inventory", (int64)EUIType::Inventory },
+		{ "EUIType::Menu", (int64)EUIType::Menu },
+		{ "EUIType::Profile", (int64)EUIType::Profile },
+		{ "EUIType::Quest", (int64)EUIType::Quest },
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Inventory.DisplayName", "Inventory" },
 		{ "Inventory.Name", "EUIType::Inventory" },
@@ -49,50 +58,36 @@ struct Z_Construct_UEnum_TEMP2025_EUIType_Statics
 		{ "Quest.DisplayName", "Quest" },
 		{ "Quest.Name", "EUIType::Quest" },
 	};
-#endif // WITH_METADATA
-	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
-		{ "EUIType::None", (int64)EUIType::None },
-		{ "EUIType::Map", (int64)EUIType::Map },
-		{ "EUIType::Inventory", (int64)EUIType::Inventory },
-		{ "EUIType::Menu", (int64)EUIType::Menu },
-		{ "EUIType::Profile", (int64)EUIType::Profile },
-		{ "EUIType::Quest", (int64)EUIType::Quest },
+#endif
+	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EUIType_Statics::EnumParams = {
+		(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
+		nullptr,
+		"EUIType",
+		"EUIType",
+		Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enumerators,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enumerators),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EEnumFlags::None,
+		(uint8)UEnum::ECppForm::EnumClass,
+		METADATA_PARAMS(Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enum_MetaDataParams))
 	};
-	static const UECodeGen_Private::FEnumParams EnumParams;
-};
-const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EUIType_Statics::EnumParams = {
-	(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
-	nullptr,
-	"EUIType",
-	"EUIType",
-	Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enumerators,
-	RF_Public|RF_Transient|RF_MarkAsNative,
-	UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enumerators),
-	EEnumFlags::None,
-	(uint8)UEnum::ECppForm::EnumClass,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_TEMP2025_EUIType_Statics::Enum_MetaDataParams)
-};
-UEnum* Z_Construct_UEnum_TEMP2025_EUIType()
-{
-	if (!Z_Registration_Info_UEnum_EUIType.InnerSingleton)
+	UEnum* Z_Construct_UEnum_TEMP2025_EUIType()
 	{
-		UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EUIType.InnerSingleton, Z_Construct_UEnum_TEMP2025_EUIType_Statics::EnumParams);
+		if (!Z_Registration_Info_UEnum_EUIType.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EUIType.InnerSingleton, Z_Construct_UEnum_TEMP2025_EUIType_Statics::EnumParams);
+		}
+		return Z_Registration_Info_UEnum_EUIType.InnerSingleton;
 	}
-	return Z_Registration_Info_UEnum_EUIType.InnerSingleton;
-}
-// ********** End Enum EUIType *********************************************************************
-
-// ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h__Script_TEMP2025_Statics
-{
-	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EUIType_StaticEnum, TEXT("EUIType"), &Z_Registration_Info_UEnum_EUIType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4259077405U) },
+	struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h_Statics
+	{
+		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h__Script_TEMP2025_1863290865(TEXT("/Script/TEMP2025"),
-	nullptr, 0,
-	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h__Script_TEMP2025_Statics::EnumInfo));
-// ********** End Registration *********************************************************************
-
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h_Statics::EnumInfo[] = {
+		{ EUIType_StaticEnum, TEXT("EUIType"), &Z_Registration_Info_UEnum_EUIType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1574519976U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h_290085846(TEXT("/Script/TEMP2025"),
+		nullptr, 0,
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UIType_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

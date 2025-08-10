@@ -6,34 +6,40 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "TEMP2025/ECheckSelectItem.h"
-
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 void EmptyLinkFunctionForGeneratedCodeECheckSelectItem() {}
-
-// ********** Begin Cross Module References ********************************************************
-TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_ECheckSelectItem();
-UPackage* Z_Construct_UPackage__Script_TEMP2025();
-// ********** End Cross Module References **********************************************************
-
-// ********** Begin Enum ECheckSelectItem **********************************************************
-static FEnumRegistrationInfo Z_Registration_Info_UEnum_ECheckSelectItem;
-static UEnum* ECheckSelectItem_StaticEnum()
-{
-	if (!Z_Registration_Info_UEnum_ECheckSelectItem.OuterSingleton)
+// Cross Module References
+	TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_ECheckSelectItem();
+	UPackage* Z_Construct_UPackage__Script_TEMP2025();
+// End Cross Module References
+	static FEnumRegistrationInfo Z_Registration_Info_UEnum_ECheckSelectItem;
+	static UEnum* ECheckSelectItem_StaticEnum()
 	{
-		Z_Registration_Info_UEnum_ECheckSelectItem.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_TEMP2025_ECheckSelectItem, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("ECheckSelectItem"));
+		if (!Z_Registration_Info_UEnum_ECheckSelectItem.OuterSingleton)
+		{
+			Z_Registration_Info_UEnum_ECheckSelectItem.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_TEMP2025_ECheckSelectItem, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("ECheckSelectItem"));
+		}
+		return Z_Registration_Info_UEnum_ECheckSelectItem.OuterSingleton;
 	}
-	return Z_Registration_Info_UEnum_ECheckSelectItem.OuterSingleton;
-}
-template<> TEMP2025_API UEnum* StaticEnum<ECheckSelectItem>()
-{
-	return ECheckSelectItem_StaticEnum();
-}
-struct Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics
-{
+	template<> TEMP2025_API UEnum* StaticEnum<ECheckSelectItem>()
+	{
+		return ECheckSelectItem_StaticEnum();
+	}
+	struct Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics
+	{
+		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
 #if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FEnumParams EnumParams;
+	};
+	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enumerators[] = {
+		{ "ECheckSelectItem::None", (int64)ECheckSelectItem::None },
+		{ "ECheckSelectItem::Invenotry", (int64)ECheckSelectItem::Invenotry },
+		{ "ECheckSelectItem::Looting", (int64)ECheckSelectItem::Looting },
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Invenotry.DisplayName", "Inven" },
 		{ "Invenotry.Name", "ECheckSelectItem::Invenotry" },
@@ -43,47 +49,36 @@ struct Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics
 		{ "None.DisplayName", "None" },
 		{ "None.Name", "ECheckSelectItem::None" },
 	};
-#endif // WITH_METADATA
-	static constexpr UECodeGen_Private::FEnumeratorParam Enumerators[] = {
-		{ "ECheckSelectItem::None", (int64)ECheckSelectItem::None },
-		{ "ECheckSelectItem::Invenotry", (int64)ECheckSelectItem::Invenotry },
-		{ "ECheckSelectItem::Looting", (int64)ECheckSelectItem::Looting },
+#endif
+	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::EnumParams = {
+		(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
+		nullptr,
+		"ECheckSelectItem",
+		"ECheckSelectItem",
+		Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enumerators,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enumerators),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EEnumFlags::None,
+		(uint8)UEnum::ECppForm::EnumClass,
+		METADATA_PARAMS(Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enum_MetaDataParams))
 	};
-	static const UECodeGen_Private::FEnumParams EnumParams;
-};
-const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::EnumParams = {
-	(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
-	nullptr,
-	"ECheckSelectItem",
-	"ECheckSelectItem",
-	Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enumerators,
-	RF_Public|RF_Transient|RF_MarkAsNative,
-	UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enumerators),
-	EEnumFlags::None,
-	(uint8)UEnum::ECppForm::EnumClass,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enum_MetaDataParams), Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::Enum_MetaDataParams)
-};
-UEnum* Z_Construct_UEnum_TEMP2025_ECheckSelectItem()
-{
-	if (!Z_Registration_Info_UEnum_ECheckSelectItem.InnerSingleton)
+	UEnum* Z_Construct_UEnum_TEMP2025_ECheckSelectItem()
 	{
-		UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_ECheckSelectItem.InnerSingleton, Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::EnumParams);
+		if (!Z_Registration_Info_UEnum_ECheckSelectItem.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_ECheckSelectItem.InnerSingleton, Z_Construct_UEnum_TEMP2025_ECheckSelectItem_Statics::EnumParams);
+		}
+		return Z_Registration_Info_UEnum_ECheckSelectItem.InnerSingleton;
 	}
-	return Z_Registration_Info_UEnum_ECheckSelectItem.InnerSingleton;
-}
-// ********** End Enum ECheckSelectItem ************************************************************
-
-// ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h__Script_TEMP2025_Statics
-{
-	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ ECheckSelectItem_StaticEnum, TEXT("ECheckSelectItem"), &Z_Registration_Info_UEnum_ECheckSelectItem, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 119950876U) },
+	struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h_Statics
+	{
+		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h__Script_TEMP2025_387710034(TEXT("/Script/TEMP2025"),
-	nullptr, 0,
-	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h__Script_TEMP2025_Statics::EnumInfo));
-// ********** End Registration *********************************************************************
-
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h_Statics::EnumInfo[] = {
+		{ ECheckSelectItem_StaticEnum, TEXT("ECheckSelectItem"), &Z_Registration_Info_UEnum_ECheckSelectItem, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 811851890U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h_770486985(TEXT("/Script/TEMP2025"),
+		nullptr, 0,
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ECheckSelectItem_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
