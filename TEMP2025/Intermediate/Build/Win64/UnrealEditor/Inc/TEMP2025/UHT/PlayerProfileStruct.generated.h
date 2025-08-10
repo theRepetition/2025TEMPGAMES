@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FPlayerProfile ****************************************************
-#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h_12_GENERATED_BODY \
+#define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h_14_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPlayerProfile_Statics; \
 	TEMP2025_API static class UScriptStruct* StaticStruct();
 

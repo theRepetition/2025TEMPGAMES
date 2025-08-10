@@ -7,6 +7,31 @@
                 {
                     "ruleId": "C5038",
                     "message": {
+                        "text": "데이터 멤버 'FSecondStatsStruct::MagicalPierce'은(는) 데이터 멤버 'FSecondStatsStruct::PhysicalPierce' 이후에 초기화됩니다."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/Build/Win64/UnrealEditor/Inc/TEMP2025/UHT/PlayerProfileStruct.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/Public/SecondStatsStruct.h"
+                                },
+                                "region": {
+                                    "startLine": 62,
+                                    "startColumn": 10,
+                                    "snippet": {
+                                        "text": "        ,MagicalPierce(0.0f)"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C5038",
+                    "message": {
                         "text": "데이터 멤버 'FPlayerProfile::AccessoryR'은(는) 데이터 멤버 'FPlayerProfile::AccessoryL' 이후에 초기화됩니다."
                     },
                     "analysisTarget": {
@@ -19,7 +44,7 @@
                                     "uri": "file:///E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/PlayerProfileStruct.h"
                                 },
                                 "region": {
-                                    "startLine": 51,
+                                    "startLine": 56,
                                     "startColumn": 11,
                                     "snippet": {
                                         "text": "        , AccessoryR()"

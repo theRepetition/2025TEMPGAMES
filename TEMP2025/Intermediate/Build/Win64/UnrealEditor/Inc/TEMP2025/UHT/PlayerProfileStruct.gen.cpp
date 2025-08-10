@@ -6,6 +6,7 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "TEMP2025/PlayerProfileStruct.h"
+#include "FinalStatsStruct.h"
 #include "TEMP2025/ItemStruct.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
@@ -15,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerProfileStruct() {}
 // ********** Begin Cross Module References ********************************************************
 TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EDefType();
 TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EMyWorldType();
+TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FFinalStatsStruct();
 TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FItemData();
 TEMP2025_API UScriptStruct* Z_Construct_UScriptStruct_FPlayerProfile();
 UPackage* Z_Construct_UPackage__Script_TEMP2025();
@@ -121,7 +123,7 @@ struct Z_Construct_UScriptStruct_FPlayerProfile_Statics
 		{ "ToolTip", "\xea\xb0\x91\xec\x98\xb7" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_World_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlayerFinalStat_MetaData[] = {
 		{ "Category", "PlayerProfile" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// \xeb\xb0\xa9\xec\x96\xb4 \xed\x83\x80\xec\x9e\x85\n" },
@@ -129,6 +131,16 @@ struct Z_Construct_UScriptStruct_FPlayerProfile_Statics
 		{ "ModuleRelativePath", "PlayerProfileStruct.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\xeb\xb0\xa9\xec\x96\xb4 \xed\x83\x80\xec\x9e\x85" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_World_MetaData[] = {
+		{ "Category", "PlayerProfile" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// \xec\xb5\x9c\xec\xa2\x85 \xec\x8a\xa4\xed\x83\xaf\n" },
+#endif
+		{ "ModuleRelativePath", "PlayerProfileStruct.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xec\xb5\x9c\xec\xa2\x85 \xec\x8a\xa4\xed\x83\xaf" },
 #endif
 	};
 #endif // WITH_METADATA
@@ -142,6 +154,7 @@ struct Z_Construct_UScriptStruct_FPlayerProfile_Statics
 	static const UECodeGen_Private::FStructPropertyParams NewProp_Armor;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_DefType_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_DefType;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_PlayerFinalStat;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_World_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_World;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -161,6 +174,7 @@ const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayer
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor = { "Armor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlayerProfile, Armor), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Armor_MetaData), NewProp_Armor_MetaData) }; // 1286653442
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_DefType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_DefType = { "DefType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlayerProfile, DefType), Z_Construct_UEnum_TEMP2025_EDefType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefType_MetaData), NewProp_DefType_MetaData) }; // 1764162322
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_PlayerFinalStat = { "PlayerFinalStat", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlayerProfile, PlayerFinalStat), Z_Construct_UScriptStruct_FFinalStatsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerFinalStat_MetaData), NewProp_PlayerFinalStat_MetaData) }; // 3526540418
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_World_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_World = { "World", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlayerProfile, World), Z_Construct_UEnum_TEMP2025_EMyWorldType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_World_MetaData), NewProp_World_MetaData) }; // 2277798217
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPlayerProfile_Statics::PropPointers[] = {
@@ -174,6 +188,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FP
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_Armor,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_DefType_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_DefType,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_PlayerFinalStat,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_World_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewProp_World,
 };
@@ -205,10 +220,10 @@ UScriptStruct* Z_Construct_UScriptStruct_FPlayerProfile()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h__Script_TEMP2025_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FPlayerProfile::StaticStruct, Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewStructOps, TEXT("PlayerProfile"), &Z_Registration_Info_UScriptStruct_FPlayerProfile, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPlayerProfile), 985355748U) },
+		{ FPlayerProfile::StaticStruct, Z_Construct_UScriptStruct_FPlayerProfile_Statics::NewStructOps, TEXT("PlayerProfile"), &Z_Registration_Info_UScriptStruct_FPlayerProfile, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPlayerProfile), 3546896083U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h__Script_TEMP2025_1388987746(TEXT("/Script/TEMP2025"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h__Script_TEMP2025_2003514921(TEXT("/Script/TEMP2025"),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h__Script_TEMP2025_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_PlayerProfileStruct_h__Script_TEMP2025_Statics::ScriptStructInfo),
 	nullptr, 0);

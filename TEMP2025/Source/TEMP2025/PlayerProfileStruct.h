@@ -4,6 +4,8 @@
 #include "ItemStruct.h"
 #include "MyWorldType.h"
 #include "EDefType.h"
+#include "FinalStatsStruct.h"
+#include "SecondStatsStruct.h"
 #include "PlayerProfileStruct.generated.h"
 
 USTRUCT(BlueprintType)
@@ -38,6 +40,9 @@ struct FPlayerProfile
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     EDefType DefType;  // 방어 타입
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FFinalStatsStruct PlayerFinalStat;  // 최종 스탯
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     EMyWorldType World; //현재 월드 타입
