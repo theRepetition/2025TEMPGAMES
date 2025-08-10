@@ -12,7 +12,6 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.ignore" />
-    <None Include="..\..\.vsconfig" />
     <None Include="..\..\ClayPots.png" />
     <None Include="..\..\StylizedEnvironment.png" />
     <None Include="..\..\SylizedProvencal.png" />
