@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.TEMP2025.cpp.obj": [
-			"BasicStatsStruct.gen.cpp.obj",
 			"CostType.gen.cpp.obj",
 			"cppClosestPointLibrary.gen.cpp.obj",
 			"cppdataBaseManager.gen.cpp.obj",
@@ -10,13 +9,11 @@
 			"cppInventoryManager.gen.cpp.obj",
 			"cppItemComponent.gen.cpp.obj",
 			"cppNPCInteraction.gen.cpp.obj",
-			"cppStatsCalcComponent.gen.cpp.obj",
 			"DBtool.gen.cpp.obj",
 			"DialogueStruct.gen.cpp.obj",
 			"EAttackDirection.gen.cpp.obj",
 			"ECheckSelectItem.gen.cpp.obj",
 			"EDefType.gen.cpp.obj",
-			"FinalStatsStruct.gen.cpp.obj",
 			"HandedType.gen.cpp.obj",
 			"IsEquipped.gen.cpp.obj",
 			"ItemInterface.gen.cpp.obj",
@@ -24,9 +21,6 @@
 			"ItemType.gen.cpp.obj",
 			"MyWorldType.gen.cpp.obj",
 			"ObjectType.gen.cpp.obj",
-			"PlayerProfileStruct.gen.cpp.obj",
-			"SecondStatsStruct.gen.cpp.obj",
-			"TEMP2025.init.gen.cpp.obj",
 			"Temp2025GameInstance.gen.cpp.obj",
 			"UHitboxComponent.gen.cpp.obj",
 			"UIType.gen.cpp.obj",
@@ -40,12 +34,18 @@
 			"cppInventoryManager.cpp.obj",
 			"cppItemComponent.cpp.obj",
 			"cppNPCInteraction.cpp.obj",
-			"cppStatsCalcComponent.cpp.obj",
 			"DBtool.cpp.obj",
 			"MyClass.cpp.obj",
 			"TEMP2025.cpp.obj",
 			"Temp2025GameInstance.cpp.obj",
-			"UHitboxComponent.cpp.obj"
+			"UHitboxComponent.cpp.obj",
+			"BasicStatsStruct.gen.cpp.obj",
+			"cppStatsCalcComponent.gen.cpp.obj",
+			"FinalStatsStruct.gen.cpp.obj",
+			"PlayerProfileStruct.gen.cpp.obj",
+			"SecondStatsStruct.gen.cpp.obj",
+			"TEMP2025.init.gen.cpp.obj",
+			"cppStatsCalcComponent.cpp.obj"
 		]
 	}
 }
