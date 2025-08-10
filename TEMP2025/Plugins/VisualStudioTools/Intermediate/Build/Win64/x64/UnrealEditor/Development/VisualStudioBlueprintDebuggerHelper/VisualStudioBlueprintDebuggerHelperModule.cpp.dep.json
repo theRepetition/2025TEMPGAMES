@@ -1,0 +1,36 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\tempgames\\2025tempgames\\temp2025\\plugins\\visualstudiotools\\source\\visualstudioblueprintdebuggerhelper\\private\\visualstudioblueprintdebuggerhelpermodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\temp2025editor\\development\\unrealed\\sharedpch.unrealed.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\tempgames\\2025tempgames\\temp2025\\plugins\\visualstudiotools\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\visualstudioblueprintdebuggerhelper\\definitions.visualstudioblueprintdebuggerhelper.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\plugins\\visualstudiotools\\source\\visualstudioblueprintdebuggerhelper\\private\\visualstudioblueprintdebuggerhelpermodule.h",
+            "e:\\ue_5.2\\engine\\source\\editor\\unrealed\\public\\kismet2\\kismetdebugutilities.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\selection.h",
+            "e:\\ue_5.2\\engine\\source\\editor\\unrealed\\public\\selection.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlist.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementcounter.h",
+            "e:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementframework\\uht\\typedelementcounter.generated.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementselectionset.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementinterfacecustomization.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementlistobjectutil.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\interfaces\\typedelementselectioninterface.h",
+            "e:\\ue_5.2\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlistproxy.h",
+            "e:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementframework\\uht\\typedelementlistproxy.generated.h",
+            "e:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementruntime\\uht\\typedelementselectioninterface.generated.h",
+            "e:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementruntime\\uht\\typedelementselectionset.generated.h",
+            "e:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\selection.generated.h",
+            "e:\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\kismetdebugutilities.generated.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\map",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xtree",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xmemory",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xutility",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xnode_handle.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xpolymorphic_allocator.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
