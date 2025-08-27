@@ -352,22 +352,6 @@
 		"directory": "E:\\UE_5.6\\Engine\\Source"
 	},
 	{
-		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Temp2025GameInstance.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.1.rsp"
-		],
-		"directory": "E:\\UE_5.6\\Engine\\Source"
-	},
-	{
-		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\Temp2025GameInstance.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\.vscode\\compileCommands_Default\\TEMP2025.1.rsp"
-		],
-		"directory": "E:\\UE_5.6\\Engine\\Source"
-	},
-	{
 		"file": "E:\\TempGames\\2025TEMPGAMES\\TEMP2025\\Source\\TEMP2025\\UHitboxComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",

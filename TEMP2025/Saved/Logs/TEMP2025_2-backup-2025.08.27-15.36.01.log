@@ -1,0 +1,1680 @@
+﻿Log file open, 08/28/25 00:35:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=22184)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: TEMP2025
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-43139311"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.0-43139311+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.6216] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 5 5600X 6-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" ../../../../TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject /Game/camp -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=PIEGameUserSettings0 -MultiprocessSaveConfig -forcepassthrough -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720""
+LogCsvProfiler: Display: Metadata set : loginid="a825a5024cce4df2ca2155b41354bb9d"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.296422
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-2D10EF0D4FFA8B88B0DACABC41952F89
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../TempGames/2025TEMPGAMES/TEMP2025/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.06 seconds
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogConfig: Display: Loading Android ini files took 0.06 seconds
+LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+LogConfig: Display: Loading Unix ini files took 0.06 seconds
+LogConfig: Display: Loading Windows ini files took 0.06 seconds
+LogConfig: Display: Loading Linux ini files took 0.06 seconds
+LogPluginManager: Found matching target receipt: ../../../../TempGames/2025TEMPGAMES/TEMP2025/Binaries/Win64/TEMP2025Editor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogConfig: Display: Loading VisionOS ini files took 0.03 seconds
+LogPluginManager: Found matching target receipt: ../../../../TempGames/2025TEMPGAMES/TEMP2025/Binaries/Win64/TEMP2025Editor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin Landmass
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Water
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin DatabaseSupport
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin SQLiteSupport
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Project plugin VisualStudioTools
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogEOSShared: Loaded "E:/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Started StudioTelemetry Session
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-43139311
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=a825a5024cce4df2ca2155b41354bb9d
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 10 (22H2) [10.0.19045.6216] (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: NVIDIA GeForce RTX 3060
+LogInit: Compiled (64-bit): May 31 2025 16:29:58
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: /Game/camp -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=PIEGameUserSettings0 -MultiprocessSaveConfig -forcepassthrough -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Base Directory: E:/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.ShadingPath:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.SupportGPUScene:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.FloatPrecisionMode:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.VirtualTextures:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DiscardUnusedQuality:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[r.Shaders.CompressionFormat:2]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.AllowOcclusionQueries:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[r.MinScreenRadiusForCSMDepth:0.010000]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.PrecomputedVisibilityWarning:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.TextureStreaming:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[Compat.UseDXT5NormalMaps:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VirtualTextures:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VT.EnableAutoImport:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VirtualTexturedLightmaps:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VT.AnisotropicFiltering:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[bEnableVirtualTextureOpacityMask:0]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VT.TileSize:128]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VT.TileBorderSize:4]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.vt.FeedbackFactor:16]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.ClearCoatNormal:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.ReflectionCaptureResolution:128]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.EnableForProject:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.RayTracing.Shadows:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.RayTracing.Skylight:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.RayTracing.UseTextureLod:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.PathTracing:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DistanceFields.DefaultVoxelDensity:0.200000]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.AllowStaticLighting:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.NormalMapsForStaticLighting:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.ForwardShading:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VertexFoggingForOpaque:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SeparateTranslucency:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.TranslucentSortPolicy:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[vr.VRS.HMDFixedFoveationLevel:0]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[vr.VRS.HMDFixedFoveationDynamic:0]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.CustomDepth:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.LensFlare:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.MSAACount:4]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultFeature.LightUnits:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.StencilForLODDither:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.EarlyZPass:3]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Shadow.CSMCaching:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.DBuffer:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.ClearSceneMethod:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.VelocityOutputPass:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Velocity.EnableVertexDeformation:2]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SelectiveBasePassOutputs:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.AllowGlobalClipPlane:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.GBufferFormat:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.MorphTarget.Mode:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[vr.InstancedStereo:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.MobileHDR:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[vr.MobileMultiView:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[vr.RoundRobinOcclusion:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.MeshStreaming:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.WireframeCullThreshold:5.000000]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SupportStationarySkylight:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SupportLowQualityLightmaps:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphere:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphereAffectsHeightFog:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SupportCloudShadowOnForwardLitTranslucent:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Shadow.TranslucentPerObject.ProjectEnabled:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Water.SingleLayerWater.SupportCloudShadow:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Substrate:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Substrate.OpaqueMaterialRoughRefraction:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Substrate.Debug.AdvancedVisualizationShaders:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Material.RoughDiffuse:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Material.EnergyConservation:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.OIT.SortedPixels:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SkinCache.SkipCompilingGPUSkinVF:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SkinCache.DefaultBehavior:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableLocalLights:1]]
+[2025.08.27-15.35.41:293][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableClusteredReflections:0]]
+[2025.08.27-15.35.41:293][  0]LogConfig: CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[r.Mobile.AllowMovableDirectionalLights:1]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.SupportReversedIndexBuffers:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.Mobile.AmbientOcclusion:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[DefaultBoneInfluenceLimit:(Default=0,PerPlatform=())]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[r.Mobile.PlanarReflectionMode:0]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[r.Mobile.SupportsGen4TAA:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.08.27-15.35.41:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.08.27-15.35.41:294][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.08.27-15.35.41:294][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.08.27-15.35.41:309][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.08.27-15.35.41:309][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.08.27-15.35.41:310][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.08.27-15.35.41:315][  0]LogRHI: Using Default RHI: D3D12
+[2025.08.27-15.35.41:315][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.08.27-15.35.41:315][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.08.27-15.35.41:317][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.08.27-15.35.41:317][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.08.27-15.35.41:534][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 3060 (VendorId: 10de, DeviceId: 2504, SubSysId: 153610de, Revision: 00a1
+[2025.08.27-15.35.41:534][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.08.27-15.35.41:534][  0]LogD3D12RHI:   Adapter has 12115MB of dedicated video memory, 0MB of dedicated system memory, and 16339MB of shared system memory, 1 output[s], UMA:false
+[2025.08.27-15.35.41:534][  0]LogD3D12RHI:   Driver Version: 580.88 (internal:32.0.15.8088, unified:580.88)
+[2025.08.27-15.35.41:534][  0]LogD3D12RHI:      Driver Date: 7-27-2025
+[2025.08.27-15.35.41:539][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.08.27-15.35.41:539][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.2, binding tier 3, wave ops supported, atomic64 unsupported
+[2025.08.27-15.35.41:539][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16339MB of shared system memory, 0 output[s], UMA:true
+[2025.08.27-15.35.41:721][  0]LogD3D12RHI: Found D3D12 adapter 2: NVIDIA GeForce RTX 3060 (VendorId: 10de, DeviceId: 2504, SubSysId: 153610de, Revision: 00a1
+[2025.08.27-15.35.41:721][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.08.27-15.35.41:721][  0]LogD3D12RHI:   Adapter has 12115MB of dedicated video memory, 0MB of dedicated system memory, and 16339MB of shared system memory, 0 output[s], UMA:false
+[2025.08.27-15.35.41:721][  0]LogD3D12RHI:   Driver Version: 580.88 (internal:32.0.15.8088, unified:580.88)
+[2025.08.27-15.35.41:721][  0]LogD3D12RHI:      Driver Date: 7-27-2025
+[2025.08.27-15.35.41:721][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.08.27-15.35.41:721][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.08.27-15.35.41:721][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.08.27-15.35.41:721][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.08.27-15.35.41:721][  0]LogHAL: Display: Platform has ~ 32 GB [34266918912 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.08.27-15.35.41:722][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.08.27-15.35.41:722][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.27-15.35.41:722][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.08.27-15.35.41:722][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.08.27-15.35.41:722][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.08.27-15.35.41:722][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.08.27-15.35.41:722][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.08.27-15.35.41:722][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.08.27-15.35.41:722][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.08.27-15.35.41:722][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.08.27-15.35.41:722][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.08.27-15.35.41:722][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.08.27-15.35.41:722][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/TempGames/2025TEMPGAMES/TEMP2025/Saved/Config/WindowsEditor/Editor.ini]
+[2025.08.27-15.35.41:722][  0]LogInit: Computer: DESKTOP-3V2OFO6
+[2025.08.27-15.35.41:722][  0]LogInit: User: ahn
+[2025.08.27-15.35.41:722][  0]LogInit: CPU Page size=4096, Cores=6
+[2025.08.27-15.35.41:722][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.08.27-15.35.41:722][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.08.27-15.35.41:722][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=42.4GB
+[2025.08.27-15.35.41:722][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.08.27-15.35.41:722][  0]LogMemory: Process Physical Memory: 565.38 MB used, 588.79 MB peak
+[2025.08.27-15.35.41:722][  0]LogMemory: Process Virtual Memory: 534.82 MB used, 542.09 MB peak
+[2025.08.27-15.35.41:722][  0]LogMemory: Physical Memory: 11607.74 MB used,  21071.74 MB free, 32679.48 MB total
+[2025.08.27-15.35.41:722][  0]LogMemory: Virtual Memory: 19763.98 MB used,  23667.50 MB free, 43431.48 MB total
+[2025.08.27-15.35.41:722][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.08.27-15.35.41:724][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.08.27-15.35.41:726][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.08.27-15.35.41:726][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.08.27-15.35.41:726][  0]LogInit: Using OS detected language (ko-KR).
+[2025.08.27-15.35.41:726][  0]LogInit: Using OS detected locale (ko-KR).
+[2025.08.27-15.35.41:728][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so 'ko' will be used for the language.
+[2025.08.27-15.35.42:106][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.08.27-15.35.42:106][  0]LogWindowsTextInputMethodSystem:   - 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.08.27-15.35.42:106][  0]LogWindowsTextInputMethodSystem:   - 한국어(대한민국) - 터치식 입력 수정 (TSF IME).
+[2025.08.27-15.35.42:106][  0]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.08.27-15.35.42:126][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetTouchpadParameters
+[2025.08.27-15.35.42:128][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2025.08.27-15.35.42:131][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.08.27-15.35.42:131][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.08.27-15.35.42:172][  0]LogRHI: Using Default RHI: D3D12
+[2025.08.27-15.35.42:173][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.08.27-15.35.42:173][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.08.27-15.35.42:173][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.08.27-15.35.42:173][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.08.27-15.35.42:173][  0]LogD3D12RHI: Integrated GPU (iGPU): false
+[2025.08.27-15.35.42:173][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.08.27-15.35.42:173][  0]LogWindows: Attached monitors:
+[2025.08.27-15.35.42:173][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY1' [PRIMARY]
+[2025.08.27-15.35.42:173][  0]LogWindows: Found 1 attached monitors.
+[2025.08.27-15.35.42:173][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.08.27-15.35.42:173][  0]LogRHI: RHI Adapter Info:
+[2025.08.27-15.35.42:173][  0]LogRHI:             Name: NVIDIA GeForce RTX 3060
+[2025.08.27-15.35.42:173][  0]LogRHI:   Driver Version: 580.88 (internal:32.0.15.8088, unified:580.88)
+[2025.08.27-15.35.42:173][  0]LogRHI:      Driver Date: 7-27-2025
+[2025.08.27-15.35.42:173][  0]LogD3D12RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2025.08.27-15.35.42:173][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.08.27-15.35.42:271][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.08.27-15.35.42:271][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.08.27-15.35.42:319][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2025.08.27-15.35.42:319][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: Bindless resources are supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: Raster order views are supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.08.27-15.35.42:319][  0]LogD3D12RHI: Work Graphs are supported
+[2025.08.27-15.35.42:388][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000012540D8CAC0)
+[2025.08.27-15.35.42:388][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000012540D8CD80)
+[2025.08.27-15.35.42:388][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x0000012540D8D040)
+[2025.08.27-15.35.42:388][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.08.27-15.35.42:388][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.08.27-15.35.42:552][  0]LogD3D12RHI: NVIDIA Shader Execution Reordering NOT supported!
+[2025.08.27-15.35.42:552][  0]LogD3D12RHI: Display: Batched command list execution is disabled for async queues due to known bugs in the current driver.
+[2025.08.27-15.35.42:552][  0]LogRHI: Texture pool is 7148 MB (70% of 10212 MB)
+[2025.08.27-15.35.42:552][  0]LogD3D12RHI: Async texture creation enabled
+[2025.08.27-15.35.42:552][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.08.27-15.35.42:560][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.08.27-15.35.42:562][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D12"
+[2025.08.27-15.35.42:562][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D12"
+[2025.08.27-15.35.42:562][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2025.08.27-15.35.42:562][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2025.08.27-15.35.42:562][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.08.27-15.35.42:564][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyReport_0.log" -log="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyLog_0.log" -project="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject"  -platform=all'
+[2025.08.27-15.35.42:564][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""E:/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyReport_0.log" -log="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyLog_0.log" -project="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject"  -platform=all" ]
+[2025.08.27-15.35.42:573][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2025.08.27-15.35.42:573][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.08.27-15.35.42:573][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.08.27-15.35.42:573][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.08.27-15.35.42:573][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.08.27-15.35.42:573][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.08.27-15.35.42:573][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2025.08.27-15.35.42:573][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2025.08.27-15.35.42:574][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.08.27-15.35.42:574][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.08.27-15.35.42:599][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.08.27-15.35.42:599][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.08.27-15.35.42:599][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.08.27-15.35.42:599][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.08.27-15.35.42:599][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.08.27-15.35.42:619][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2025.08.27-15.35.42:621][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.08.27-15.35.42:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../TempGames/2025TEMPGAMES/TEMP2025/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.08.27-15.35.42:621][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2025.08.27-15.35.42:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../TempGames/2025TEMPGAMES/TEMP2025/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.08.27-15.35.42:621][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2025.08.27-15.35.42:800][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1351 MiB)
+[2025.08.27-15.35.42:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.08.27-15.35.42:800][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2025.08.27-15.35.42:801][  0]LogZenServiceInstance: Found subprocess environment variable UE-ZenSubprocessDataPath=C:/Users/ahn/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.08.27-15.35.42:801][  0]LogZenServiceInstance: InTree version at 'E:/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.08.27-15.35.42:801][  0]LogZenServiceInstance: Installed version at 'C:/Users/ahn/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.08.27-15.35.42:802][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2025.08.27-15.35.43:304][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.08.27-15.35.43:304][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.504 seconds
+[2025.08.27-15.35.43:306][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.08.27-15.35.43:311][  0]LogDerivedDataCache: C:/Users/ahn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2025.08.27-15.35.43:312][  0]LogDerivedDataCache: Display: C:/Users/ahn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.03ms. RandomReadSpeed=1330.03MBs, RandomWriteSpeed=206.33MBs. Assigned SpeedClass 'Local'
+[2025.08.27-15.35.43:312][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/ahn/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2025.08.27-15.35.43:312][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2025.08.27-15.35.43:312][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2025.08.27-15.35.43:312][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2025.08.27-15.35.43:312][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2025.08.27-15.35.43:313][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2025.08.27-15.35.43:313][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2025.08.27-15.35.43:313][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../TempGames/2025TEMPGAMES/TEMP2025/Intermediate/Shaders/WorkingDirectory/14476/).
+[2025.08.27-15.35.43:313][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ahn/AppData/Local/Temp/UnrealShaderWorkingDir/E0DD4FCD49626103DB3848A41F536B7D/'.
+[2025.08.27-15.35.43:313][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.08.27-15.35.43:313][  0]LogShaderCompilers: Display: Using 9 local workers for shader compilation
+[2025.08.27-15.35.43:320][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../TempGames/2025TEMPGAMES/TEMP2025/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.08.27-15.35.43:320][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.08.27-15.35.43:416][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2025.08.27-15.35.44:457][  0]LogSlate: Using FreeType 2.10.0
+[2025.08.27-15.35.44:458][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.08.27-15.35.44:460][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.08.27-15.35.44:460][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.08.27-15.35.44:460][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.08.27-15.35.44:460][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.08.27-15.35.44:476][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.08.27-15.35.44:477][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyReport_1.log" -log="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyLog_1.log" -project="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject"  -Device=Win64@DESKTOP-3V2OFO6'
+[2025.08.27-15.35.44:477][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""E:/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyReport_1.log" -log="E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/TurnkeyLog_1.log" -project="E:/TempGames/2025TEMPGAMES/TEMP2025/TEMP2025.uproject"  -Device=Win64@DESKTOP-3V2OFO6" -nocompile -nocompileuat ]
+[2025.08.27-15.35.44:518][  0]LogInit: Using OS detected language (ko-KR).
+[2025.08.27-15.35.44:518][  0]LogInit: Using OS detected locale (ko-KR).
+[2025.08.27-15.35.44:518][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2025.08.27-15.35.44:518][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2025.08.27-15.35.44:518][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2025.08.27-15.35.44:518][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2025.08.27-15.35.44:519][  0]LogAssetRegistry: FAssetRegistry took 0.0005 seconds to start up
+[2025.08.27-15.35.44:816][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.08.27-15.35.44:816][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.08.27-15.35.44:843][  0]LogDeviceProfileManager: Active device profile: [000001258D6B4B00][000001258D927800 66] WindowsEditor
+[2025.08.27-15.35.44:843][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.08.27-15.35.44:845][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.27-15.35.44:848][  0]LogPackageLocalizationCache: Processed 70 localized package path(s) for 1 prioritized culture(s) in 0.002313 seconds
+[2025.08.27-15.35.44:849][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.08.27-15.35.44:849][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.08.27-15.35.44:849][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.08.27-15.35.44:874][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:874][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.08.27-15.35.44:874][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:874][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:875][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.08.27-15.35.44:875][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:875][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:876][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.08.27-15.35.44:876][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.08.27-15.35.44:877][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.08.27-15.35.44:878][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:878][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:878][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:879][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.08.27-15.35.44:879][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.08.27-15.35.44:880][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.08.27-15.35.44:880][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:904][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.08.27-15.35.44:904][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:916][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.08.27-15.35.44:916][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.44:926][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.08.27-15.35.44:926][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.27-15.35.45:031][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.08.27-15.35.45:031][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.08.27-15.35.45:031][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.08.27-15.35.45:031][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.08.27-15.35.45:031][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.08.27-15.35.45:063][  0]LogClass: Warning: ConsoleVariable-Backed Enum Property of type '/Script/Engine.EMobileLocalLightSetting' was set from a string. Please update the cvar in your ini files.
+[2025.08.27-15.35.45:330][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.08.27-15.35.45:367][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.08.27-15.35.45:367][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.08.27-15.35.45:367][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.08.27-15.35.45:367][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.08.27-15.35.45:369][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.08.27-15.35.45:369][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.08.27-15.35.45:370][  0]LogLiveCoding: Display: Detected running instance in process group "UE_TEMP2025_0x8dfb7d7c", connecting to console process (PID: 24304)
+[2025.08.27-15.35.45:370][  0]LogLiveCoding: Display: Waiting for server
+[2025.08.27-15.35.45:371][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.08.27-15.35.45:405][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.08.27-15.35.45:416][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.08.27-15.35.45:418][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.151 ms
+[2025.08.27-15.35.45:432][  0]LogMoviePlayer: Initializing movie player
+[2025.08.27-15.35.45:481][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.08.27-15.35.45:481][  0]LogInit: XR: MultiViewport is Disabled
+[2025.08.27-15.35.45:481][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.08.27-15.35.45:481][  0]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-3V2OFO6: (Name=DESKTOP-3V2OFO6, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.19045.0, Flags="Device_InstallSoftwareValid")
+[2025.08.27-15.35.45:490][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.08.27-15.35.45:507][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 5C3EC1083E344366800000000000C300 | Instance: 44529C434CD37093BC59489B2A6DFA0C (DESKTOP-3V2OFO6-14476).
+[2025.08.27-15.35.45:526][  0]LogCollectionManager: Loaded 0 collections in 0.000647 seconds
+[2025.08.27-15.35.45:527][  0]LogFileCache: Scanning file cache for directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/Saved/Collections/' took 0.00s
+[2025.08.27-15.35.45:528][  0]LogFileCache: Scanning file cache for directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/Content/Developers/ahn/Collections/' took 0.00s
+[2025.08.27-15.35.45:529][  0]LogFileCache: Scanning file cache for directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/Content/Collections/' took 0.00s
+[2025.08.27-15.35.45:529][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: No NPU adapter found with attribute DXCORE_ADAPTER_ATTRIBUTE_D3D12_GENERIC_ML (Windows 11 Version 24H2 or newer)!
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3060 (Compute, Graphics)
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT:   NPU:       no
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: Interface availability:
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT:   GPU: yes
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT:   RDG: yes
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT:   NPU: no
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: No NPU adapter found with attribute DXCORE_ADAPTER_ATTRIBUTE_D3D12_GENERIC_ML (Windows 11 Version 24H2 or newer)!
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 3060 (Compute, Graphics)
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.08.27-15.35.45:546][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.08.27-15.35.45:549][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.08.27-15.35.45:551][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.08.27-15.35.45:551][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.08.27-15.35.45:552][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:56009'.
+[2025.08.27-15.35.45:554][  0]LogUdpMessaging: Display: Added local interface '172.30.1.74' to multicast group '230.0.0.1:6666'
+[2025.08.27-15.35.45:554][  0]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2025.08.27-15.35.45:555][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.08.27-15.35.45:761][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.08.27-15.35.45:761][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.08.27-15.35.45:775][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.08.27-15.35.45:813][  0]SourceControl: Revision control is disabled
+[2025.08.27-15.35.45:825][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.08.27-15.35.45:911][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.08.27-15.35.45:915][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.08.27-15.35.45:915][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.08.27-15.35.45:967][  0]LogUObjectArray: 38902 objects as part of root set at end of initial load.
+[2025.08.27-15.35.45:967][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.08.27-15.35.46:040][  0]LogClass: Error: IntProperty FDialogueData::Step is not initialized properly. Module:TEMP2025 File:DialogueStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: IntProperty FFinalStatsStruct::MP is not initialized properly even though its struct probably has a custom default constructor. Module:TEMP2025 File:Public/FinalStatsStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: IntProperty FItemData::ItemID is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: EnumProperty FItemData::Type is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: EnumProperty FItemData::IsEquipped is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: IntProperty FItemData::Value is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: FloatProperty FItemData::Weight is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: IntProperty FItemData::Quantity is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: IntProperty FItemData::UniqueIndex is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: EnumProperty FWeaponData::TYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: EnumProperty FWeaponData::HandedTYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: IntProperty FWeaponData::DMG is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: FloatProperty FWeaponData::ATKSPEED is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: EnumProperty FWeaponData::COST is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: FloatProperty FWeaponData::RANGE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: FloatProperty FWeaponData::WEIGHT is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: ObjectProperty FWeaponData::MODEL_1st is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: ObjectProperty FWeaponData::MODEL_3rd is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: EnumProperty FPlayerProfile::DefType is not initialized properly even though its struct probably has a custom default constructor. Module:TEMP2025 File:PlayerProfileStruct.h
+[2025.08.27-15.35.46:040][  0]LogClass: Error: EnumProperty FPlayerProfile::World is not initialized properly even though its struct probably has a custom default constructor. Module:TEMP2025 File:PlayerProfileStruct.h
+[2025.08.27-15.35.46:041][  0]LogClass: Display: 20 Uninitialized script struct members found including 2 object properties
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: IntProperty FDialogueData::Step is not initialized properly. Module:TEMP2025 File:DialogueStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: IntProperty FFinalStatsStruct::MP is not initialized properly even though its struct probably has a custom default constructor. Module:TEMP2025 File:Public/FinalStatsStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: IntProperty FItemData::ItemID is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: EnumProperty FItemData::Type is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: EnumProperty FItemData::IsEquipped is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: IntProperty FItemData::Value is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: FloatProperty FItemData::Weight is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: IntProperty FItemData::Quantity is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: IntProperty FItemData::UniqueIndex is not initialized properly. Module:TEMP2025 File:ItemStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: EnumProperty FWeaponData::TYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: EnumProperty FWeaponData::HandedTYPE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: IntProperty FWeaponData::DMG is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: FloatProperty FWeaponData::ATKSPEED is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: EnumProperty FWeaponData::COST is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: FloatProperty FWeaponData::RANGE is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: FloatProperty FWeaponData::WEIGHT is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: ObjectProperty FWeaponData::MODEL_1st is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: ObjectProperty FWeaponData::MODEL_3rd is not initialized properly. Module:TEMP2025 File:WeaponStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: EnumProperty FPlayerProfile::DefType is not initialized properly even though its struct probably has a custom default constructor. Module:TEMP2025 File:PlayerProfileStruct.h
+[2025.08.27-15.35.46:043][  0]LogAutomationTest: Error: LogClass: EnumProperty FPlayerProfile::World is not initialized properly even though its struct probably has a custom default constructor. Module:TEMP2025 File:PlayerProfileStruct.h
+[2025.08.27-15.35.46:043][  0]LogEngine: Initializing Engine...
+[2025.08.27-15.35.46:254][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.08.27-15.35.46:260][  0]LogNetVersion: Set ProjectVersion to 0.01. Version Checksum will be recalculated on next use.
+[2025.08.27-15.35.46:260][  0]LogInit: Texture streaming: Enabled
+[2025.08.27-15.35.46:316][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.08.27-15.35.46:318][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.08.27-15.35.46:318][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.08.27-15.35.46:319][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.08.27-15.35.46:319][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.08.27-15.35.46:319][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.27-15.35.46:319][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.27-15.35.46:319][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.27-15.35.46:319][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.27-15.35.46:319][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.27-15.35.46:319][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.27-15.35.46:319][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.27-15.35.46:319][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.27-15.35.46:319][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.27-15.35.46:319][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.27-15.35.46:319][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.27-15.35.46:324][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.27-15.35.46:350][  0]LogAudioMixer: Display: Using Audio Hardware Device 스피커(High Definition Audio Device)
+[2025.08.27-15.35.46:351][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.27-15.35.46:352][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.27-15.35.46:352][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.27-15.35.46:353][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.08.27-15.35.46:353][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.08.27-15.35.46:354][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.08.27-15.35.46:354][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.08.27-15.35.46:354][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.08.27-15.35.46:354][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.08.27-15.35.46:356][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.08.27-15.35.46:889][  0]LogBlueprint: Warning: [에셋 로그] E:\TempGames\2025TEMPGAMES\TEMP2025\Content\FirstPersonArms\Animations\FirstPerson_AnimBP.uasset: [컴파일러] FPP_Run -> FPP_STOP  will never be taken, please connect something to  Can Enter Transition
+[2025.08.27-15.35.46:889][  0]LogBlueprint: Warning: [에셋 로그] E:\TempGames\2025TEMPGAMES\TEMP2025\Content\FirstPersonArms\Animations\FirstPerson_AnimBP.uasset: [컴파일러] FPP_STOP -> FPP_Idle  will never be taken, please connect something to  Can Enter Transition
+[2025.08.27-15.35.47:518][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.08.27-15.35.47:522][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.08.27-15.35.47:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.27-15.35.47:531][  0]LogInit: Display: Game Engine Initialized.
+[2025.08.27-15.35.47:535][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2025.08.27-15.35.47:536][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.08.27-15.35.47:536][  0]LogPython: Using Python 3.11.8
+[2025.08.27-15.35.47:551][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.08.27-15.35.47:747][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2025.08.27-15.35.47:761][  0]LogInit: Display: Starting Game.
+[2025.08.27-15.35.47:761][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/camp?Name=Player"
+[2025.08.27-15.35.47:761][  0]LogNet: Browse: /Game/camp?Name=Player
+[2025.08.27-15.35.47:761][  0]LogLoad: LoadMap: /Game/camp?Name=Player
+[2025.08.27-15.35.47:761][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2025.08.27-15.35.47:762][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.08.27-15.35.47:762][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.27-15.35.47:779][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.27-15.35.47:783][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.08.27-15.35.47:853][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.27-15.35.47:860][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.27-15.35.47:865][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.27-15.35.47:871][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.08.27-15.35.47:871][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.08.27-15.35.47:871][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.27-15.35.47:876][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.08.27-15.35.47:881][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'camp'.
+[2025.08.27-15.35.47:881][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world camp
+[2025.08.27-15.35.47:886][  0]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.08.27-15.35.47:923][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/WoodenProps/StaticMeshes/SingleParts/Barrel3.Barrel3 being ready before playing
+[2025.08.27-15.35.47:923][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor being ready before playing
+[2025.08.27-15.35.47:923][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/BasicShapes/Sphere.Sphere being ready before playing
+[2025.08.27-15.35.47:923][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/EngineSky/SM_SkySphere.SM_SkySphere being ready before playing
+[2025.08.27-15.35.47:933][  0]LogWorld: Bringing World /Game/camp.camp up for play (max tick rate 0) at 2025.08.28-00.35.47
+[2025.08.27-15.35.47:934][  0]LogWorld: Bringing up level for play took: 0.010331
+[2025.08.27-15.35.47:939][  0]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 프로필 불러오기
+[2025.08.27-15.35.47:939][  0]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 능력치 변동
+[2025.08.27-15.35.47:942][  0]LogLoad: Took 0.180383 seconds to LoadMap(/Game/camp)
+[2025.08.27-15.35.47:942][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/camp
+[2025.08.27-15.35.48:008][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.27-15.35.48:023][  0]LogSlate: Took 0.012958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.08.27-15.35.48:069][  0]LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'E:' of project directory 'E:/TempGames/2025TEMPGAMES/TEMP2025/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'E:'. Launch cmd.exe as admin and run command `fsutil usn createJournal E: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+[2025.08.27-15.35.48:069][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.08.27-15.35.48:367][  0]LogAssetRegistry: Display: Asset registry cache read as 92.6 MiB from ../../../../TempGames/2025TEMPGAMES/TEMP2025/Intermediate/CachedAssetRegistry_0.bin.
+[2025.08.27-15.35.48:368][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.107s loading caches ../../../../TempGames/2025TEMPGAMES/TEMP2025/Intermediate/CachedAssetRegistry_*.bin.
+[2025.08.27-15.35.48:503][  0]LogAssetRegistry: AssetRegistryGather time 0.2320s: AssetDataDiscovery 0.0000s, AssetDataGather 0.1315s, StoreResults 0.1006s. Wall time 3.9840s.
+	NumCachedDirectories 0. NumUncachedDirectories 2657. NumCachedFiles 13168. NumUncachedFiles 0.
+	BackgroundTickInterruptions 0.
+[2025.08.27-15.35.48:567][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.08.27-15.35.48:567][  0]LogLoad: (Engine Initialization) Total time: 8.05 seconds
+[2025.08.27-15.35.48:574][  0]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2025.08.27-15.35.48:574][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.08.27-15.35.48:574][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.08.27-15.35.48:590][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.27-15.35.48:596][  0]LogAutomationController: Ignoring very large delta of 16817587.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.27-15.35.48:596][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.27-15.35.48:596][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.27-15.35.48:596][  0]LogPython: Display: Running start-up script E:/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.08.27-15.35.48:630][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.08.27-15.35.48:639][  0]LogPython: Display: Running start-up script E:/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 42.399 ms
+[2025.08.27-15.35.48:639][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: TEMP2025Editor Win64 Development
+[2025.08.27-15.35.48:643][  1]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.48:643][  1]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.48:645][  1]LogBlueprintUserMessages: [BTTask_RandomPatrol_C_0] zxczxczxc
+[2025.08.27-15.35.48:647][  1]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.27-15.35.48:649][  1]LogSlate: Took 0.000719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.08.27-15.35.48:650][  2]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.48:650][  2]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.48:658][  3]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.48:658][  3]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.48:826][  4]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.48:826][  4]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.48:915][  5]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.48:915][  5]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:017][  6]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:017][  6]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:026][  7]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:026][  7]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:035][  8]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:035][  8]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:044][  9]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 방향바뀜
+[2025.08.27-15.35.49:044][  9]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:044][  9]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:053][ 10]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:053][ 10]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:062][ 11]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:062][ 11]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:072][ 12]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:072][ 12]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:081][ 13]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:081][ 13]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:091][ 14]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:091][ 14]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:099][ 15]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:099][ 15]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:108][ 16]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:108][ 16]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:117][ 17]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:117][ 17]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:126][ 18]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:126][ 18]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:135][ 19]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:135][ 19]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:144][ 20]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:144][ 20]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:154][ 21]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:154][ 21]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:162][ 22]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:162][ 22]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:171][ 23]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:171][ 23]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:181][ 24]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:181][ 24]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:190][ 25]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:190][ 25]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:199][ 26]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:199][ 26]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:208][ 27]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:208][ 27]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:208][ 27]LogBlueprintUserMessages: [BTTask_RandomPatrol_C_0] zxczxczxc
+[2025.08.27-15.35.49:217][ 28]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:217][ 28]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:227][ 29]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:227][ 29]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:261][ 30]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 방향바뀜
+[2025.08.27-15.35.49:262][ 30]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:262][ 30]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:268][ 31]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:268][ 31]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:277][ 32]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:277][ 32]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:285][ 33]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:286][ 33]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:295][ 34]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:295][ 34]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:304][ 35]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:304][ 35]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:313][ 36]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:313][ 36]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:322][ 37]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:322][ 37]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:331][ 38]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:331][ 38]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:340][ 39]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:340][ 39]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:350][ 40]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:350][ 40]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:359][ 41]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:359][ 41]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:367][ 42]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:367][ 42]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:376][ 43]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:377][ 43]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:385][ 44]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:385][ 44]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:394][ 45]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:395][ 45]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:403][ 46]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:404][ 46]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:413][ 47]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:413][ 47]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:422][ 48]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:422][ 48]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:431][ 49]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:431][ 49]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:440][ 50]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:440][ 50]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:450][ 51]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:450][ 51]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:458][ 52]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:458][ 52]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:467][ 53]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 방향바뀜
+[2025.08.27-15.35.49:468][ 53]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:468][ 53]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:477][ 54]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:477][ 54]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:486][ 55]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:486][ 55]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:495][ 56]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:495][ 56]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:504][ 57]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:504][ 57]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:513][ 58]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:513][ 58]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:522][ 59]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:522][ 59]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:531][ 60]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:531][ 60]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:540][ 61]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:540][ 61]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:549][ 62]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:550][ 62]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:559][ 63]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:559][ 63]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:567][ 64]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:567][ 64]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:577][ 65]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:577][ 65]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:586][ 66]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:586][ 66]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:595][ 67]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:595][ 67]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:603][ 68]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:604][ 68]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:613][ 69]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:613][ 69]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:622][ 70]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:622][ 70]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:631][ 71]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:631][ 71]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:640][ 72]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:640][ 72]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:649][ 73]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:649][ 73]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:658][ 74]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:658][ 74]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:667][ 75]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:667][ 75]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:676][ 76]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:676][ 76]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:685][ 77]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:685][ 77]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:694][ 78]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:694][ 78]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:703][ 79]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:704][ 79]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:712][ 80]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:712][ 80]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:722][ 81]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:722][ 81]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:731][ 82]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:731][ 82]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:740][ 83]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:740][ 83]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:749][ 84]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:749][ 84]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:758][ 85]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:758][ 85]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:767][ 86]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:767][ 86]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:776][ 87]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:776][ 87]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:785][ 88]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:786][ 88]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:794][ 89]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:794][ 89]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:803][ 90]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:803][ 90]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:813][ 91]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:813][ 91]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:822][ 92]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:822][ 92]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:831][ 93]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:831][ 93]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:840][ 94]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:840][ 94]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:849][ 95]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:849][ 95]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:858][ 96]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:858][ 96]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:867][ 97]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:867][ 97]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:876][ 98]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:876][ 98]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:885][ 99]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:885][ 99]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:894][100]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:894][100]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:903][101]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:903][101]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:912][102]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:912][102]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:921][103]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:921][103]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:931][104]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:931][104]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:940][105]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:940][105]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:949][106]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:949][106]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:958][107]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:958][107]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:967][108]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:967][108]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:976][109]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:976][109]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:985][110]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:985][110]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.49:994][111]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.49:994][111]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:003][112]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:003][112]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:012][113]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:012][113]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:022][114]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:022][114]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:031][115]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:031][115]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:040][116]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:040][116]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:049][117]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:049][117]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:058][118]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:058][118]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:067][119]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:067][119]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:076][120]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:076][120]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:086][121]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:086][121]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:094][122]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:094][122]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:103][123]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:104][123]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:112][124]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:112][124]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:122][125]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:122][125]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:131][126]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:131][126]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:140][127]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:140][127]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:149][128]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:149][128]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:158][129]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:158][129]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:167][130]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:167][130]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:176][131]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:176][131]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:186][132]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:186][132]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:194][133]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:194][133]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:204][134]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:204][134]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:213][135]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:213][135]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:222][136]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:222][136]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:231][137]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:231][137]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:240][138]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:240][138]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:249][139]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:249][139]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:258][140]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:258][140]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:267][141]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 방향바뀜
+[2025.08.27-15.35.50:267][141]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:267][141]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:276][142]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:276][142]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:286][143]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:286][143]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:295][144]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:295][144]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:304][145]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:304][145]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:313][146]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:313][146]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:314][146]LogBlueprintUserMessages: [BTTask_RandomPatrol_C_0] zxczxczxc
+[2025.08.27-15.35.50:322][147]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:322][147]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:331][148]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:331][148]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:340][149]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:340][149]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:349][150]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:349][150]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:358][151]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:358][151]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:367][152]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:367][152]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:377][153]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:377][153]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:385][154]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:385][154]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:395][155]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:395][155]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:404][156]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:404][156]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:412][157]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:412][157]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:422][158]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:422][158]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:431][159]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:431][159]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:440][160]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:440][160]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:449][161]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:449][161]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:458][162]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:458][162]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:467][163]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:467][163]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:476][164]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:476][164]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:485][165]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:485][165]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:494][166]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:494][166]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:503][167]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:503][167]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:512][168]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:513][168]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:522][169]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:522][169]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:531][170]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:531][170]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:540][171]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:540][171]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:549][172]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:549][172]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:558][173]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:558][173]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:567][174]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:567][174]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:576][175]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:576][175]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:585][176]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:585][176]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:594][177]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:594][177]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:603][178]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:603][178]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:612][179]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:612][179]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:622][180]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:622][180]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:631][181]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:631][181]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:640][182]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:640][182]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:649][183]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:649][183]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:658][184]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:658][184]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:667][185]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:667][185]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:676][186]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:676][186]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:685][187]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:685][187]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:694][188]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:694][188]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:703][189]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:703][189]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:713][190]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:713][190]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:721][191]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:721][191]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:731][192]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:731][192]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:740][193]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:740][193]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:749][194]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:749][194]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:758][195]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:758][195]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:767][196]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:767][196]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.50:776][197]LogScript: Warning: Script Msg: Attempted to access invalid index 0 from set '추적할 NPC' of length 0 in '/Game/Characters/NPC/BP_NPCController.BP_NPCController_C'!
+[2025.08.27-15.35.50:776][197]LogScript: Warning: Script Msg called by: BP_NPCController_C /Game/camp.camp:PersistentLevel.BP_NPCController_C_0
+[2025.08.27-15.35.51:186][242]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0.00906
+[2025.08.27-15.35.51:194][243]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 
+[2025.08.27-15.35.51:194][243]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 왼쪽
+[2025.08.27-15.35.52:285][363]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 
+[2025.08.27-15.35.52:285][363]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 왼쪽
+[2025.08.27-15.35.52:331][368]LogBlueprintUserMessages: [Dummy_C_1] Left
+[2025.08.27-15.35.52:341][368]LogBlueprintUserMessages: [BP_GameInstance_C_0] 테스트 1
+[2025.08.27-15.35.52:341][368]LogBlueprintUserMessages: [BP_GameInstance_C_0] 테스트 2
+[2025.08.27-15.35.52:341][368]LogBlueprintUserMessages: [BP_GameInstance_C_0] Dummy_Faction
+[2025.08.27-15.35.53:677][516]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0.009217
+[2025.08.27-15.35.53:777][527]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0.018264
+[2025.08.27-15.35.53:849][535]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 
+[2025.08.27-15.35.53:849][535]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 오른쪽
+[2025.08.27-15.35.53:950][546]LogBlueprintUserMessages: [Dummy_C_1] Right
+[2025.08.27-15.35.53:950][546]LogBlueprintUserMessages: [BP_GameInstance_C_0] -2
+[2025.08.27-15.35.54:668][625]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0.008975
+[2025.08.27-15.35.55:167][680]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 
+[2025.08.27-15.35.55:167][680]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 왼쪽
+[2025.08.27-15.35.55:231][687]LogBlueprintUserMessages: [Dummy_C_1] Left
+[2025.08.27-15.35.55:231][687]LogBlueprintUserMessages: [BP_GameInstance_C_0] -3
+[2025.08.27-15.35.56:004][772]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0.009094
+[2025.08.27-15.35.56:240][798]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 
+[2025.08.27-15.35.56:240][798]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 오른쪽
+[2025.08.27-15.35.56:349][810]LogBlueprintUserMessages: [Dummy_C_1] Right
+[2025.08.27-15.35.56:349][810]LogBlueprintUserMessages: [BP_GameInstance_C_0] -4
+[2025.08.27-15.35.57:767][966]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 방향바뀜
+[2025.08.27-15.35.59:366][142]LogWindowsDesktop: Alt-F4 pressed!
+[2025.08.27-15.35.59:384][142]LogSlate: Window 'TEMP2025 (64-bit Development PCD3D_SM6) ' being destroyed
+[2025.08.27-15.35.59:386][142]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.08.27-15.35.59:391][142]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.08.27-15.35.59:394][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.27-15.35.59:394][142]LogEngine: All Windows Closed
+[2025.08.27-15.35.59:394][142]LogWindows: FPlatformMisc::RequestExit(0, UGameEngine::Tick.ViewportClosed)
+[2025.08.27-15.35.59:394][142]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, UGameEngine::Tick.ViewportClosed)
+[2025.08.27-15.35.59:394][142]LogCore: Engine exit requested (reason: Win RequestExit)
+[2025.08.27-15.35.59:395][143]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.08.27-15.35.59:395][143]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.08.27-15.35.59:395][143]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.08.27-15.35.59:395][143]LogInit: Display: PreExit Game.
+[2025.08.27-15.35.59:396][143]LogWorld: BeginTearingDown for /Game/camp
+[2025.08.27-15.35.59:396][143]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.08.27-15.35.59:396][143]LogWorld: UWorld::CleanupWorld for camp, bSessionEnded=true, bCleanupResources=true
+[2025.08.27-15.35.59:397][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.27-15.35.59:397][143]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.08.27-15.35.59:397][143]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.08.27-15.36.00:131][143]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.08.27-15.36.00:131][143]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.08.27-15.36.00:131][143]LogAudio: Display: Audio Device unregistered from world 'camp'.
+[2025.08.27-15.36.00:131][143]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.08.27-15.36.00:132][143]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.08.27-15.36.00:132][143]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.08.27-15.36.00:135][143]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.08.27-15.36.00:135][143]LogAudio: Display: Audio Device Manager Shutdown
+[2025.08.27-15.36.00:137][143]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.08.27-15.36.00:137][143]LogExit: Preparing to exit.
+[2025.08.27-15.36.00:148][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.27-15.36.00:150][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.08.27-15.36.00:194][143]LogMoviePlayer: Shutting down movie player
+[2025.08.27-15.36.00:586][143]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.08.27-15.36.00:593][143]LogExit: Game engine shut down
+[2025.08.27-15.36.00:599][143]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2025.08.27-15.36.00:657][143]LogExit: Object subsystem successfully closed.
+[2025.08.27-15.36.00:761][143]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.08.27-15.36.01:572][143]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.08.27-15.36.01:574][143]LogNFORDenoise: NFORDenoise function shutting down
+[2025.08.27-15.36.01:623][143]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.08.27-15.36.01:623][143]RenderDocPlugin: plugin has been unloaded.
+[2025.08.27-15.36.01:624][143]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.08.27-15.36.01:624][143]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.08.27-15.36.01:624][143]LogPakFile: Destroying PakPlatformFile
+[2025.08.27-15.36.01:694][143]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.08.27-15.36.01:705][143]LogExit: Exiting.
+[2025.08.27-15.36.01:718][143]Log file closed, 08/28/25 00:36:01
