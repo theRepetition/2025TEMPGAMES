@@ -4,6 +4,7 @@
 #include "CoreMinimal.h"
 #include "WeaponEffect.h"
 #include "HandedType.h"
+#include "UObject/PrimaryAssetId.h"
 #include "WeaponStruct.generated.h"
 
 USTRUCT(BlueprintType)
@@ -38,10 +39,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
     TArray<FWeaponEffect> EFFECT; //특수 효과
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
-    UStaticMesh* MODEL_1st; //1인칭 모델
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Weapon")
+	FPrimaryAssetId MODEL;  //  모델 ID
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
-    UStaticMesh* MODEL_3rd; //3인칭 필드 모델
 	
 };

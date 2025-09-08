@@ -82,7 +82,7 @@ TArray<FItemData> UcppdataBaseManager::GetAllItems()
     {
         FItemData NewItem;
 
-        // ✅ 1. 'Name' 필드 값 가져오기
+        //  1. 'Name' 필드 값 가져오기
         NewItem.Name = ResultSet->GetString(TEXT("Name"));
 
         if (NewItem.Name.IsEmpty())
@@ -91,17 +91,19 @@ TArray<FItemData> UcppdataBaseManager::GetAllItems()
         }
         else
         {
-            // ✅ 2. UTF-8 변환을 통한 인코딩 테스트
+            //  2. UTF-8 변환을 통한 인코딩 테스트
             FString NameUTF8 = UTF8_TO_TCHAR(ResultSet->GetString(TEXT("Name")).GetCharArray().GetData());
             UE_LOG(LogTemp, Log, TEXT("[DB_DEBUG] Raw Name: %s | UTF-8 Converted: %s"), *NewItem.Name, *NameUTF8);
         }
 
-        // ✅ 3. 다른 필드 값 디버깅 로그 추가
+        //  3. 다른 필드 값 디버깅 로그 추가
 
         NewItem.Value = ResultSet->GetInt(TEXT("Value"));
         NewItem.Weight = ResultSet->GetFloat(TEXT("Weight"));
         NewItem.ImagePath = ResultSet->GetString(TEXT("ImagePath"));
-        NewItem.ModelID = ResultSet->GetString(TEXT("ModelID"));
+        NewItem.MODEL3rd = FPrimaryAssetId::ParseTypeAndName(
+            ResultSet->GetString(TEXT("ModelID"))
+        );
 
         ItemList.Add(NewItem);
     }

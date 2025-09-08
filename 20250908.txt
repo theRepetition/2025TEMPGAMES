@@ -1,0 +1,11 @@
+1.규칙
+data/meshes
+data/sounds
+WeaponDefinition:TestOneHandedSword
+2.데이터 에셋 클래스 만들기
+
+3에셋매니저 등록
+
+4.아이템 구조체에서 ID를 PrimaryAssetId로
+
+5.장착 파이프라인 고정 흐름

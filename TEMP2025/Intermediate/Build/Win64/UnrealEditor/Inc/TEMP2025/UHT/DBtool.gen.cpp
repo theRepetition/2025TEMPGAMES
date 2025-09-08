@@ -76,11 +76,11 @@ struct Z_Construct_UFunction_UDBTool_InsertTestData_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Database Setup" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "// \xe2\x9c\x85 \xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8\xec\x97\x90\xec\x84\x9c \xec\x8b\xa4\xed\x96\x89\xeb\x90\xa0 \xed\x95\xa8\xec\x88\x98\n" },
+		{ "Comment", "//  \xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8\xec\x97\x90\xec\x84\x9c \xec\x8b\xa4\xed\x96\x89\xeb\x90\xa0 \xed\x95\xa8\xec\x88\x98\n" },
 #endif
 		{ "ModuleRelativePath", "DBtool.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "\xe2\x9c\x85 \xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8\xec\x97\x90\xec\x84\x9c \xec\x8b\xa4\xed\x96\x89\xeb\x90\xa0 \xed\x95\xa8\xec\x88\x98" },
+		{ "ToolTip", "\xeb\xb8\x94\xeb\xa3\xa8\xed\x94\x84\xeb\xa6\xb0\xed\x8a\xb8\xec\x97\x90\xec\x84\x9c \xec\x8b\xa4\xed\x96\x89\xeb\x90\xa0 \xed\x95\xa8\xec\x88\x98" },
 #endif
 	};
 #endif // WITH_METADATA
@@ -170,7 +170,7 @@ struct Z_Construct_UClass_UDBTool_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UDBTool_CreateDatabase, "CreateDatabase" }, // 464817439
-		{ &Z_Construct_UFunction_UDBTool_InsertTestData, "InsertTestData" }, // 921687014
+		{ &Z_Construct_UFunction_UDBTool_InsertTestData, "InsertTestData" }, // 277812764
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -215,10 +215,10 @@ UDBTool::~UDBTool() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDBTool, UDBTool::StaticClass, TEXT("UDBTool"), &Z_Registration_Info_UClass_UDBTool, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDBTool), 3519504474U) },
+		{ Z_Construct_UClass_UDBTool, UDBTool::StaticClass, TEXT("UDBTool"), &Z_Registration_Info_UClass_UDBTool, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDBTool), 1996983095U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_147674300(TEXT("/Script/TEMP2025"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_1554883303(TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

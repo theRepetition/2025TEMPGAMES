@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeWeaponStruct() {}
 
 // ********** Begin Cross Module References ********************************************************
-ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FPrimaryAssetId();
 TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_ECostType();
 TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EHandedType();
 TEMP2025_API UEnum* Z_Construct_UEnum_TEMP2025_EWeaponType();
@@ -123,7 +123,7 @@ struct Z_Construct_UScriptStruct_FWeaponData_Statics
 		{ "ToolTip", "\xeb\xac\xb4\xea\xb2\x8c ->\xec\xa7\x80\xea\xb5\xac\xeb\xa0\xa5 \xec\x86\x8c\xeb\xaa\xa8 \xeb\xac\xb4\xea\xb8\xb0\xeb\x8a\x94 \xec\x9e\x90\xec\x9b\x90 \xec\x86\x8c\xeb\xaa\xa8\xeb\x9f\x89\xea\xb3\xbc \xec\x97\xb0\xea\xb4\x80 \xec\x9e\x88\xec\x9d\x84\xec\x88\x98 \xec\x9e\x88\xec\x9d\x8c" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MODEL_1st_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MODEL_MetaData[] = {
 		{ "Category", "Weapon" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "//\xed\x8a\xb9\xec\x88\x98 \xed\x9a\xa8\xea\xb3\xbc\n" },
@@ -131,16 +131,6 @@ struct Z_Construct_UScriptStruct_FWeaponData_Statics
 		{ "ModuleRelativePath", "WeaponStruct.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\xed\x8a\xb9\xec\x88\x98 \xed\x9a\xa8\xea\xb3\xbc" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MODEL_3rd_MetaData[] = {
-		{ "Category", "Weapon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "//1\xec\x9d\xb8\xec\xb9\xad \xeb\xaa\xa8\xeb\x8d\xb8\n" },
-#endif
-		{ "ModuleRelativePath", "WeaponStruct.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "1\xec\x9d\xb8\xec\xb9\xad \xeb\xaa\xa8\xeb\x8d\xb8" },
 #endif
 	};
 #endif // WITH_METADATA
@@ -157,8 +147,7 @@ struct Z_Construct_UScriptStruct_FWeaponData_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_WEIGHT;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_EFFECT_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_EFFECT;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_MODEL_1st;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_MODEL_3rd;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_MODEL;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static void* NewStructOps()
 	{
@@ -179,8 +168,7 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FWeaponD
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_WEIGHT = { "WEIGHT", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWeaponData, WEIGHT), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WEIGHT_MetaData), NewProp_WEIGHT_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_EFFECT_Inner = { "EFFECT", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FWeaponEffect, METADATA_PARAMS(0, nullptr) }; // 3029172311
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_EFFECT = { "EFFECT", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWeaponData, EFFECT), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EFFECT_MetaData), NewProp_EFFECT_MetaData) }; // 3029172311
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_MODEL_1st = { "MODEL_1st", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWeaponData, MODEL_1st), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MODEL_1st_MetaData), NewProp_MODEL_1st_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_MODEL_3rd = { "MODEL_3rd", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWeaponData, MODEL_3rd), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MODEL_3rd_MetaData), NewProp_MODEL_3rd_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_MODEL = { "MODEL", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWeaponData, MODEL), Z_Construct_UScriptStruct_FPrimaryAssetId, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MODEL_MetaData), NewProp_MODEL_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FWeaponData_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_NAME,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_TYPE_Underlying,
@@ -195,8 +183,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FW
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_WEIGHT,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_EFFECT_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_EFFECT,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_MODEL_1st,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_MODEL_3rd,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWeaponData_Statics::NewProp_MODEL,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWeaponData_Statics::PropPointers) < 2048);
 const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FWeaponData_Statics::StructParams = {
@@ -226,10 +213,10 @@ UScriptStruct* Z_Construct_UScriptStruct_FWeaponData()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h__Script_TEMP2025_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FWeaponData::StaticStruct, Z_Construct_UScriptStruct_FWeaponData_Statics::NewStructOps, TEXT("WeaponData"), &Z_Registration_Info_UScriptStruct_FWeaponData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponData), 465271574U) },
+		{ FWeaponData::StaticStruct, Z_Construct_UScriptStruct_FWeaponData_Statics::NewStructOps, TEXT("WeaponData"), &Z_Registration_Info_UScriptStruct_FWeaponData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponData), 1951846963U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h__Script_TEMP2025_3185824201(TEXT("/Script/TEMP2025"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h__Script_TEMP2025_2783565410(TEXT("/Script/TEMP2025"),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h__Script_TEMP2025_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h__Script_TEMP2025_Statics::ScriptStructInfo),
 	nullptr, 0);
