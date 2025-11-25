@@ -113,74 +113,32 @@ struct Z_Construct_UClass_UWeaponDefinition_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \xeb\xac\xb4\xea\xb8\xb0 \xec\xa0\x95\xec\x9d\x98 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0 (Primary Asset)\n * - FPrimaryAssetId: (\"WeaponDefinition\", AssetName)\n */" },
-#endif
 		{ "IncludePath", "WeaponDefinition.h" },
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "\xeb\xac\xb4\xea\xb8\xb0 \xec\xa0\x95\xec\x9d\x98 \xeb\x8d\xb0\xec\x9d\xb4\xed\x84\xb0 (Primary Asset)\n- FPrimaryAssetId: (\"WeaponDefinition\", AssetName)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[] = {
 		{ "Category", "Weapon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** 1) \xeb\xac\xb4\xea\xb8\xb0 \xec\x8a\xa4\xed\x83\x9c\xed\x8b\xb1 \xeb\xa9\x94\xec\x8b\x9c (SoftObject) */" },
-#endif
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "1) \xeb\xac\xb4\xea\xb8\xb0 \xec\x8a\xa4\xed\x83\x9c\xed\x8b\xb1 \xeb\xa9\x94\xec\x8b\x9c (SoftObject)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HandSocketName_MetaData[] = {
 		{ "Category", "Weapon|Sockets" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** 2) \xec\x9e\xa5\xec\xb0\xa9(hand) \xec\x86\x8c\xec\xbc\x93 \xec\x9d\xb4\xeb\xa6\x84 */" },
-#endif
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "2) \xec\x9e\xa5\xec\xb0\xa9(hand) \xec\x86\x8c\xec\xbc\x93 \xec\x9d\xb4\xeb\xa6\x84" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SheathSocketName_MetaData[] = {
 		{ "Category", "Weapon|Sockets" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** 3) \xec\xa7\x91/\xea\xb2\x80\xec\xa7\x91(sheath) \xec\x86\x8c\xec\xbc\x93 \xec\x9d\xb4\xeb\xa6\x84  */" },
-#endif
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "3) \xec\xa7\x91/\xea\xb2\x80\xec\xa7\x91(sheath) \xec\x86\x8c\xec\xbc\x93 \xec\x9d\xb4\xeb\xa6\x84" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HandOffset_MetaData[] = {
 		{ "Category", "Weapon|Offsets" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** 4) \xec\x86\x90 \xec\x9e\xa5\xec\xb0\xa9 \xec\x98\xa4\xed\x94\x84\xec\x85\x8b(\xed\x8a\xb8\xeb\x9e\x9c\xec\x8a\xa4\xed\x8f\xbc) */" },
-#endif
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "4) \xec\x86\x90 \xec\x9e\xa5\xec\xb0\xa9 \xec\x98\xa4\xed\x94\x84\xec\x85\x8b(\xed\x8a\xb8\xeb\x9e\x9c\xec\x8a\xa4\xed\x8f\xbc)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SheathOffset_MetaData[] = {
 		{ "Category", "Weapon|Offsets" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** 5) \xea\xb2\x80\xec\xa7\x91 \xec\x9e\xa5\xec\xb0\xa9 \xec\x98\xa4\xed\x94\x84\xec\x85\x8b(\xed\x8a\xb8\xeb\x9e\x9c\xec\x8a\xa4\xed\x8f\xbc) */" },
-#endif
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "5) \xea\xb2\x80\xec\xa7\x91 \xec\x9e\xa5\xec\xb0\xa9 \xec\x98\xa4\xed\x94\x84\xec\x85\x8b(\xed\x8a\xb8\xeb\x9e\x9c\xec\x8a\xa4\xed\x8f\xbc)" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponActorClass_MetaData[] = {
 		{ "Category", "Weapon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** 6) \xec\x95\x84\xec\x9d\xb4\xed\x85\x9c \xec\x95\xa1\xed\x84\xb0 BP \xed\x81\xb4\xeb\x9e\x98\xec\x8a\xa4 (\xec\x8a\xa4\xed\x8f\xb0\xec\x9a\xa9) */" },
-#endif
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "6) \xec\x95\x84\xec\x9d\xb4\xed\x85\x9c \xec\x95\xa1\xed\x84\xb0 BP \xed\x81\xb4\xeb\x9e\x98\xec\x8a\xa4 (\xec\x8a\xa4\xed\x8f\xb0\xec\x9a\xa9)" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_Mesh;
@@ -251,10 +209,10 @@ struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP202
 		{ FWeaponDefinitionTypes::StaticStruct, Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics::NewStructOps, TEXT("WeaponDefinitionTypes"), &Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponDefinitionTypes), 3392190818U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWeaponDefinition, UWeaponDefinition::StaticClass, TEXT("UWeaponDefinition"), &Z_Registration_Info_UClass_UWeaponDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeaponDefinition), 832138821U) },
+		{ Z_Construct_UClass_UWeaponDefinition, UWeaponDefinition::StaticClass, TEXT("UWeaponDefinition"), &Z_Registration_Info_UClass_UWeaponDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeaponDefinition), 927555043U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_3971845474(TEXT("/Script/TEMP2025"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_634176499(TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ScriptStructInfo),
 	nullptr, 0);
