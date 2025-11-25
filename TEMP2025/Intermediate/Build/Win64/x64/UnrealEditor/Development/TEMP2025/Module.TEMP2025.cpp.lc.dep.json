@@ -108,6 +108,9 @@
             "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\uitype.gen.cpp",
             "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\uitype.h",
             "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\uitype.generated.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\weapondefinition.gen.cpp",
+            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\public\\weapondefinition.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\weapondefinition.generated.h",
             "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\weaponeffect.gen.cpp",
             "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\weaponstruct.gen.cpp",
             "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\weapontype.gen.cpp",
@@ -123,6 +126,7 @@
             "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\dbtool.cpp",
             "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\myclass.cpp",
             "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\myclass.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\private\\weapondefinition.cpp",
             "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\temp2025.cpp",
             "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\temp2025.h",
             "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\uhitboxcomponent.cpp"
