@@ -4,6 +4,7 @@
 		"Module.TEMP2025.cpp.obj": [
 			"BasicStatsStruct.gen.cpp.obj",
 			"CostType.gen.cpp.obj",
+			"cppAsyncloadForInvenComponents.gen.cpp.obj",
 			"cppClosestPointLibrary.gen.cpp.obj",
 			"cppdataBaseManager.gen.cpp.obj",
 			"cppInventoryComponent.gen.cpp.obj",
@@ -26,8 +27,10 @@
 			"ObjectType.gen.cpp.obj",
 			"PlayerProfileStruct.gen.cpp.obj",
 			"SecondStatsStruct.gen.cpp.obj",
+			"TEMP2025.init.gen.cpp.obj",
 			"UHitboxComponent.gen.cpp.obj",
 			"UIType.gen.cpp.obj",
+			"WeaponDefinition.gen.cpp.obj",
 			"WeaponEffect.gen.cpp.obj",
 			"WeaponStruct.gen.cpp.obj",
 			"WeaponType.gen.cpp.obj",
@@ -41,13 +44,10 @@
 			"cppStatsCalcComponent.cpp.obj",
 			"DBtool.cpp.obj",
 			"MyClass.cpp.obj",
+			"cppAsyncloadForInvenComponents.cpp.obj",
 			"WeaponDefinition.cpp.obj",
 			"TEMP2025.cpp.obj",
-			"UHitboxComponent.cpp.obj",
-			"cppAsyncloadForInvenComponents.gen.cpp.obj",
-			"TEMP2025.init.gen.cpp.obj",
-			"WeaponDefinition.gen.cpp.obj",
-			"cppAsyncloadForInvenComponents.cpp.obj"
+			"UHitboxComponent.cpp.obj"
 		]
 	}
 }
