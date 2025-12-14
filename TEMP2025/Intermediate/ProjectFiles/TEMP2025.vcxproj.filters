@@ -183,6 +183,12 @@
     <ClInclude Include="..\..\Source\TEMP2025\cppNPCInteraction.h">
       <Filter>Source\TEMP2025</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TEMP2025\cppStatsCalcComponent.cpp">
+      <Filter>Source\TEMP2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TEMP2025\cppStatsCalcComponent.h">
+      <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TEMP2025\DBtool.cpp">
       <Filter>Source\TEMP2025</Filter>
     </ClCompile>
@@ -240,12 +246,6 @@
     <ClInclude Include="..\..\Source\TEMP2025\TEMP2025.h">
       <Filter>Source\TEMP2025</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TEMP2025\Temp2025GameInstance.cpp">
-      <Filter>Source\TEMP2025</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TEMP2025\Temp2025GameInstance.h">
-      <Filter>Source\TEMP2025</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\TEMP2025\UHitboxComponent.cpp">
       <Filter>Source\TEMP2025</Filter>
     </ClCompile>
@@ -263,6 +263,33 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\TEMP2025\WeaponType.h">
       <Filter>Source\TEMP2025</Filter>
+    </ClInclude>
+    <Filter Include="Source\TEMP2025\Private">
+      <UniqueIdentifier>{E8D98150-556F-374F-A195-35EE4AF99357}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TEMP2025\Private\cppAsyncloadForInvenComponents.cpp">
+      <Filter>Source\TEMP2025\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TEMP2025\Private\WeaponDefinition.cpp">
+      <Filter>Source\TEMP2025\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TEMP2025\Public">
+      <UniqueIdentifier>{B344B691-385A-3691-B3DD-1B620D1D4746}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TEMP2025\Public\BasicStatsStruct.h">
+      <Filter>Source\TEMP2025\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\Public\cppAsyncloadForInvenComponents.h">
+      <Filter>Source\TEMP2025\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\Public\FinalStatsStruct.h">
+      <Filter>Source\TEMP2025\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\Public\SecondStatsStruct.h">
+      <Filter>Source\TEMP2025\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TEMP2025\Public\WeaponDefinition.h">
+      <Filter>Source\TEMP2025\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

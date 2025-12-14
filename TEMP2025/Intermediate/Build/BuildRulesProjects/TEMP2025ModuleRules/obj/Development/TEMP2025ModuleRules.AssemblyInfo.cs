@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TEMP2025ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e7524c85c160fc5be82287da18218bbffc0d08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f10ad98d515fc07d2804e985b7023af26577992")]
 [assembly: System.Reflection.AssemblyProductAttribute("TEMP2025ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TEMP2025ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
