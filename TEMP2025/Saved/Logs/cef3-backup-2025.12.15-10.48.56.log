@@ -1,0 +1,4 @@
+[10944:18168:1215/194723.409:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[10944:18168:1215/194723.467:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[26576:30996:1215/194825.653:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 7
+[10944:18168:1215/194856.319:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
