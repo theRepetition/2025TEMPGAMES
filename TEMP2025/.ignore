@@ -2,10 +2,10 @@
 /.vscode
 /BLender
 /Content
-/DerivedDataCache
 /Intermediate
 /Platforms
 /Saved
+/temp
 /Plugins/VisualStudioTools/azure-pipelines
 /Plugins/VisualStudioTools/Docs
 /Plugins/VisualStudioTools/Intermediate
