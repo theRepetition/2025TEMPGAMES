@@ -18,13 +18,13 @@
 /I "Runtime/CoreUObject/Internal"
 /I "Runtime/CorePreciseFP/Public"
 /I "Runtime/CorePreciseFP/Internal"
+/I "Runtime/Json/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/FieldNotification/UHT"
 /I "Runtime/FieldNotification/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/NetCore/UHT"
 /I "Runtime/Net/Core/Classes"
 /I "Runtime/Net/Core/Public"
 /I "Runtime/Net/Common/Public"
-/I "Runtime/Json/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/JsonUtilities/UHT"
 /I "Runtime/JsonUtilities/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/SlateCore/UHT"
@@ -117,7 +117,7 @@
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/ClothSysRuntimeIntrfc/UHT"
 /I "Runtime/ClothingSystemRuntimeInterface/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/IrisCore/UHT"
-/I "Runtime/Experimental/Iris/Core/Public"
+/I "Runtime/Net/Iris/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/MovieSceneCapture/UHT"
 /I "Runtime/MovieSceneCapture/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Renderer/UHT"
@@ -165,6 +165,7 @@
 /I "Programs/UnrealLightmass/Public"
 /I "Editor/UnrealEd/Classes"
 /I "Editor/UnrealEd/Public"
+/I "Editor/UnrealEd/Internal"
 /I "Editor/AssetTagsEditor/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/CollectionManager/UHT"
 /I "Developer/CollectionManager/Public"
@@ -196,6 +197,7 @@
 /I "Developer/DirectoryWatcher/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Documentation/UHT"
 /I "Editor/Documentation/Public"
+/I "../Intermediate/Build/Win64/UnrealEditor/Inc/MainFrame/UHT"
 /I "Editor/MainFrame/Public"
 /I "Runtime/SandboxFile/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/SourceControl/UHT"
@@ -244,6 +246,7 @@
 /I "Editor/StructViewer/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/MaterialEditor/UHT"
 /I "Editor/MaterialEditor/Public"
+/I "Editor/MaterialEditor/Internal"
 /I "Runtime/NetworkFileSystem/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/UMG/UHT"
 /I "Runtime/UMG/Public"
@@ -319,7 +322,6 @@
 /Fo"E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/Build/Win64/x64/TEMP2025Editor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.h.obj"
 /experimental:log "E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/Build/Win64/x64/TEMP2025Editor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.h.sarif"
 /sourceDependencies "E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/Build/Win64/x64/TEMP2025Editor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.h.dep.json"
-/Zc:inline
 /nologo
 /Oi
 /FC
@@ -333,6 +335,8 @@
 /permissive-
 /Zc:strictStrings-
 /Zc:__cplusplus
+/Zc:inline
+/Zc:preprocessor
 /D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
 /D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
 /D_WINDLL
@@ -357,8 +361,10 @@
 /we4459
 /wd4244
 /wd4838
+/we4668
+/wd4267
+/wd4100
 /TP
 /GR-
 /std:c++20
-/Zc:preprocessor
 /wd5054

@@ -15,7 +15,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 enum class EPlayerRelation : uint8;
 
 // ********** Begin Class UcppNPCInteraction *******************************************************
@@ -25,14 +24,15 @@ enum class EPlayerRelation : uint8;
 	DECLARE_FUNCTION(execProcessPlayerState);
 
 
+struct Z_Construct_UClass_UcppNPCInteraction_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UcppNPCInteraction_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppNPCInteraction(); \
-	friend struct Z_Construct_UClass_UcppNPCInteraction_Statics; \
+	friend struct ::Z_Construct_UClass_UcppNPCInteraction_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UcppNPCInteraction_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UcppNPCInteraction_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UcppNPCInteraction, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UcppNPCInteraction_NoRegister) \
 	DECLARE_SERIALIZER(UcppNPCInteraction)
@@ -74,7 +74,7 @@ class UcppNPCInteraction;
 
 enum class EPlayerRelation : uint8;
 template<> struct TIsUEnumClass<EPlayerRelation> { enum { Value = true }; };
-template<> TEMP2025_API UEnum* StaticEnum<EPlayerRelation>();
+template<> TEMP2025_NON_ATTRIBUTED_API UEnum* StaticEnum<EPlayerRelation>();
 // ********** End Enum EPlayerRelation *************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

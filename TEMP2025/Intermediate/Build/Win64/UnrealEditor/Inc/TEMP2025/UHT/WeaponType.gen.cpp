@@ -8,7 +8,7 @@
 #include "TEMP2025/WeaponType.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -26,7 +26,7 @@ static UEnum* EWeaponType_StaticEnum()
 	}
 	return Z_Registration_Info_UEnum_EWeaponType.OuterSingleton;
 }
-template<> TEMP2025_API UEnum* StaticEnum<EWeaponType>()
+template<> TEMP2025_NON_ATTRIBUTED_API UEnum* StaticEnum<EWeaponType>()
 {
 	return EWeaponType_StaticEnum();
 }
@@ -86,7 +86,7 @@ struct Z_Construct_UEnum_TEMP2025_EWeaponType_Statics
 		{ "EWeaponType::Wand", (int64)EWeaponType::Wand },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
-};
+}; // struct Z_Construct_UEnum_TEMP2025_EWeaponType_Statics 
 const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EWeaponType_Statics::EnumParams = {
 	(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
 	nullptr,
@@ -113,13 +113,15 @@ UEnum* Z_Construct_UEnum_TEMP2025_EWeaponType()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3140929117U) },
+		{ EWeaponType_StaticEnum, TEXT("EWeaponType"), &Z_Registration_Info_UEnum_EWeaponType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2730892956U) },
 	};
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_845344583{
+	TEXT("/Script/TEMP2025"),
+	nullptr, 0,
+	nullptr, 0,
+	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_Statics::EnumInfo),
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_4288173616(TEXT("/Script/TEMP2025"),
-	nullptr, 0,
-	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponType_h__Script_TEMP2025_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

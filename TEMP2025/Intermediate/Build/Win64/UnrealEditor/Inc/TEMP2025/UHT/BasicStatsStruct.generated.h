@@ -17,8 +17,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FBasicStatsStruct *************************************************
+struct Z_Construct_UScriptStruct_FBasicStatsStruct_Statics;
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_BasicStatsStruct_h_8_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FBasicStatsStruct_Statics; \
+	friend struct ::Z_Construct_UScriptStruct_FBasicStatsStruct_Statics; \
 	TEMP2025_API static class UScriptStruct* StaticStruct();
 
 

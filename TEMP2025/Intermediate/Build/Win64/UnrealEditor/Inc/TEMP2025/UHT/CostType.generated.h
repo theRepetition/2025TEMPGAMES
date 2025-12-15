@@ -14,6 +14,7 @@
 #include "Templates/IsUEnumClass.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ReflectedTypeAccessors.h"
+#include "Templates/NoDestroy.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
@@ -28,7 +29,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 enum class ECostType : uint8;
 template<> struct TIsUEnumClass<ECostType> { enum { Value = true }; };
-template<> TEMP2025_API UEnum* StaticEnum<ECostType>();
+template<> TEMP2025_NON_ATTRIBUTED_API UEnum* StaticEnum<ECostType>();
 // ********** End Enum ECostType *******************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

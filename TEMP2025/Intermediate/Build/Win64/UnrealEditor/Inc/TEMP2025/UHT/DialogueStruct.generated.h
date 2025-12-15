@@ -17,8 +17,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FDialogueData *****************************************************
+struct Z_Construct_UScriptStruct_FDialogueData_Statics;
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DialogueStruct_h_10_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FDialogueData_Statics; \
+	friend struct ::Z_Construct_UScriptStruct_FDialogueData_Statics; \
 	TEMP2025_API static class UScriptStruct* StaticStruct();
 
 

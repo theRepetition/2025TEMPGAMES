@@ -15,7 +15,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 class AActor;
 struct FItemData;
 
@@ -24,14 +23,15 @@ struct FItemData;
 	DECLARE_FUNCTION(execPickUpItem);
 
 
+struct Z_Construct_UClass_UcppItemComponent_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UcppItemComponent_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppItemComponent(); \
-	friend struct Z_Construct_UClass_UcppItemComponent_Statics; \
+	friend struct ::Z_Construct_UClass_UcppItemComponent_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UcppItemComponent_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UcppItemComponent_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UcppItemComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UcppItemComponent_NoRegister) \
 	DECLARE_SERIALIZER(UcppItemComponent)

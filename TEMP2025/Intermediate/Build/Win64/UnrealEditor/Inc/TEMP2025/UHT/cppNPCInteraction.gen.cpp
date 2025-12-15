@@ -8,7 +8,7 @@
 #include "TEMP2025/cppNPCInteraction.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodecppNPCInteraction() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -29,7 +29,7 @@ static UEnum* EPlayerRelation_StaticEnum()
 	}
 	return Z_Registration_Info_UEnum_EPlayerRelation.OuterSingleton;
 }
-template<> TEMP2025_API UEnum* StaticEnum<EPlayerRelation>()
+template<> TEMP2025_NON_ATTRIBUTED_API UEnum* StaticEnum<EPlayerRelation>()
 {
 	return EPlayerRelation_StaticEnum();
 }
@@ -59,7 +59,7 @@ struct Z_Construct_UEnum_TEMP2025_EPlayerRelation_Statics
 		{ "EPlayerRelation::Hostile", (int64)EPlayerRelation::Hostile },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
-};
+}; // struct Z_Construct_UEnum_TEMP2025_EPlayerRelation_Statics 
 const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EPlayerRelation_Statics::EnumParams = {
 	(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
 	nullptr,
@@ -102,22 +102,31 @@ struct Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function GetRelationFromValue constinit property declarations ******************
 	static const UECodeGen_Private::FIntPropertyParams NewProp_RelationshipValue;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function GetRelationFromValue constinit property declarations ********************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function GetRelationFromValue Property Definitions *****************************
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::NewProp_RelationshipValue = { "RelationshipValue", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventGetRelationFromValue_Parms, RelationshipValue), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventGetRelationFromValue_Parms, ReturnValue), Z_Construct_UEnum_TEMP2025_EPlayerRelation, METADATA_PARAMS(0, nullptr) }; // 488346988
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventGetRelationFromValue_Parms, ReturnValue), Z_Construct_UEnum_TEMP2025_EPlayerRelation, METADATA_PARAMS(0, nullptr) }; // 589245968
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::NewProp_RelationshipValue,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::NewProp_ReturnValue_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppNPCInteraction, nullptr, "GetRelationFromValue", Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::cppNPCInteraction_eventGetRelationFromValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::Function_MetaDataParams)},  };
+// ********** End Function GetRelationFromValue Property Definitions *******************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppNPCInteraction, nullptr, "GetRelationFromValue", 	Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::cppNPCInteraction_eventGetRelationFromValue_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue_Statics::cppNPCInteraction_eventGetRelationFromValue_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue()
 {
@@ -162,17 +171,22 @@ struct Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics
 		{ "NativeConst", "" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function ProcessPlayerState constinit property declarations ********************
 	static const UECodeGen_Private::FStrPropertyParams NewProp_PlayerName;
 	static const UECodeGen_Private::FStrPropertyParams NewProp_TestString;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_PlayerRelation_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_PlayerRelation;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function ProcessPlayerState constinit property declarations **********************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function ProcessPlayerState Property Definitions *******************************
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_PlayerName = { "PlayerName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventProcessPlayerState_Parms, PlayerName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerName_MetaData), NewProp_PlayerName_MetaData) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_TestString = { "TestString", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventProcessPlayerState_Parms, TestString), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TestString_MetaData), NewProp_TestString_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_PlayerRelation_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_PlayerRelation = { "PlayerRelation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventProcessPlayerState_Parms, PlayerRelation), Z_Construct_UEnum_TEMP2025_EPlayerRelation, METADATA_PARAMS(0, nullptr) }; // 488346988
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_PlayerRelation = { "PlayerRelation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventProcessPlayerState_Parms, PlayerRelation), Z_Construct_UEnum_TEMP2025_EPlayerRelation, METADATA_PARAMS(0, nullptr) }; // 589245968
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_PlayerName,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_TestString,
@@ -180,7 +194,11 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppNP
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::NewProp_PlayerRelation,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppNPCInteraction, nullptr, "ProcessPlayerState", Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::cppNPCInteraction_eventProcessPlayerState_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::Function_MetaDataParams)},  };
+// ********** End Function ProcessPlayerState Property Definitions *********************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppNPCInteraction, nullptr, "ProcessPlayerState", 	Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::cppNPCInteraction_eventProcessPlayerState_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState_Statics::cppNPCInteraction_eventProcessPlayerState_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState()
 {
@@ -224,12 +242,17 @@ struct Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Stat
 		{ "NativeConst", "" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function ProcessPlayerStateWithValue constinit property declarations ***********
 	static const UECodeGen_Private::FStrPropertyParams NewProp_PlayerName;
 	static const UECodeGen_Private::FStrPropertyParams NewProp_TestString;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_RelationshipValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function ProcessPlayerStateWithValue constinit property declarations *************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function ProcessPlayerStateWithValue Property Definitions **********************
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::NewProp_PlayerName = { "PlayerName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventProcessPlayerStateWithValue_Parms, PlayerName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerName_MetaData), NewProp_PlayerName_MetaData) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::NewProp_TestString = { "TestString", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventProcessPlayerStateWithValue_Parms, TestString), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TestString_MetaData), NewProp_TestString_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::NewProp_RelationshipValue = { "RelationshipValue", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppNPCInteraction_eventProcessPlayerStateWithValue_Parms, RelationshipValue), METADATA_PARAMS(0, nullptr) };
@@ -239,7 +262,11 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppNP
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::NewProp_RelationshipValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppNPCInteraction, nullptr, "ProcessPlayerStateWithValue", Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::cppNPCInteraction_eventProcessPlayerStateWithValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::Function_MetaDataParams)},  };
+// ********** End Function ProcessPlayerStateWithValue Property Definitions ************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppNPCInteraction, nullptr, "ProcessPlayerStateWithValue", 	Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::cppNPCInteraction_eventProcessPlayerStateWithValue_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue_Statics::cppNPCInteraction_eventProcessPlayerStateWithValue_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue()
 {
@@ -263,16 +290,6 @@ DEFINE_FUNCTION(UcppNPCInteraction::execProcessPlayerStateWithValue)
 // ********** End Class UcppNPCInteraction Function ProcessPlayerStateWithValue ********************
 
 // ********** Begin Class UcppNPCInteraction *******************************************************
-void UcppNPCInteraction::StaticRegisterNativesUcppNPCInteraction()
-{
-	UClass* Class = UcppNPCInteraction::StaticClass();
-	static const FNameNativePtrPair Funcs[] = {
-		{ "GetRelationFromValue", &UcppNPCInteraction::execGetRelationFromValue },
-		{ "ProcessPlayerState", &UcppNPCInteraction::execProcessPlayerState },
-		{ "ProcessPlayerStateWithValue", &UcppNPCInteraction::execProcessPlayerStateWithValue },
-	};
-	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UcppNPCInteraction;
 UClass* UcppNPCInteraction::GetPrivateStaticClass()
 {
@@ -280,7 +297,7 @@ UClass* UcppNPCInteraction::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UcppNPCInteraction.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("cppNPCInteraction"),
 			Z_Registration_Info_UClass_UcppNPCInteraction.InnerSingleton,
 			StaticRegisterNativesUcppNPCInteraction,
@@ -312,18 +329,26 @@ struct Z_Construct_UClass_UcppNPCInteraction_Statics
 		{ "ModuleRelativePath", "cppNPCInteraction.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UcppNPCInteraction constinit property declarations ***********************
+// ********** End Class UcppNPCInteraction constinit property declarations *************************
+	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("GetRelationFromValue"), .Pointer = &UcppNPCInteraction::execGetRelationFromValue },
+		{ .NameUTF8 = UTF8TEXT("ProcessPlayerState"), .Pointer = &UcppNPCInteraction::execProcessPlayerState },
+		{ .NameUTF8 = UTF8TEXT("ProcessPlayerStateWithValue"), .Pointer = &UcppNPCInteraction::execProcessPlayerStateWithValue },
+	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue, "GetRelationFromValue" }, // 2052732334
-		{ &Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState, "ProcessPlayerState" }, // 4083604582
-		{ &Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue, "ProcessPlayerStateWithValue" }, // 4117151965
+		{ &Z_Construct_UFunction_UcppNPCInteraction_GetRelationFromValue, "GetRelationFromValue" }, // 524427034
+		{ &Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerState, "ProcessPlayerState" }, // 2526059906
+		{ &Z_Construct_UFunction_UcppNPCInteraction_ProcessPlayerStateWithValue, "ProcessPlayerStateWithValue" }, // 3585828933
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UcppNPCInteraction>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
+}; // struct Z_Construct_UClass_UcppNPCInteraction_Statics
 UObject* (*const Z_Construct_UClass_UcppNPCInteraction_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UActorComponent,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -344,6 +369,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UcppNPCInteraction_Stat
 	0x00B000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UcppNPCInteraction_Statics::Class_MetaDataParams), Z_Construct_UClass_UcppNPCInteraction_Statics::Class_MetaDataParams)
 };
+void UcppNPCInteraction::StaticRegisterNativesUcppNPCInteraction()
+{
+	UClass* Class = UcppNPCInteraction::StaticClass();
+	FNativeFunctionRegistrar::RegisterFunctions(Class, MakeConstArrayView(Z_Construct_UClass_UcppNPCInteraction_Statics::Funcs));
+}
 UClass* Z_Construct_UClass_UcppNPCInteraction()
 {
 	if (!Z_Registration_Info_UClass_UcppNPCInteraction.OuterSingleton)
@@ -352,7 +382,7 @@ UClass* Z_Construct_UClass_UcppNPCInteraction()
 	}
 	return Z_Registration_Info_UClass_UcppNPCInteraction.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UcppNPCInteraction);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UcppNPCInteraction);
 UcppNPCInteraction::~UcppNPCInteraction() {}
 // ********** End Class UcppNPCInteraction *********************************************************
 
@@ -360,16 +390,18 @@ UcppNPCInteraction::~UcppNPCInteraction() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EPlayerRelation_StaticEnum, TEXT("EPlayerRelation"), &Z_Registration_Info_UEnum_EPlayerRelation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 488346988U) },
+		{ EPlayerRelation_StaticEnum, TEXT("EPlayerRelation"), &Z_Registration_Info_UEnum_EPlayerRelation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 589245968U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UcppNPCInteraction, UcppNPCInteraction::StaticClass, TEXT("UcppNPCInteraction"), &Z_Registration_Info_UClass_UcppNPCInteraction, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppNPCInteraction), 2518391563U) },
+		{ Z_Construct_UClass_UcppNPCInteraction, UcppNPCInteraction::StaticClass, TEXT("UcppNPCInteraction"), &Z_Registration_Info_UClass_UcppNPCInteraction, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppNPCInteraction), 2137895185U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_2982617143(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_2928964881{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppNPCInteraction_h__Script_TEMP2025_Statics::EnumInfo),
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -9,7 +9,7 @@
 #include "TEMP2025/ItemStruct.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeItemInterface() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -62,16 +62,25 @@ struct Z_Construct_UFunction_UItemInterface_GetItemData_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function GetItemData constinit property declarations ***************************
 	static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function GetItemData constinit property declarations *****************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UItemInterface_GetItemData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ItemInterface_eventGetItemData_Parms, ReturnValue), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 1262124300
+
+// ********** Begin Function GetItemData Property Definitions **************************************
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UItemInterface_GetItemData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ItemInterface_eventGetItemData_Parms, ReturnValue), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 1237887337
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UItemInterface_GetItemData_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UItemInterface_GetItemData_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UItemInterface_GetItemData_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UItemInterface_GetItemData_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UItemInterface, nullptr, "GetItemData", Z_Construct_UFunction_UItemInterface_GetItemData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UItemInterface_GetItemData_Statics::PropPointers), sizeof(ItemInterface_eventGetItemData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UItemInterface_GetItemData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UItemInterface_GetItemData_Statics::Function_MetaDataParams)},  };
+// ********** End Function GetItemData Property Definitions ****************************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UItemInterface_GetItemData_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UItemInterface, nullptr, "GetItemData", 	Z_Construct_UFunction_UItemInterface_GetItemData_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UItemInterface_GetItemData_Statics::PropPointers), 
+sizeof(ItemInterface_eventGetItemData_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UItemInterface_GetItemData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UItemInterface_GetItemData_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(ItemInterface_eventGetItemData_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UItemInterface_GetItemData()
 {
@@ -92,14 +101,6 @@ DEFINE_FUNCTION(IItemInterface::execGetItemData)
 // ********** End Interface UItemInterface Function GetItemData ************************************
 
 // ********** Begin Interface UItemInterface *******************************************************
-void UItemInterface::StaticRegisterNativesUItemInterface()
-{
-	UClass* Class = UItemInterface::StaticClass();
-	static const FNameNativePtrPair Funcs[] = {
-		{ "GetItemData", &IItemInterface::execGetItemData },
-	};
-	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UItemInterface;
 UClass* UItemInterface::GetPrivateStaticClass()
 {
@@ -107,7 +108,7 @@ UClass* UItemInterface::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UItemInterface.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("ItemInterface"),
 			Z_Registration_Info_UClass_UItemInterface.InnerSingleton,
 			StaticRegisterNativesUItemInterface,
@@ -138,16 +139,22 @@ struct Z_Construct_UClass_UItemInterface_Statics
 		{ "ModuleRelativePath", "ItemInterface.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Interface UItemInterface constinit property declarations ***********************
+// ********** End Interface UItemInterface constinit property declarations *************************
+	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("GetItemData"), .Pointer = &IItemInterface::execGetItemData },
+	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UItemInterface_GetItemData, "GetItemData" }, // 3224599213
+		{ &Z_Construct_UFunction_UItemInterface_GetItemData, "GetItemData" }, // 3570973161
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<IItemInterface>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
+}; // struct Z_Construct_UClass_UItemInterface_Statics
 UObject* (*const Z_Construct_UClass_UItemInterface_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UInterface,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -168,6 +175,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UItemInterface_Statics:
 	0x000840A1u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UItemInterface_Statics::Class_MetaDataParams), Z_Construct_UClass_UItemInterface_Statics::Class_MetaDataParams)
 };
+void UItemInterface::StaticRegisterNativesUItemInterface()
+{
+	UClass* Class = UItemInterface::StaticClass();
+	FNativeFunctionRegistrar::RegisterFunctions(Class, MakeConstArrayView(Z_Construct_UClass_UItemInterface_Statics::Funcs));
+}
 UClass* Z_Construct_UClass_UItemInterface()
 {
 	if (!Z_Registration_Info_UClass_UItemInterface.OuterSingleton)
@@ -177,20 +189,22 @@ UClass* Z_Construct_UClass_UItemInterface()
 	return Z_Registration_Info_UClass_UItemInterface.OuterSingleton;
 }
 UItemInterface::UItemInterface(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
-DEFINE_VTABLE_PTR_HELPER_CTOR(UItemInterface);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UItemInterface);
 // ********** End Interface UItemInterface *********************************************************
 
 // ********** Begin Registration *******************************************************************
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UItemInterface, UItemInterface::StaticClass, TEXT("UItemInterface"), &Z_Registration_Info_UClass_UItemInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemInterface), 4052164256U) },
+		{ Z_Construct_UClass_UItemInterface, UItemInterface::StaticClass, TEXT("UItemInterface"), &Z_Registration_Info_UClass_UItemInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemInterface), 706146094U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h__Script_TEMP2025_779368883(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h__Script_TEMP2025_2649902385{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

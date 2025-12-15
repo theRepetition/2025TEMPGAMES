@@ -15,7 +15,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 class UStaticMesh;
 
 // ********** Begin Delegate FOnAssetLoadedDelegate ************************************************
@@ -30,14 +29,15 @@ TEMP2025_API void FOnAssetLoadedDelegate_DelegateWrapper(const FMulticastScriptD
 	DECLARE_FUNCTION(execStartLoadStaticMesh);
 
 
+struct Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UcppAsyncloadForInvenComponents_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_cppAsyncloadForInvenComponents_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppAsyncloadForInvenComponents(); \
-	friend struct Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics; \
+	friend struct ::Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UcppAsyncloadForInvenComponents_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UcppAsyncloadForInvenComponents_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UcppAsyncloadForInvenComponents, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UcppAsyncloadForInvenComponents_NoRegister) \
 	DECLARE_SERIALIZER(UcppAsyncloadForInvenComponents)

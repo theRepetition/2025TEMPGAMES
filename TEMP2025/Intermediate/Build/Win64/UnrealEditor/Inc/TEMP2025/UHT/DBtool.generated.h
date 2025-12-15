@@ -22,14 +22,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execCreateDatabase);
 
 
+struct Z_Construct_UClass_UDBTool_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UDBTool_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDBTool(); \
-	friend struct Z_Construct_UClass_UDBTool_Statics; \
+	friend struct ::Z_Construct_UClass_UDBTool_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UDBTool_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UDBTool_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UDBTool, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UDBTool_NoRegister) \
 	DECLARE_SERIALIZER(UDBTool)

@@ -8,7 +8,7 @@
 #include "TEMP2025/DBtool.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeDBtool() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -31,11 +31,16 @@ struct Z_Construct_UFunction_UDBTool_CreateDatabase_Statics
 		{ "ModuleRelativePath", "DBtool.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function CreateDatabase constinit property declarations ************************
 	static void NewProp_ReturnValue_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function CreateDatabase constinit property declarations **************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function CreateDatabase Property Definitions ***********************************
 void Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 {
 	((DBTool_eventCreateDatabase_Parms*)Obj)->ReturnValue = 1;
@@ -45,7 +50,11 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDBToo
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UDBTool, nullptr, "CreateDatabase", Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::PropPointers), sizeof(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::DBTool_eventCreateDatabase_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::Function_MetaDataParams), Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::Function_MetaDataParams)},  };
+// ********** End Function CreateDatabase Property Definitions *************************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UDBTool, nullptr, "CreateDatabase", 	Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::DBTool_eventCreateDatabase_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::Function_MetaDataParams), Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UDBTool_CreateDatabase_Statics::DBTool_eventCreateDatabase_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UDBTool_CreateDatabase()
 {
@@ -84,11 +93,16 @@ struct Z_Construct_UFunction_UDBTool_InsertTestData_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function InsertTestData constinit property declarations ************************
 	static void NewProp_ReturnValue_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function InsertTestData constinit property declarations **************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function InsertTestData Property Definitions ***********************************
 void Z_Construct_UFunction_UDBTool_InsertTestData_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 {
 	((DBTool_eventInsertTestData_Parms*)Obj)->ReturnValue = 1;
@@ -98,7 +112,11 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDBToo
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDBTool_InsertTestData_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDBTool_InsertTestData_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UDBTool, nullptr, "InsertTestData", Z_Construct_UFunction_UDBTool_InsertTestData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::DBTool_eventInsertTestData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UDBTool_InsertTestData_Statics::Function_MetaDataParams)},  };
+// ********** End Function InsertTestData Property Definitions *************************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDBTool_InsertTestData_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UDBTool, nullptr, "InsertTestData", 	Z_Construct_UFunction_UDBTool_InsertTestData_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::DBTool_eventInsertTestData_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UDBTool_InsertTestData_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UDBTool_InsertTestData_Statics::DBTool_eventInsertTestData_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UDBTool_InsertTestData()
 {
@@ -119,15 +137,6 @@ DEFINE_FUNCTION(UDBTool::execInsertTestData)
 // ********** End Class UDBTool Function InsertTestData ********************************************
 
 // ********** Begin Class UDBTool ******************************************************************
-void UDBTool::StaticRegisterNativesUDBTool()
-{
-	UClass* Class = UDBTool::StaticClass();
-	static const FNameNativePtrPair Funcs[] = {
-		{ "CreateDatabase", &UDBTool::execCreateDatabase },
-		{ "InsertTestData", &UDBTool::execInsertTestData },
-	};
-	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UDBTool;
 UClass* UDBTool::GetPrivateStaticClass()
 {
@@ -135,7 +144,7 @@ UClass* UDBTool::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UDBTool.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("DBTool"),
 			Z_Registration_Info_UClass_UDBTool.InnerSingleton,
 			StaticRegisterNativesUDBTool,
@@ -167,17 +176,24 @@ struct Z_Construct_UClass_UDBTool_Statics
 		{ "ModuleRelativePath", "DBtool.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UDBTool constinit property declarations **********************************
+// ********** End Class UDBTool constinit property declarations ************************************
+	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("CreateDatabase"), .Pointer = &UDBTool::execCreateDatabase },
+		{ .NameUTF8 = UTF8TEXT("InsertTestData"), .Pointer = &UDBTool::execInsertTestData },
+	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UDBTool_CreateDatabase, "CreateDatabase" }, // 464817439
-		{ &Z_Construct_UFunction_UDBTool_InsertTestData, "InsertTestData" }, // 277812764
+		{ &Z_Construct_UFunction_UDBTool_CreateDatabase, "CreateDatabase" }, // 26041314
+		{ &Z_Construct_UFunction_UDBTool_InsertTestData, "InsertTestData" }, // 3759629684
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UDBTool>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
+}; // struct Z_Construct_UClass_UDBTool_Statics
 UObject* (*const Z_Construct_UClass_UDBTool_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UObject,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -198,6 +214,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UDBTool_Statics::ClassP
 	0x001000A0u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UDBTool_Statics::Class_MetaDataParams), Z_Construct_UClass_UDBTool_Statics::Class_MetaDataParams)
 };
+void UDBTool::StaticRegisterNativesUDBTool()
+{
+	UClass* Class = UDBTool::StaticClass();
+	FNativeFunctionRegistrar::RegisterFunctions(Class, MakeConstArrayView(Z_Construct_UClass_UDBTool_Statics::Funcs));
+}
 UClass* Z_Construct_UClass_UDBTool()
 {
 	if (!Z_Registration_Info_UClass_UDBTool.OuterSingleton)
@@ -207,7 +228,7 @@ UClass* Z_Construct_UClass_UDBTool()
 	return Z_Registration_Info_UClass_UDBTool.OuterSingleton;
 }
 UDBTool::UDBTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
-DEFINE_VTABLE_PTR_HELPER_CTOR(UDBTool);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UDBTool);
 UDBTool::~UDBTool() {}
 // ********** End Class UDBTool ********************************************************************
 
@@ -215,13 +236,15 @@ UDBTool::~UDBTool() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDBTool, UDBTool::StaticClass, TEXT("UDBTool"), &Z_Registration_Info_UClass_UDBTool, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDBTool), 1996983095U) },
+		{ Z_Construct_UClass_UDBTool, UDBTool::StaticClass, TEXT("UDBTool"), &Z_Registration_Info_UClass_UDBTool, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDBTool), 2931436215U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_1554883303(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_3027543124{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_DBtool_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

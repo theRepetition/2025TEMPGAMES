@@ -17,8 +17,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FWeaponDefinitionTypes ********************************************
+struct Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics;
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h_14_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics; \
+	friend struct ::Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics; \
 	TEMP2025_API static class UScriptStruct* StaticStruct();
 
 
@@ -26,14 +27,15 @@ struct FWeaponDefinitionTypes;
 // ********** End ScriptStruct FWeaponDefinitionTypes **********************************************
 
 // ********** Begin Class UWeaponDefinition ********************************************************
+struct Z_Construct_UClass_UWeaponDefinition_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UWeaponDefinition_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUWeaponDefinition(); \
-	friend struct Z_Construct_UClass_UWeaponDefinition_Statics; \
+	friend struct ::Z_Construct_UClass_UWeaponDefinition_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UWeaponDefinition_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UWeaponDefinition_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UWeaponDefinition, UPrimaryDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UWeaponDefinition_NoRegister) \
 	DECLARE_SERIALIZER(UWeaponDefinition)

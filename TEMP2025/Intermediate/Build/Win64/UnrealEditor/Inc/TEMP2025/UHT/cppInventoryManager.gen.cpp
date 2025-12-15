@@ -9,7 +9,7 @@
 #include "TEMP2025/ItemStruct.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodecppInventoryManager() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -40,16 +40,25 @@ struct Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function AddItem constinit property declarations *******************************
 	static const UECodeGen_Private::FStructPropertyParams NewProp_NewItem;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function AddItem constinit property declarations *********************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::NewProp_NewItem = { "NewItem", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppInventoryManager_eventAddItem_Parms, NewItem), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 1262124300
+
+// ********** Begin Function AddItem Property Definitions ******************************************
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::NewProp_NewItem = { "NewItem", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppInventoryManager_eventAddItem_Parms, NewItem), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 1237887337
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::NewProp_NewItem,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "AddItem", Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::cppInventoryManager_eventAddItem_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::Function_MetaDataParams)},  };
+// ********** End Function AddItem Property Definitions ********************************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "AddItem", 	Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::cppInventoryManager_eventAddItem_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppInventoryManager_AddItem_Statics::cppInventoryManager_eventAddItem_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppInventoryManager_AddItem()
 {
@@ -89,19 +98,28 @@ struct Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function GetInventoryItems constinit property declarations *********************
 	static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function GetInventoryItems constinit property declarations ***********************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 1262124300
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppInventoryManager_eventGetInventoryItems_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1262124300
+
+// ********** Begin Function GetInventoryItems Property Definitions ********************************
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 1237887337
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppInventoryManager_eventGetInventoryItems_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1237887337
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::NewProp_ReturnValue_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "GetInventoryItems", Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::cppInventoryManager_eventGetInventoryItems_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::Function_MetaDataParams)},  };
+// ********** End Function GetInventoryItems Property Definitions **********************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "GetInventoryItems", 	Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::cppInventoryManager_eventGetInventoryItems_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems_Statics::cppInventoryManager_eventGetInventoryItems_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems()
 {
@@ -140,16 +158,25 @@ struct Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function LoadInventory constinit property declarations *************************
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DBManager;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function LoadInventory constinit property declarations ***************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function LoadInventory Property Definitions ************************************
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::NewProp_DBManager = { "DBManager", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppInventoryManager_eventLoadInventory_Parms, DBManager), Z_Construct_UClass_UcppdataBaseManager_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::NewProp_DBManager,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "LoadInventory", Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::cppInventoryManager_eventLoadInventory_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::Function_MetaDataParams)},  };
+// ********** End Function LoadInventory Property Definitions **************************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "LoadInventory", 	Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::cppInventoryManager_eventLoadInventory_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppInventoryManager_LoadInventory_Statics::cppInventoryManager_eventLoadInventory_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppInventoryManager_LoadInventory()
 {
@@ -189,16 +216,25 @@ struct Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function RemoveItem constinit property declarations ****************************
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ItemName;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function RemoveItem constinit property declarations ******************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function RemoveItem Property Definitions ***************************************
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::NewProp_ItemName = { "ItemName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppInventoryManager_eventRemoveItem_Parms, ItemName), METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::NewProp_ItemName,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "RemoveItem", Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::cppInventoryManager_eventRemoveItem_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::Function_MetaDataParams)},  };
+// ********** End Function RemoveItem Property Definitions *****************************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppInventoryManager, nullptr, "RemoveItem", 	Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::cppInventoryManager_eventRemoveItem_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppInventoryManager_RemoveItem_Statics::cppInventoryManager_eventRemoveItem_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppInventoryManager_RemoveItem()
 {
@@ -220,17 +256,6 @@ DEFINE_FUNCTION(UcppInventoryManager::execRemoveItem)
 // ********** End Class UcppInventoryManager Function RemoveItem ***********************************
 
 // ********** Begin Class UcppInventoryManager *****************************************************
-void UcppInventoryManager::StaticRegisterNativesUcppInventoryManager()
-{
-	UClass* Class = UcppInventoryManager::StaticClass();
-	static const FNameNativePtrPair Funcs[] = {
-		{ "AddItem", &UcppInventoryManager::execAddItem },
-		{ "GetInventoryItems", &UcppInventoryManager::execGetInventoryItems },
-		{ "LoadInventory", &UcppInventoryManager::execLoadInventory },
-		{ "RemoveItem", &UcppInventoryManager::execRemoveItem },
-	};
-	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UcppInventoryManager;
 UClass* UcppInventoryManager::GetPrivateStaticClass()
 {
@@ -238,7 +263,7 @@ UClass* UcppInventoryManager::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UcppInventoryManager.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("cppInventoryManager"),
 			Z_Registration_Info_UClass_UcppInventoryManager.InnerSingleton,
 			StaticRegisterNativesUcppInventoryManager,
@@ -270,19 +295,28 @@ struct Z_Construct_UClass_UcppInventoryManager_Statics
 		{ "ModuleRelativePath", "cppInventoryManager.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UcppInventoryManager constinit property declarations *********************
+// ********** End Class UcppInventoryManager constinit property declarations ***********************
+	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("AddItem"), .Pointer = &UcppInventoryManager::execAddItem },
+		{ .NameUTF8 = UTF8TEXT("GetInventoryItems"), .Pointer = &UcppInventoryManager::execGetInventoryItems },
+		{ .NameUTF8 = UTF8TEXT("LoadInventory"), .Pointer = &UcppInventoryManager::execLoadInventory },
+		{ .NameUTF8 = UTF8TEXT("RemoveItem"), .Pointer = &UcppInventoryManager::execRemoveItem },
+	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppInventoryManager_AddItem, "AddItem" }, // 1201307936
-		{ &Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems, "GetInventoryItems" }, // 4233431425
-		{ &Z_Construct_UFunction_UcppInventoryManager_LoadInventory, "LoadInventory" }, // 3856533108
-		{ &Z_Construct_UFunction_UcppInventoryManager_RemoveItem, "RemoveItem" }, // 1462912825
+		{ &Z_Construct_UFunction_UcppInventoryManager_AddItem, "AddItem" }, // 2526319568
+		{ &Z_Construct_UFunction_UcppInventoryManager_GetInventoryItems, "GetInventoryItems" }, // 3337464228
+		{ &Z_Construct_UFunction_UcppInventoryManager_LoadInventory, "LoadInventory" }, // 3329738940
+		{ &Z_Construct_UFunction_UcppInventoryManager_RemoveItem, "RemoveItem" }, // 2324541839
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UcppInventoryManager>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
+}; // struct Z_Construct_UClass_UcppInventoryManager_Statics
 UObject* (*const Z_Construct_UClass_UcppInventoryManager_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UActorComponent,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -303,6 +337,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UcppInventoryManager_St
 	0x00B000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UcppInventoryManager_Statics::Class_MetaDataParams), Z_Construct_UClass_UcppInventoryManager_Statics::Class_MetaDataParams)
 };
+void UcppInventoryManager::StaticRegisterNativesUcppInventoryManager()
+{
+	UClass* Class = UcppInventoryManager::StaticClass();
+	FNativeFunctionRegistrar::RegisterFunctions(Class, MakeConstArrayView(Z_Construct_UClass_UcppInventoryManager_Statics::Funcs));
+}
 UClass* Z_Construct_UClass_UcppInventoryManager()
 {
 	if (!Z_Registration_Info_UClass_UcppInventoryManager.OuterSingleton)
@@ -311,7 +350,7 @@ UClass* Z_Construct_UClass_UcppInventoryManager()
 	}
 	return Z_Registration_Info_UClass_UcppInventoryManager.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UcppInventoryManager);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UcppInventoryManager);
 UcppInventoryManager::~UcppInventoryManager() {}
 // ********** End Class UcppInventoryManager *******************************************************
 
@@ -319,13 +358,15 @@ UcppInventoryManager::~UcppInventoryManager() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryManager_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UcppInventoryManager, UcppInventoryManager::StaticClass, TEXT("UcppInventoryManager"), &Z_Registration_Info_UClass_UcppInventoryManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppInventoryManager), 2475856035U) },
+		{ Z_Construct_UClass_UcppInventoryManager, UcppInventoryManager::StaticClass, TEXT("UcppInventoryManager"), &Z_Registration_Info_UClass_UcppInventoryManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppInventoryManager), 2193489308U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryManager_h__Script_TEMP2025_4079023528(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryManager_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryManager_h__Script_TEMP2025_3310598067{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryManager_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppInventoryManager_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

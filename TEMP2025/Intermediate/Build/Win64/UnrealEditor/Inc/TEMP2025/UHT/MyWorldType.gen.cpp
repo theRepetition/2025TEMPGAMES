@@ -8,7 +8,7 @@
 #include "TEMP2025/MyWorldType.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeMyWorldType() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -26,7 +26,7 @@ static UEnum* EMyWorldType_StaticEnum()
 	}
 	return Z_Registration_Info_UEnum_EMyWorldType.OuterSingleton;
 }
-template<> TEMP2025_API UEnum* StaticEnum<EMyWorldType>()
+template<> TEMP2025_NON_ATTRIBUTED_API UEnum* StaticEnum<EMyWorldType>()
 {
 	return EMyWorldType_StaticEnum();
 }
@@ -47,7 +47,7 @@ struct Z_Construct_UEnum_TEMP2025_EMyWorldType_Statics
 		{ "EMyWorldType::Dungeon", (int64)EMyWorldType::Dungeon },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
-};
+}; // struct Z_Construct_UEnum_TEMP2025_EMyWorldType_Statics 
 const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EMyWorldType_Statics::EnumParams = {
 	(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
 	nullptr,
@@ -74,13 +74,15 @@ UEnum* Z_Construct_UEnum_TEMP2025_EMyWorldType()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EMyWorldType_StaticEnum, TEXT("EMyWorldType"), &Z_Registration_Info_UEnum_EMyWorldType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2277798217U) },
+		{ EMyWorldType_StaticEnum, TEXT("EMyWorldType"), &Z_Registration_Info_UEnum_EMyWorldType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3503576742U) },
 	};
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_1889333841{
+	TEXT("/Script/TEMP2025"),
+	nullptr, 0,
+	nullptr, 0,
+	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_Statics::EnumInfo),
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_3147936831(TEXT("/Script/TEMP2025"),
-	nullptr, 0,
-	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_MyWorldType_h__Script_TEMP2025_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -8,7 +8,7 @@
 #include "TEMP2025/ObjectType.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeObjectType() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -26,7 +26,7 @@ static UEnum* EObjectType_StaticEnum()
 	}
 	return Z_Registration_Info_UEnum_EObjectType.OuterSingleton;
 }
-template<> TEMP2025_API UEnum* StaticEnum<EObjectType>()
+template<> TEMP2025_NON_ATTRIBUTED_API UEnum* StaticEnum<EObjectType>()
 {
 	return EObjectType_StaticEnum();
 }
@@ -74,7 +74,7 @@ struct Z_Construct_UEnum_TEMP2025_EObjectType_Statics
 		{ "EObjectType::MovableOBJ", (int64)EObjectType::MovableOBJ },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
-};
+}; // struct Z_Construct_UEnum_TEMP2025_EObjectType_Statics 
 const UECodeGen_Private::FEnumParams Z_Construct_UEnum_TEMP2025_EObjectType_Statics::EnumParams = {
 	(UObject*(*)())Z_Construct_UPackage__Script_TEMP2025,
 	nullptr,
@@ -101,13 +101,15 @@ UEnum* Z_Construct_UEnum_TEMP2025_EObjectType()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EObjectType_StaticEnum, TEXT("EObjectType"), &Z_Registration_Info_UEnum_EObjectType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1896043967U) },
+		{ EObjectType_StaticEnum, TEXT("EObjectType"), &Z_Registration_Info_UEnum_EObjectType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1320734157U) },
 	};
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_4181996918{
+	TEXT("/Script/TEMP2025"),
+	nullptr, 0,
+	nullptr, 0,
+	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_Statics::EnumInfo),
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_1068892670(TEXT("/Script/TEMP2025"),
-	nullptr, 0,
-	nullptr, 0,
-	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ObjectType_h__Script_TEMP2025_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

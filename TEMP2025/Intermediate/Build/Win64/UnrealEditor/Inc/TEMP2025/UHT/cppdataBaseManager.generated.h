@@ -15,7 +15,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 struct FItemData;
 
 // ********** Begin Class UcppdataBaseManager ******************************************************
@@ -25,14 +24,15 @@ struct FItemData;
 	DECLARE_FUNCTION(execOpenDatabase);
 
 
+struct Z_Construct_UClass_UcppdataBaseManager_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UcppdataBaseManager_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppdataBaseManager_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppdataBaseManager(); \
-	friend struct Z_Construct_UClass_UcppdataBaseManager_Statics; \
+	friend struct ::Z_Construct_UClass_UcppdataBaseManager_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UcppdataBaseManager_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UcppdataBaseManager_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UcppdataBaseManager, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UcppdataBaseManager_NoRegister) \
 	DECLARE_SERIALIZER(UcppdataBaseManager)

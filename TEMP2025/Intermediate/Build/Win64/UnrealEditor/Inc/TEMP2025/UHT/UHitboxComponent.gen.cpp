@@ -8,7 +8,7 @@
 #include "TEMP2025/UHitboxComponent.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeUHitboxComponent() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -20,9 +20,6 @@ UPackage* Z_Construct_UPackage__Script_TEMP2025();
 // ********** End Cross Module References **********************************************************
 
 // ********** Begin Class UHitboxComponent *********************************************************
-void UHitboxComponent::StaticRegisterNativesUHitboxComponent()
-{
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UHitboxComponent;
 UClass* UHitboxComponent::GetPrivateStaticClass()
 {
@@ -30,7 +27,7 @@ UClass* UHitboxComponent::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UHitboxComponent.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("HitboxComponent"),
 			Z_Registration_Info_UClass_UHitboxComponent.InnerSingleton,
 			StaticRegisterNativesUHitboxComponent,
@@ -73,22 +70,28 @@ struct Z_Construct_UClass_UHitboxComponent_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UHitboxComponent constinit property declarations *************************
 	static const UECodeGen_Private::FBytePropertyParams NewProp_HitZoneType_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_HitZoneType;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Class UHitboxComponent constinit property declarations ***************************
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UHitboxComponent>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
+}; // struct Z_Construct_UClass_UHitboxComponent_Statics
+
+// ********** Begin Class UHitboxComponent Property Definitions ************************************
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UHitboxComponent_Statics::NewProp_HitZoneType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UHitboxComponent_Statics::NewProp_HitZoneType = { "HitZoneType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHitboxComponent, HitZoneType), Z_Construct_UEnum_TEMP2025_EAttackDirection, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitZoneType_MetaData), NewProp_HitZoneType_MetaData) }; // 4248136193
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UHitboxComponent_Statics::NewProp_HitZoneType = { "HitZoneType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHitboxComponent, HitZoneType), Z_Construct_UEnum_TEMP2025_EAttackDirection, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitZoneType_MetaData), NewProp_HitZoneType_MetaData) }; // 4247988245
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UHitboxComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHitboxComponent_Statics::NewProp_HitZoneType_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHitboxComponent_Statics::NewProp_HitZoneType,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UHitboxComponent_Statics::PropPointers) < 2048);
+// ********** End Class UHitboxComponent Property Definitions **************************************
 UObject* (*const Z_Construct_UClass_UHitboxComponent_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UBoxComponent,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -109,6 +112,9 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UHitboxComponent_Static
 	0x00B010A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UHitboxComponent_Statics::Class_MetaDataParams), Z_Construct_UClass_UHitboxComponent_Statics::Class_MetaDataParams)
 };
+void UHitboxComponent::StaticRegisterNativesUHitboxComponent()
+{
+}
 UClass* Z_Construct_UClass_UHitboxComponent()
 {
 	if (!Z_Registration_Info_UClass_UHitboxComponent.OuterSingleton)
@@ -117,7 +123,7 @@ UClass* Z_Construct_UClass_UHitboxComponent()
 	}
 	return Z_Registration_Info_UClass_UHitboxComponent.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UHitboxComponent);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UHitboxComponent);
 UHitboxComponent::~UHitboxComponent() {}
 // ********** End Class UHitboxComponent ***********************************************************
 
@@ -125,13 +131,15 @@ UHitboxComponent::~UHitboxComponent() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UHitboxComponent_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UHitboxComponent, UHitboxComponent::StaticClass, TEXT("UHitboxComponent"), &Z_Registration_Info_UClass_UHitboxComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHitboxComponent), 2713953213U) },
+		{ Z_Construct_UClass_UHitboxComponent, UHitboxComponent::StaticClass, TEXT("UHitboxComponent"), &Z_Registration_Info_UClass_UHitboxComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHitboxComponent), 3303369468U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UHitboxComponent_h__Script_TEMP2025_2942924884(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UHitboxComponent_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UHitboxComponent_h__Script_TEMP2025_2318903383{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UHitboxComponent_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UHitboxComponent_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

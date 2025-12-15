@@ -8,11 +8,11 @@
 #include "WeaponDefinition.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeWeaponDefinition() {}
 
 // ********** Begin Cross Module References ********************************************************
-COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass_NoRegister();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UPrimaryDataAsset();
@@ -24,17 +24,10 @@ UPackage* Z_Construct_UPackage__Script_TEMP2025();
 // ********** End Cross Module References **********************************************************
 
 // ********** Begin ScriptStruct FWeaponDefinitionTypes ********************************************
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes;
-class UScriptStruct* FWeaponDefinitionTypes::StaticStruct()
-{
-	if (!Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.OuterSingleton)
-	{
-		Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FWeaponDefinitionTypes, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("WeaponDefinitionTypes"));
-	}
-	return Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.OuterSingleton;
-}
 struct Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics
 {
+	static inline consteval int32 GetStructSize() { return sizeof(FWeaponDefinitionTypes); }
+	static inline consteval int16 GetStructAlignment() { return alignof(FWeaponDefinitionTypes); }
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
@@ -46,12 +39,24 @@ struct Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin ScriptStruct FWeaponDefinitionTypes constinit property declarations ************
+// ********** End ScriptStruct FWeaponDefinitionTypes constinit property declarations **************
 	static void* NewStructOps()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FWeaponDefinitionTypes>();
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
-};
+}; // struct Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes;
+class UScriptStruct* FWeaponDefinitionTypes::StaticStruct()
+{
+	if (!Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.OuterSingleton)
+	{
+		Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FWeaponDefinitionTypes, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("WeaponDefinitionTypes"));
+	}
+	return Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.OuterSingleton;
+	}
 const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics::StructParams = {
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
 	nullptr,
@@ -71,14 +76,11 @@ UScriptStruct* Z_Construct_UScriptStruct_FWeaponDefinitionTypes()
 	{
 		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.InnerSingleton, Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.InnerSingleton;
+	return CastChecked<UScriptStruct>(Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes.InnerSingleton);
 }
 // ********** End ScriptStruct FWeaponDefinitionTypes **********************************************
 
 // ********** Begin Class UWeaponDefinition ********************************************************
-void UWeaponDefinition::StaticRegisterNativesUWeaponDefinition()
-{
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UWeaponDefinition;
 UClass* UWeaponDefinition::GetPrivateStaticClass()
 {
@@ -86,7 +88,7 @@ UClass* UWeaponDefinition::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UWeaponDefinition.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("WeaponDefinition"),
 			Z_Registration_Info_UClass_UWeaponDefinition.InnerSingleton,
 			StaticRegisterNativesUWeaponDefinition,
@@ -141,6 +143,8 @@ struct Z_Construct_UClass_UWeaponDefinition_Statics
 		{ "ModuleRelativePath", "Public/WeaponDefinition.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UWeaponDefinition constinit property declarations ************************
 	static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_Mesh;
 	static const UECodeGen_Private::FNamePropertyParams NewProp_HandSocketName;
 	static const UECodeGen_Private::FNamePropertyParams NewProp_SheathSocketName;
@@ -148,18 +152,21 @@ struct Z_Construct_UClass_UWeaponDefinition_Statics
 	static const UECodeGen_Private::FStructPropertyParams NewProp_SheathOffset;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_WeaponActorClass;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Class UWeaponDefinition constinit property declarations **************************
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UWeaponDefinition>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
+}; // struct Z_Construct_UClass_UWeaponDefinition_Statics
+
+// ********** Begin Class UWeaponDefinition Property Definitions ***********************************
 const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeaponDefinition, Mesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Mesh_MetaData), NewProp_Mesh_MetaData) };
 const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_HandSocketName = { "HandSocketName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeaponDefinition, HandSocketName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HandSocketName_MetaData), NewProp_HandSocketName_MetaData) };
 const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_SheathSocketName = { "SheathSocketName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeaponDefinition, SheathSocketName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SheathSocketName_MetaData), NewProp_SheathSocketName_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_HandOffset = { "HandOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeaponDefinition, HandOffset), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HandOffset_MetaData), NewProp_HandOffset_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_SheathOffset = { "SheathOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeaponDefinition, SheathOffset), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SheathOffset_MetaData), NewProp_SheathOffset_MetaData) };
-const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_WeaponActorClass = { "WeaponActorClass", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeaponDefinition, WeaponActorClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WeaponActorClass_MetaData), NewProp_WeaponActorClass_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_WeaponActorClass = { "WeaponActorClass", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UWeaponDefinition, WeaponActorClass), Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WeaponActorClass_MetaData), NewProp_WeaponActorClass_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UWeaponDefinition_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_Mesh,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_HandSocketName,
@@ -169,6 +176,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UWeaponDe
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponDefinition_Statics::NewProp_WeaponActorClass,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UWeaponDefinition_Statics::PropPointers) < 2048);
+// ********** End Class UWeaponDefinition Property Definitions *************************************
 UObject* (*const Z_Construct_UClass_UWeaponDefinition_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UPrimaryDataAsset,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -189,6 +197,9 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UWeaponDefinition_Stati
 	0x001000A0u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UWeaponDefinition_Statics::Class_MetaDataParams), Z_Construct_UClass_UWeaponDefinition_Statics::Class_MetaDataParams)
 };
+void UWeaponDefinition::StaticRegisterNativesUWeaponDefinition()
+{
+}
 UClass* Z_Construct_UClass_UWeaponDefinition()
 {
 	if (!Z_Registration_Info_UClass_UWeaponDefinition.OuterSingleton)
@@ -198,7 +209,7 @@ UClass* Z_Construct_UClass_UWeaponDefinition()
 	return Z_Registration_Info_UClass_UWeaponDefinition.OuterSingleton;
 }
 UWeaponDefinition::UWeaponDefinition(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
-DEFINE_VTABLE_PTR_HELPER_CTOR(UWeaponDefinition);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UWeaponDefinition);
 UWeaponDefinition::~UWeaponDefinition() {}
 // ********** End Class UWeaponDefinition **********************************************************
 
@@ -206,16 +217,18 @@ UWeaponDefinition::~UWeaponDefinition() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FWeaponDefinitionTypes::StaticStruct, Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics::NewStructOps, TEXT("WeaponDefinitionTypes"), &Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponDefinitionTypes), 3392190818U) },
+		{ FWeaponDefinitionTypes::StaticStruct, Z_Construct_UScriptStruct_FWeaponDefinitionTypes_Statics::NewStructOps, TEXT("WeaponDefinitionTypes"),&Z_Registration_Info_UScriptStruct_FWeaponDefinitionTypes, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWeaponDefinitionTypes), 4045210640U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWeaponDefinition, UWeaponDefinition::StaticClass, TEXT("UWeaponDefinition"), &Z_Registration_Info_UClass_UWeaponDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeaponDefinition), 927555043U) },
+		{ Z_Construct_UClass_UWeaponDefinition, UWeaponDefinition::StaticClass, TEXT("UWeaponDefinition"), &Z_Registration_Info_UClass_UWeaponDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWeaponDefinition), 800763721U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_634176499(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_1207368540{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_WeaponDefinition_h__Script_TEMP2025_Statics::ScriptStructInfo),
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

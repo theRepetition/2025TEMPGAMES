@@ -8,7 +8,7 @@
 #include "BasicStatsStruct.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodeBasicStatsStruct() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -17,17 +17,10 @@ UPackage* Z_Construct_UPackage__Script_TEMP2025();
 // ********** End Cross Module References **********************************************************
 
 // ********** Begin ScriptStruct FBasicStatsStruct *************************************************
-static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FBasicStatsStruct;
-class UScriptStruct* FBasicStatsStruct::StaticStruct()
-{
-	if (!Z_Registration_Info_UScriptStruct_FBasicStatsStruct.OuterSingleton)
-	{
-		Z_Registration_Info_UScriptStruct_FBasicStatsStruct.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FBasicStatsStruct, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("BasicStatsStruct"));
-	}
-	return Z_Registration_Info_UScriptStruct_FBasicStatsStruct.OuterSingleton;
-}
 struct Z_Construct_UScriptStruct_FBasicStatsStruct_Statics
 {
+	static inline consteval int32 GetStructSize() { return sizeof(FBasicStatsStruct); }
+	static inline consteval int16 GetStructAlignment() { return alignof(FBasicStatsStruct); }
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
@@ -128,6 +121,8 @@ struct Z_Construct_UScriptStruct_FBasicStatsStruct_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin ScriptStruct FBasicStatsStruct constinit property declarations *****************
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Strength;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Agility;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Dexterity;
@@ -139,12 +134,24 @@ struct Z_Construct_UScriptStruct_FBasicStatsStruct_Statics
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Magic;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Intelligence;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End ScriptStruct FBasicStatsStruct constinit property declarations *******************
 	static void* NewStructOps()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FBasicStatsStruct>();
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
-};
+}; // struct Z_Construct_UScriptStruct_FBasicStatsStruct_Statics
+static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FBasicStatsStruct;
+class UScriptStruct* FBasicStatsStruct::StaticStruct()
+{
+	if (!Z_Registration_Info_UScriptStruct_FBasicStatsStruct.OuterSingleton)
+	{
+		Z_Registration_Info_UScriptStruct_FBasicStatsStruct.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FBasicStatsStruct, (UObject*)Z_Construct_UPackage__Script_TEMP2025(), TEXT("BasicStatsStruct"));
+	}
+	return Z_Registration_Info_UScriptStruct_FBasicStatsStruct.OuterSingleton;
+	}
+
+// ********** Begin ScriptStruct FBasicStatsStruct Property Definitions ****************************
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::NewProp_Strength = { "Strength", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBasicStatsStruct, Strength), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Strength_MetaData), NewProp_Strength_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::NewProp_Agility = { "Agility", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBasicStatsStruct, Agility), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Agility_MetaData), NewProp_Agility_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::NewProp_Dexterity = { "Dexterity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBasicStatsStruct, Dexterity), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Dexterity_MetaData), NewProp_Dexterity_MetaData) };
@@ -168,6 +175,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FB
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::NewProp_Intelligence,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::PropPointers) < 2048);
+// ********** End ScriptStruct FBasicStatsStruct Property Definitions ******************************
 const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::StructParams = {
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
 	nullptr,
@@ -187,7 +195,7 @@ UScriptStruct* Z_Construct_UScriptStruct_FBasicStatsStruct()
 	{
 		UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_FBasicStatsStruct.InnerSingleton, Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::StructParams);
 	}
-	return Z_Registration_Info_UScriptStruct_FBasicStatsStruct.InnerSingleton;
+	return CastChecked<UScriptStruct>(Z_Registration_Info_UScriptStruct_FBasicStatsStruct.InnerSingleton);
 }
 // ********** End ScriptStruct FBasicStatsStruct ***************************************************
 
@@ -195,13 +203,15 @@ UScriptStruct* Z_Construct_UScriptStruct_FBasicStatsStruct()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_BasicStatsStruct_h__Script_TEMP2025_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FBasicStatsStruct::StaticStruct, Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::NewStructOps, TEXT("BasicStatsStruct"), &Z_Registration_Info_UScriptStruct_FBasicStatsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FBasicStatsStruct), 3135257441U) },
+		{ FBasicStatsStruct::StaticStruct, Z_Construct_UScriptStruct_FBasicStatsStruct_Statics::NewStructOps, TEXT("BasicStatsStruct"),&Z_Registration_Info_UScriptStruct_FBasicStatsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FBasicStatsStruct), 150690778U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_BasicStatsStruct_h__Script_TEMP2025_3480486273(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_BasicStatsStruct_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_BasicStatsStruct_h__Script_TEMP2025_2652562672{
+	TEXT("/Script/TEMP2025"),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_BasicStatsStruct_h__Script_TEMP2025_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_BasicStatsStruct_h__Script_TEMP2025_Statics::ScriptStructInfo),
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

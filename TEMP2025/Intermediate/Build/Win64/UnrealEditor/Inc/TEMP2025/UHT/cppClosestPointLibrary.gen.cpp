@@ -8,7 +8,7 @@
 #include "TEMP2025/cppClosestPointLibrary.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodecppClosestPointLibrary() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -44,6 +44,8 @@ struct Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToAc
 		{ "NativeConst", "" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function GetClosestPointRelativeToActor constinit property declarations ********
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_TargetActor;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_TargetComponent;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_HitOrigin;
@@ -51,8 +53,11 @@ struct Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToAc
 	static void NewProp_ReturnValue_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function GetClosestPointRelativeToActor constinit property declarations **********
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function GetClosestPointRelativeToActor Property Definitions *******************
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::NewProp_TargetActor = { "TargetActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppClosestPointLibrary_eventGetClosestPointRelativeToActor_Parms, TargetActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::NewProp_TargetComponent = { "TargetComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppClosestPointLibrary_eventGetClosestPointRelativeToActor_Parms, TargetComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TargetComponent_MetaData), NewProp_TargetComponent_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::NewProp_HitOrigin = { "HitOrigin", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppClosestPointLibrary_eventGetClosestPointRelativeToActor_Parms, HitOrigin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitOrigin_MetaData), NewProp_HitOrigin_MetaData) };
@@ -70,7 +75,11 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppCl
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppClosestPointLibrary, nullptr, "GetClosestPointRelativeToActor", Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::cppClosestPointLibrary_eventGetClosestPointRelativeToActor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C22401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::Function_MetaDataParams)},  };
+// ********** End Function GetClosestPointRelativeToActor Property Definitions *********************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppClosestPointLibrary, nullptr, "GetClosestPointRelativeToActor", 	Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::cppClosestPointLibrary_eventGetClosestPointRelativeToActor_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C22401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor_Statics::cppClosestPointLibrary_eventGetClosestPointRelativeToActor_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor()
 {
@@ -95,14 +104,6 @@ DEFINE_FUNCTION(UcppClosestPointLibrary::execGetClosestPointRelativeToActor)
 // ********** End Class UcppClosestPointLibrary Function GetClosestPointRelativeToActor ************
 
 // ********** Begin Class UcppClosestPointLibrary **************************************************
-void UcppClosestPointLibrary::StaticRegisterNativesUcppClosestPointLibrary()
-{
-	UClass* Class = UcppClosestPointLibrary::StaticClass();
-	static const FNameNativePtrPair Funcs[] = {
-		{ "GetClosestPointRelativeToActor", &UcppClosestPointLibrary::execGetClosestPointRelativeToActor },
-	};
-	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UcppClosestPointLibrary;
 UClass* UcppClosestPointLibrary::GetPrivateStaticClass()
 {
@@ -110,7 +111,7 @@ UClass* UcppClosestPointLibrary::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UcppClosestPointLibrary.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("cppClosestPointLibrary"),
 			Z_Registration_Info_UClass_UcppClosestPointLibrary.InnerSingleton,
 			StaticRegisterNativesUcppClosestPointLibrary,
@@ -140,16 +141,22 @@ struct Z_Construct_UClass_UcppClosestPointLibrary_Statics
 		{ "ModuleRelativePath", "cppClosestPointLibrary.h" },
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UcppClosestPointLibrary constinit property declarations ******************
+// ********** End Class UcppClosestPointLibrary constinit property declarations ********************
+	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("GetClosestPointRelativeToActor"), .Pointer = &UcppClosestPointLibrary::execGetClosestPointRelativeToActor },
+	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor, "GetClosestPointRelativeToActor" }, // 1592947001
+		{ &Z_Construct_UFunction_UcppClosestPointLibrary_GetClosestPointRelativeToActor, "GetClosestPointRelativeToActor" }, // 628617564
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UcppClosestPointLibrary>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
+}; // struct Z_Construct_UClass_UcppClosestPointLibrary_Statics
 UObject* (*const Z_Construct_UClass_UcppClosestPointLibrary_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UBlueprintFunctionLibrary,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -170,6 +177,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UcppClosestPointLibrary
 	0x001000A0u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UcppClosestPointLibrary_Statics::Class_MetaDataParams), Z_Construct_UClass_UcppClosestPointLibrary_Statics::Class_MetaDataParams)
 };
+void UcppClosestPointLibrary::StaticRegisterNativesUcppClosestPointLibrary()
+{
+	UClass* Class = UcppClosestPointLibrary::StaticClass();
+	FNativeFunctionRegistrar::RegisterFunctions(Class, MakeConstArrayView(Z_Construct_UClass_UcppClosestPointLibrary_Statics::Funcs));
+}
 UClass* Z_Construct_UClass_UcppClosestPointLibrary()
 {
 	if (!Z_Registration_Info_UClass_UcppClosestPointLibrary.OuterSingleton)
@@ -179,7 +191,7 @@ UClass* Z_Construct_UClass_UcppClosestPointLibrary()
 	return Z_Registration_Info_UClass_UcppClosestPointLibrary.OuterSingleton;
 }
 UcppClosestPointLibrary::UcppClosestPointLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
-DEFINE_VTABLE_PTR_HELPER_CTOR(UcppClosestPointLibrary);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UcppClosestPointLibrary);
 UcppClosestPointLibrary::~UcppClosestPointLibrary() {}
 // ********** End Class UcppClosestPointLibrary ****************************************************
 
@@ -187,13 +199,15 @@ UcppClosestPointLibrary::~UcppClosestPointLibrary() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppClosestPointLibrary_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UcppClosestPointLibrary, UcppClosestPointLibrary::StaticClass, TEXT("UcppClosestPointLibrary"), &Z_Registration_Info_UClass_UcppClosestPointLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppClosestPointLibrary), 72570466U) },
+		{ Z_Construct_UClass_UcppClosestPointLibrary, UcppClosestPointLibrary::StaticClass, TEXT("UcppClosestPointLibrary"), &Z_Registration_Info_UClass_UcppClosestPointLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppClosestPointLibrary), 4173999553U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppClosestPointLibrary_h__Script_TEMP2025_4016814472(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppClosestPointLibrary_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppClosestPointLibrary_h__Script_TEMP2025_2937291699{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppClosestPointLibrary_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppClosestPointLibrary_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

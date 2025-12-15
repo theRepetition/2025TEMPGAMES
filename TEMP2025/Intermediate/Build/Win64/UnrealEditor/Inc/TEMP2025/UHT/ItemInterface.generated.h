@@ -15,7 +15,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 struct FItemData;
 
 // ********** Begin Interface UItemInterface *******************************************************
@@ -25,6 +24,7 @@ struct FItemData;
 
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_12_CALLBACK_WRAPPERS
+struct Z_Construct_UClass_UItemInterface_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UItemInterface_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_12_ENHANCED_CONSTRUCTORS \
@@ -42,9 +42,9 @@ TEMP2025_API UClass* Z_Construct_UClass_UItemInterface_NoRegister();
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_ItemInterface_h_12_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUItemInterface(); \
-	friend struct Z_Construct_UClass_UItemInterface_Statics; \
+	friend struct ::Z_Construct_UClass_UItemInterface_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UItemInterface_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UItemInterface_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UItemInterface, UInterface, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Interface), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UItemInterface_NoRegister) \
 	DECLARE_SERIALIZER(UItemInterface)

@@ -8,7 +8,7 @@
 #include "cppAsyncloadForInvenComponents.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
+static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
 void EmptyLinkFunctionForGeneratedCodecppAsyncloadForInvenComponents() {}
 
 // ********** Begin Cross Module References ********************************************************
@@ -38,16 +38,25 @@ struct Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSig
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Delegate FOnAssetLoadedDelegate constinit property declarations ****************
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LoadedMesh;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Delegate FOnAssetLoadedDelegate constinit property declarations ******************
 	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
 };
+
+// ********** Begin Delegate FOnAssetLoadedDelegate Property Definitions ***************************
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::NewProp_LoadedMesh = { "LoadedMesh", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_TEMP2025_eventOnAssetLoadedDelegate_Parms, LoadedMesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::NewProp_LoadedMesh,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_TEMP2025, nullptr, "OnAssetLoadedDelegate__DelegateSignature", Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::_Script_TEMP2025_eventOnAssetLoadedDelegate_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::Function_MetaDataParams)},  };
+// ********** End Delegate FOnAssetLoadedDelegate Property Definitions *****************************
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_TEMP2025, nullptr, "OnAssetLoadedDelegate__DelegateSignature", 	Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::PropPointers), 
+sizeof(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::_Script_TEMP2025_eventOnAssetLoadedDelegate_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature_Statics::_Script_TEMP2025_eventOnAssetLoadedDelegate_Parms) < MAX_uint16);
 UFunction* Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature()
 {
@@ -89,16 +98,25 @@ struct Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Function StartLoadStaticMesh constinit property declarations *******************
 	static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_MeshToLoad;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Function StartLoadStaticMesh constinit property declarations *********************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
+
+// ********** Begin Function StartLoadStaticMesh Property Definitions ******************************
 const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::NewProp_MeshToLoad = { "MeshToLoad", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppAsyncloadForInvenComponents_eventStartLoadStaticMesh_Parms, MeshToLoad), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::NewProp_MeshToLoad,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppAsyncloadForInvenComponents, nullptr, "StartLoadStaticMesh", Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::cppAsyncloadForInvenComponents_eventStartLoadStaticMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::Function_MetaDataParams)},  };
+// ********** End Function StartLoadStaticMesh Property Definitions ********************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UcppAsyncloadForInvenComponents, nullptr, "StartLoadStaticMesh", 	Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::cppAsyncloadForInvenComponents_eventStartLoadStaticMesh_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh_Statics::cppAsyncloadForInvenComponents_eventStartLoadStaticMesh_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh()
 {
@@ -120,14 +138,6 @@ DEFINE_FUNCTION(UcppAsyncloadForInvenComponents::execStartLoadStaticMesh)
 // ********** End Class UcppAsyncloadForInvenComponents Function StartLoadStaticMesh ***************
 
 // ********** Begin Class UcppAsyncloadForInvenComponents ******************************************
-void UcppAsyncloadForInvenComponents::StaticRegisterNativesUcppAsyncloadForInvenComponents()
-{
-	UClass* Class = UcppAsyncloadForInvenComponents::StaticClass();
-	static const FNameNativePtrPair Funcs[] = {
-		{ "StartLoadStaticMesh", &UcppAsyncloadForInvenComponents::execStartLoadStaticMesh },
-	};
-	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-}
 FClassRegistrationInfo Z_Registration_Info_UClass_UcppAsyncloadForInvenComponents;
 UClass* UcppAsyncloadForInvenComponents::GetPrivateStaticClass()
 {
@@ -135,7 +145,7 @@ UClass* UcppAsyncloadForInvenComponents::GetPrivateStaticClass()
 	if (!Z_Registration_Info_UClass_UcppAsyncloadForInvenComponents.InnerSingleton)
 	{
 		GetPrivateStaticClassBody(
-			StaticPackage(),
+			TClass::StaticPackage(),
 			TEXT("cppAsyncloadForInvenComponents"),
 			Z_Registration_Info_UClass_UcppAsyncloadForInvenComponents.InnerSingleton,
 			StaticRegisterNativesUcppAsyncloadForInvenComponents,
@@ -177,23 +187,32 @@ struct Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics
 #endif
 	};
 #endif // WITH_METADATA
+
+// ********** Begin Class UcppAsyncloadForInvenComponents constinit property declarations **********
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnStaticMeshLoaded;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+// ********** End Class UcppAsyncloadForInvenComponents constinit property declarations ************
+	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
+		{ .NameUTF8 = UTF8TEXT("StartLoadStaticMesh"), .Pointer = &UcppAsyncloadForInvenComponents::execStartLoadStaticMesh },
+	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh, "StartLoadStaticMesh" }, // 1178616313
+		{ &Z_Construct_UFunction_UcppAsyncloadForInvenComponents_StartLoadStaticMesh, "StartLoadStaticMesh" }, // 295488361
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UcppAsyncloadForInvenComponents>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
-};
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::NewProp_OnStaticMeshLoaded = { "OnStaticMeshLoaded", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UcppAsyncloadForInvenComponents, OnStaticMeshLoaded), Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnStaticMeshLoaded_MetaData), NewProp_OnStaticMeshLoaded_MetaData) }; // 2949130806
+}; // struct Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics
+
+// ********** Begin Class UcppAsyncloadForInvenComponents Property Definitions *********************
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::NewProp_OnStaticMeshLoaded = { "OnStaticMeshLoaded", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UcppAsyncloadForInvenComponents, OnStaticMeshLoaded), Z_Construct_UDelegateFunction_TEMP2025_OnAssetLoadedDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnStaticMeshLoaded_MetaData), NewProp_OnStaticMeshLoaded_MetaData) }; // 369758775
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::NewProp_OnStaticMeshLoaded,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::PropPointers) < 2048);
+// ********** End Class UcppAsyncloadForInvenComponents Property Definitions ***********************
 UObject* (*const Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UActorComponent,
 	(UObject* (*)())Z_Construct_UPackage__Script_TEMP2025,
@@ -214,6 +233,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UcppAsyncloadForInvenCo
 	0x00B000A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::Class_MetaDataParams), Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::Class_MetaDataParams)
 };
+void UcppAsyncloadForInvenComponents::StaticRegisterNativesUcppAsyncloadForInvenComponents()
+{
+	UClass* Class = UcppAsyncloadForInvenComponents::StaticClass();
+	FNativeFunctionRegistrar::RegisterFunctions(Class, MakeConstArrayView(Z_Construct_UClass_UcppAsyncloadForInvenComponents_Statics::Funcs));
+}
 UClass* Z_Construct_UClass_UcppAsyncloadForInvenComponents()
 {
 	if (!Z_Registration_Info_UClass_UcppAsyncloadForInvenComponents.OuterSingleton)
@@ -222,7 +246,7 @@ UClass* Z_Construct_UClass_UcppAsyncloadForInvenComponents()
 	}
 	return Z_Registration_Info_UClass_UcppAsyncloadForInvenComponents.OuterSingleton;
 }
-DEFINE_VTABLE_PTR_HELPER_CTOR(UcppAsyncloadForInvenComponents);
+DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, UcppAsyncloadForInvenComponents);
 UcppAsyncloadForInvenComponents::~UcppAsyncloadForInvenComponents() {}
 // ********** End Class UcppAsyncloadForInvenComponents ********************************************
 
@@ -230,13 +254,15 @@ UcppAsyncloadForInvenComponents::~UcppAsyncloadForInvenComponents() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_cppAsyncloadForInvenComponents_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UcppAsyncloadForInvenComponents, UcppAsyncloadForInvenComponents::StaticClass, TEXT("UcppAsyncloadForInvenComponents"), &Z_Registration_Info_UClass_UcppAsyncloadForInvenComponents, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppAsyncloadForInvenComponents), 123385237U) },
+		{ Z_Construct_UClass_UcppAsyncloadForInvenComponents, UcppAsyncloadForInvenComponents::StaticClass, TEXT("UcppAsyncloadForInvenComponents"), &Z_Registration_Info_UClass_UcppAsyncloadForInvenComponents, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppAsyncloadForInvenComponents), 3066693995U) },
 	};
-};
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_cppAsyncloadForInvenComponents_h__Script_TEMP2025_4180718897(TEXT("/Script/TEMP2025"),
+}; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_cppAsyncloadForInvenComponents_h__Script_TEMP2025_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_cppAsyncloadForInvenComponents_h__Script_TEMP2025_3135256346{
+	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_cppAsyncloadForInvenComponents_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_cppAsyncloadForInvenComponents_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
-	nullptr, 0);
+	nullptr, 0,
+};
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

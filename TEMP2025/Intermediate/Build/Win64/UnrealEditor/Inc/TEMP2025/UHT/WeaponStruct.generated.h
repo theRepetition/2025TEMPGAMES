@@ -17,8 +17,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FWeaponData *******************************************************
+struct Z_Construct_UScriptStruct_FWeaponData_Statics;
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_WeaponStruct_h_13_GENERATED_BODY \
-	friend struct Z_Construct_UScriptStruct_FWeaponData_Statics; \
+	friend struct ::Z_Construct_UScriptStruct_FWeaponData_Statics; \
 	TEMP2025_API static class UScriptStruct* StaticStruct();
 
 

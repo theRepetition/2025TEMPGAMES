@@ -15,7 +15,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 class AActor;
 class UPrimitiveComponent;
 
@@ -24,14 +23,15 @@ class UPrimitiveComponent;
 	DECLARE_FUNCTION(execGetClosestPointRelativeToActor);
 
 
+struct Z_Construct_UClass_UcppClosestPointLibrary_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UcppClosestPointLibrary_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppClosestPointLibrary_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppClosestPointLibrary(); \
-	friend struct Z_Construct_UClass_UcppClosestPointLibrary_Statics; \
+	friend struct ::Z_Construct_UClass_UcppClosestPointLibrary_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UcppClosestPointLibrary_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UcppClosestPointLibrary_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UcppClosestPointLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UcppClosestPointLibrary_NoRegister) \
 	DECLARE_SERIALIZER(UcppClosestPointLibrary)

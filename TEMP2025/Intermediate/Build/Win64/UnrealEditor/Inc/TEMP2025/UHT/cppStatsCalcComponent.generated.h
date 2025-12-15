@@ -15,7 +15,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 struct FBasicStatsStruct;
 struct FFinalStatsStruct;
 struct FWeaponData;
@@ -25,14 +24,15 @@ struct FWeaponData;
 	DECLARE_FUNCTION(execCalcFinalStats);
 
 
+struct Z_Construct_UClass_UcppStatsCalcComponent_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UcppStatsCalcComponent_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppStatsCalcComponent_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUcppStatsCalcComponent(); \
-	friend struct Z_Construct_UClass_UcppStatsCalcComponent_Statics; \
+	friend struct ::Z_Construct_UClass_UcppStatsCalcComponent_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UcppStatsCalcComponent_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UcppStatsCalcComponent_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UcppStatsCalcComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UcppStatsCalcComponent_NoRegister) \
 	DECLARE_SERIALIZER(UcppStatsCalcComponent)

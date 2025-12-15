@@ -17,14 +17,15 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UHitboxComponent *********************************************************
+struct Z_Construct_UClass_UHitboxComponent_Statics;
 TEMP2025_API UClass* Z_Construct_UClass_UHitboxComponent_NoRegister();
 
 #define FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_UHitboxComponent_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHitboxComponent(); \
-	friend struct Z_Construct_UClass_UHitboxComponent_Statics; \
+	friend struct ::Z_Construct_UClass_UHitboxComponent_Statics; \
 	static UClass* GetPrivateStaticClass(); \
-	friend TEMP2025_API UClass* Z_Construct_UClass_UHitboxComponent_NoRegister(); \
+	friend TEMP2025_API UClass* ::Z_Construct_UClass_UHitboxComponent_NoRegister(); \
 public: \
 	DECLARE_CLASS2(UHitboxComponent, UBoxComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TEMP2025"), Z_Construct_UClass_UHitboxComponent_NoRegister) \
 	DECLARE_SERIALIZER(UHitboxComponent)
