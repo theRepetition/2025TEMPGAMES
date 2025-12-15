@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\private\\cppasyncloadforinvencomponents.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\temp2025editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\temp2025\\definitions.temp2025.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\source\\temp2025\\public\\cppasyncloadforinvencomponents.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\streamablemanager.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\experimental\\iostore\\ondemandcore\\public\\io\\iostoreondemand.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\core\\public\\containers\\sharedstring.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\experimental\\iostore\\ondemandcore\\public\\io\\ondemandhostgroup.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\experimental\\iostore\\ondemandcore\\public\\io\\ondemandtoc.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\core\\public\\io\\iocontainerid.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\misc\\packageaccesstracking.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\sourcelocationutils.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\experimental\\streamablemanagererror.h",
+            "e:\\tempgames\\2025tempgames\\temp2025\\intermediate\\build\\win64\\unrealeditor\\inc\\temp2025\\uht\\cppasyncloadforinvencomponents.generated.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\assetmanager.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\assetmanagertypes.h",
+            "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetmanagertypes.generated.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\assetregistrymodule.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assetregistry\\uht\\iassetregistry.generated.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformchunkinstall.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\contentencryptionconfig.h",
+            "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetmanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
