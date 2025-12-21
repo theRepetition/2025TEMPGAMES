@@ -1,0 +1,62 @@
+[12032:25276:1221/180703.049:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[12032:25276:1221/180703.112:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[12032:6732:1221/180705.731:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[12032:6732:1221/180705.732:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[12032:6732:1221/180705.734:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[12032:6732:1221/180705.736:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[12032:8140:1221/180706.161:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[12032:8140:1221/180706.163:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[12032:25384:1221/180709.815:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[24820:17908:1221/180710.771:ERROR:backend_impl.cc(989)] Critical error found -8
+[24820:17908:1221/180710.771:ERROR:entry_impl.cc(1029)] No file for c1030052
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:ERROR:entry_impl.cc(1029)] No file for c1030106
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:ERROR:entry_impl.cc(1029)] No file for c10300e6
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.771:ERROR:entry_impl.cc(1029)] No file for c1030104
+[24820:17908:1221/180710.771:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.772:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.772:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.774:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.774:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.774:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.774:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.774:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.774:ERROR:entry_impl.cc(1029)] No file for b3020040
+[24820:17908:1221/180710.775:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.775:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:ERROR:entry_impl.cc(1029)] No file for b3020044
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:ERROR:entry_impl.cc(1029)] No file for a20100c8
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:ERROR:entry_impl.cc(1029)] No file for c10300d6
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.783:ERROR:entry_impl.cc(1029)] No file for a30100c4
+[24820:17908:1221/180710.783:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.784:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.784:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.784:WARNING:storage_block-inl.h(138)] Failed data load.
+[24820:17908:1221/180710.784:WARNING:storage_block-inl.h(138)] Failed data load.
+[12032:25276:1221/180937.104:ERROR:device_event_log_impl.cc(196)] [18:09:36.820] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+[12032:25276:1221/192849.610:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
