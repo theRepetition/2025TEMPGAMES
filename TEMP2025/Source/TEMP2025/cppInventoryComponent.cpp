@@ -39,7 +39,6 @@ TArray<FItemData> UcppInventoryComponent::AddItem(const TArray<FItemData>& Targe
         TSet<int32> UsedIndices;
         for (const FItemData& Item : UpdatedInventory)
         {
-            UsedIndices.Add(Item.UniqueIndex);
         }
 
         //  가장 작은 사용되지 않은 UniqueIndex 찾기
@@ -51,7 +50,6 @@ TArray<FItemData> UcppInventoryComponent::AddItem(const TArray<FItemData>& Targe
 
         //  새로운 아이템 추가
         FItemData NewItemCopy = NewItem;
-        NewItemCopy.UniqueIndex = NewUniqueIndex;  // 중복되지 않는 UniqueIndex 할당
         UpdatedInventory.Add(NewItemCopy);
     }
 
@@ -76,8 +74,7 @@ TArray<FItemData> UcppInventoryComponent::RemoveItem(const TArray<FItemData>& Ta
         }
         else
         {   
-            UpdatedInventory[Index].IsEquipped = EIsEquipped::None; // 장착중인것도 none으로 돌리기
-            UpdatedInventory[Index].UniqueIndex = 0; // 제거될 때 UniqueIndex 초기화
+
             UpdatedInventory.RemoveAt(Index);
         }
     }

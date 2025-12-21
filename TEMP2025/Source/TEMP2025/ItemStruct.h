@@ -15,16 +15,13 @@ struct FItemData
 
 public:
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-    int32 ItemID;
+    FName ItemID;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     FString Name;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     EItemType Type; //Weapon Armor Consumable Misc Book 
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-    EIsEquipped IsEquipped; //아이템 장착 여부
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     int32 Value;
@@ -41,9 +38,6 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Item")
 	FPrimaryAssetId MODEL3rd;   // 3D 모델 ID (게임 내 오브젝트 연동용)
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-    int32 UniqueIndex;  // 인벤토리 안에서 사용할 고유 인덱스 변수
-    
     UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (EditCondition = "ItemType == EItemType::Weapon"))
     FWeaponData WeaponStats; 
    

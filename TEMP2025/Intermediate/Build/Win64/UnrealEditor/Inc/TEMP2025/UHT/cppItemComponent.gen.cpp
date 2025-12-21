@@ -46,7 +46,7 @@ struct Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics
 
 // ********** Begin Function PickUpItem Property Definitions ***************************************
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ItemActor = { "ItemActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppItemComponent_eventPickUpItem_Parms, ItemActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppItemComponent_eventPickUpItem_Parms, ReturnValue), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 1237887337
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppItemComponent_eventPickUpItem_Parms, ReturnValue), Z_Construct_UScriptStruct_FItemData, METADATA_PARAMS(0, nullptr) }; // 4108981227
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ItemActor,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppItemComponent_PickUpItem_Statics::NewProp_ReturnValue,
@@ -125,7 +125,7 @@ struct Z_Construct_UClass_UcppItemComponent_Statics
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppItemComponent_PickUpItem, "PickUpItem" }, // 2548687449
+		{ &Z_Construct_UFunction_UcppItemComponent_PickUpItem, "PickUpItem" }, // 750252162
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -174,10 +174,10 @@ UcppItemComponent::~UcppItemComponent() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UcppItemComponent, UcppItemComponent::StaticClass, TEXT("UcppItemComponent"), &Z_Registration_Info_UClass_UcppItemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppItemComponent), 3983378536U) },
+		{ Z_Construct_UClass_UcppItemComponent, UcppItemComponent::StaticClass, TEXT("UcppItemComponent"), &Z_Registration_Info_UClass_UcppItemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppItemComponent), 3805776267U) },
 	};
 }; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h__Script_TEMP2025_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h__Script_TEMP2025_258413752{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h__Script_TEMP2025_112221094{
 	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppItemComponent_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
