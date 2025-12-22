@@ -34,6 +34,7 @@
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/TEMP2025/PerModuleInline.gen.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppClosestPointLibrary.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppdataBaseManager.cpp"
+#include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppInventoryComponent.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppInventoryManager.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppItemComponent.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppNPCInteraction.cpp"
