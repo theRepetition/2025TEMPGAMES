@@ -33,6 +33,12 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     int32 Quantity;// 아이템 수량
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
+    int32 X;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
+    int32 Y;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     FString ImagePath;  // 아이템 이미지 경로 (UI 연동용)
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Item")
