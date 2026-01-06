@@ -15,7 +15,7 @@ struct FItemData
 
 public:
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-    FName ItemID;
+    FName DEF_ID;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
     FString Name;
@@ -46,6 +46,12 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (EditCondition = "ItemType == EItemType::Weapon"))
     FWeaponData WeaponStats; 
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
+    bool bStackable;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
+    int32 MaxStack;
    
     
 };
