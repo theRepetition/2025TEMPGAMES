@@ -1,18 +1,19 @@
-[26004:10608:0114/220748.031:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[26004:10608:0114/220748.124:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[26004:20396:0114/220751.164:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[26004:20396:0114/220751.165:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[26004:20396:0114/220751.167:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[26004:20396:0114/220751.167:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[26004:20396:0114/220751.740:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[26004:20396:0114/220751.742:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25076:27396:0114/220752.027:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-B37520CB5874736C0F1CB03415008DAA will be ignored
-[26004:10608:0114/220754.635:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[26004:10608:0114/220754.635:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[26004:10608:0114/220754.635:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[26004:10608:0114/220754.635:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[26004:12392:0114/220755.421:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[26004:21312:0114/220757.000:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[9928:9628:0114/221011.370:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[9928:9628:0114/221011.370:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[26004:10608:0114/231250.605:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[26344:18100:0115/035913.046:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[26344:18100:0115/035913.138:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[26344:3152:0115/035916.230:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[26344:3152:0115/035916.232:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[26344:3152:0115/035916.234:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[26344:3152:0115/035916.235:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[26344:17040:0115/035916.801:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[26344:17040:0115/035916.802:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[26344:17708:0115/035922.342:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6400:16820:0115/035922.914:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-0D0CCC14B41B570D672547444F29E1DB will be ignored
+[26344:21760:0115/035926.258:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
+[26344:21760:0115/035927.249:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[26344:18100:0115/035927.255:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[26344:18100:0115/035927.255:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[26344:18100:0115/035927.255:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[26344:18100:0115/035927.255:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[6472:1716:0115/040140.931:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[6472:1716:0115/040140.931:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[26344:18100:0115/042329.813:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
