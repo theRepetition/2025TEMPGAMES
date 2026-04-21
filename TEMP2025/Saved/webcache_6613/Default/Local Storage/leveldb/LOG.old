@@ -1,3 +1,5 @@
-2026/04/21-08:08:34.467 7460 Reusing MANIFEST E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/04/21-08:08:34.483 7460 Recovering log #11
-2026/04/21-08:08:34.485 7460 Reusing old log E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\Local Storage\leveldb/000011.log 
+2026/04/21-09:48:54.477 2a08 Reusing MANIFEST E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/21-09:48:54.482 2a08 Recovering log #11
+2026/04/21-09:48:54.483 2a08 Level-0 table #16: started
+2026/04/21-09:48:54.488 2a08 Level-0 table #16: 68192 bytes OK
+2026/04/21-09:48:54.492 2a08 Delete type=0 #11
