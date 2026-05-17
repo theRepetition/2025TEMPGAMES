@@ -58,7 +58,7 @@ struct Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics
 // ********** Begin Function CalcFinalStats Property Definitions ***********************************
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics::NewProp_BaseStats = { "BaseStats", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppStatsCalcComponent_eventCalcFinalStats_Parms, BaseStats), Z_Construct_UScriptStruct_FBasicStatsStruct, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BaseStats_MetaData), NewProp_BaseStats_MetaData) }; // 150690778
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics::NewProp_weaponS = { "weaponS", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppStatsCalcComponent_eventCalcFinalStats_Parms, weaponS), Z_Construct_UScriptStruct_FWeaponData, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_weaponS_MetaData), NewProp_weaponS_MetaData) }; // 3858665764
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppStatsCalcComponent_eventCalcFinalStats_Parms, ReturnValue), Z_Construct_UScriptStruct_FFinalStatsStruct, METADATA_PARAMS(0, nullptr) }; // 1334037814
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(cppStatsCalcComponent_eventCalcFinalStats_Parms, ReturnValue), Z_Construct_UScriptStruct_FFinalStatsStruct, METADATA_PARAMS(0, nullptr) }; // 3211135562
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics::NewProp_BaseStats,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats_Statics::NewProp_weaponS,
@@ -139,7 +139,7 @@ struct Z_Construct_UClass_UcppStatsCalcComponent_Statics
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats, "CalcFinalStats" }, // 39298068
+		{ &Z_Construct_UFunction_UcppStatsCalcComponent_CalcFinalStats, "CalcFinalStats" }, // 4013711530
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -188,10 +188,10 @@ UcppStatsCalcComponent::~UcppStatsCalcComponent() {}
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppStatsCalcComponent_h__Script_TEMP2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UcppStatsCalcComponent, UcppStatsCalcComponent::StaticClass, TEXT("UcppStatsCalcComponent"), &Z_Registration_Info_UClass_UcppStatsCalcComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppStatsCalcComponent), 1326428511U) },
+		{ Z_Construct_UClass_UcppStatsCalcComponent, UcppStatsCalcComponent::StaticClass, TEXT("UcppStatsCalcComponent"), &Z_Registration_Info_UClass_UcppStatsCalcComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UcppStatsCalcComponent), 2655680164U) },
 	};
 }; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppStatsCalcComponent_h__Script_TEMP2025_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppStatsCalcComponent_h__Script_TEMP2025_2831957974{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppStatsCalcComponent_h__Script_TEMP2025_2039289756{
 	TEXT("/Script/TEMP2025"),
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppStatsCalcComponent_h__Script_TEMP2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_cppStatsCalcComponent_h__Script_TEMP2025_Statics::ClassInfo),
 	nullptr, 0,
