@@ -70,7 +70,7 @@ struct Z_Construct_UScriptStruct_FFinalStatsStruct_Statics
 		{ "ToolTip", "\xea\xb3\xb5\xea\xb2\xa9\xeb\xa0\xa5" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HEADDEF_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DEF_MetaData[] = {
 		{ "Category", "FinalStatsStruct" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// \xed\x96\x89\xeb\x8f\x99\xec\x86\x8d\xeb\x8f\x84\n" },
@@ -78,16 +78,6 @@ struct Z_Construct_UScriptStruct_FFinalStatsStruct_Statics
 		{ "ModuleRelativePath", "Public/FinalStatsStruct.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\xed\x96\x89\xeb\x8f\x99\xec\x86\x8d\xeb\x8f\x84" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BODYDEF_MetaData[] = {
-		{ "Category", "FinalStatsStruct" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// \xeb\xb0\xa9\xec\x96\xb4\xeb\xa0\xa5\n" },
-#endif
-		{ "ModuleRelativePath", "Public/FinalStatsStruct.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "\xeb\xb0\xa9\xec\x96\xb4\xeb\xa0\xa5" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CRrate_MetaData[] = {
@@ -118,8 +108,7 @@ struct Z_Construct_UScriptStruct_FFinalStatsStruct_Statics
 	static const UECodeGen_Private::FIntPropertyParams NewProp_MP;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ATK;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_AS;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_HEADDEF;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_BODYDEF;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_DEF;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_CRrate;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_CRDMG;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -146,8 +135,7 @@ const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFinalStat
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_MP = { "MP", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, MP), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MP_MetaData), NewProp_MP_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_ATK = { "ATK", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, ATK), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ATK_MetaData), NewProp_ATK_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_AS = { "AS", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, AS), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AS_MetaData), NewProp_AS_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_HEADDEF = { "HEADDEF", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, HEADDEF), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HEADDEF_MetaData), NewProp_HEADDEF_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_BODYDEF = { "BODYDEF", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, BODYDEF), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_BODYDEF_MetaData), NewProp_BODYDEF_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_DEF = { "DEF", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, DEF), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DEF_MetaData), NewProp_DEF_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_CRrate = { "CRrate", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, CRrate), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CRrate_MetaData), NewProp_CRrate_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_CRDMG = { "CRDMG", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFinalStatsStruct, CRDMG), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CRDMG_MetaData), NewProp_CRDMG_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::PropPointers[] = {
@@ -156,8 +144,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FF
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_MP,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_ATK,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_AS,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_HEADDEF,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_BODYDEF,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_DEF,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_CRrate,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewProp_CRDMG,
 };
@@ -190,10 +177,10 @@ UScriptStruct* Z_Construct_UScriptStruct_FFinalStatsStruct()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_FinalStatsStruct_h__Script_TEMP2025_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FFinalStatsStruct::StaticStruct, Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewStructOps, TEXT("FinalStatsStruct"),&Z_Registration_Info_UScriptStruct_FFinalStatsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFinalStatsStruct), 3211135562U) },
+		{ FFinalStatsStruct::StaticStruct, Z_Construct_UScriptStruct_FFinalStatsStruct_Statics::NewStructOps, TEXT("FinalStatsStruct"),&Z_Registration_Info_UScriptStruct_FFinalStatsStruct, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFinalStatsStruct), 1334037814U) },
 	};
 }; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_FinalStatsStruct_h__Script_TEMP2025_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_FinalStatsStruct_h__Script_TEMP2025_3806904330{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_FinalStatsStruct_h__Script_TEMP2025_79496825{
 	TEXT("/Script/TEMP2025"),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_FinalStatsStruct_h__Script_TEMP2025_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_Public_FinalStatsStruct_h__Script_TEMP2025_Statics::ScriptStructInfo),
