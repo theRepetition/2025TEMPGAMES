@@ -39,12 +39,13 @@ public:
 
     // 기본 생성자
     FFinalStatsStruct()
-        :HP(100.)
-        ,SP(100.)
-        ,ATK(100)
-        ,AS(100.0f)
-        ,DEF(100)
-        ,CRrate(100.0f)
+        :HP(70.)
+        ,MP(0.)
+        ,SP(70.)
+        ,ATK(4)
+        ,AS(0.55f)
+        ,DEF(0)
+        ,CRrate(2.5f)
         ,CRDMG(100.0f)
 
 
