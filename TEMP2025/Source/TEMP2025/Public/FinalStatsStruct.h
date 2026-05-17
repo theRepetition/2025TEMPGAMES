@@ -25,7 +25,10 @@ public:
     float AS;  // 행동속도
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
-    int DEF;  // 방어력
+    int HEADDEF;  // 방어력
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    int BODYDEF;  // 방어력
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     float CRrate;  // 치명타 확률or사거리
@@ -44,7 +47,8 @@ public:
         ,SP(70.)
         ,ATK(4)
         ,AS(0.55f)
-        ,DEF(0)
+        ,HEADDEF(0)
+        ,BODYDEF(0)
         ,CRrate(2.5f)
         ,CRDMG(100.0f)
 

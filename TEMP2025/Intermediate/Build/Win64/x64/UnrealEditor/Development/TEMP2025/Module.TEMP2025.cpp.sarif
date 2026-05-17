@@ -32,6 +32,31 @@
                 {
                     "ruleId": "C5038",
                     "message": {
+                        "text": "데이터 멤버 'FFinalStatsStruct::MP'은(는) 데이터 멤버 'FFinalStatsStruct::SP' 이후에 초기화됩니다."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/TempGames/2025TEMPGAMES/TEMP2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/TEMP2025/Module.TEMP2025.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/Public/FinalStatsStruct.h"
+                                },
+                                "region": {
+                                    "startLine": 46,
+                                    "startColumn": 10,
+                                    "snippet": {
+                                        "text": "        ,MP(0.)"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C5038",
+                    "message": {
                         "text": "데이터 멤버 'FPlayerProfile::AccessoryR'은(는) 데이터 멤버 'FPlayerProfile::AccessoryL' 이후에 초기화됩니다."
                     },
                     "analysisTarget": {
