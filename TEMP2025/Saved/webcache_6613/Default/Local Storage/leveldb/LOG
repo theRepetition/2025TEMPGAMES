@@ -1,17 +1,14 @@
-2026/05/18-20:08:22.423 2d6c Reusing MANIFEST E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/05/18-20:08:22.430 2d6c Recovering log #123
-2026/05/18-20:08:22.431 2d6c Level-0 table #125: started
-2026/05/18-20:08:22.437 2d6c Level-0 table #125: 64437 bytes OK
-2026/05/18-20:08:22.437 2d6c Recovering log #125
-2026/05/18-20:08:22.438 2d6c Reusing old log E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\Local Storage\leveldb/000125.log 
-2026/05/18-20:08:22.441 2d6c Delete type=0 #123
-2026/05/18-20:08:22.441 2d6c Delete type=2 #126
-2026/05/18-20:08:22.442 52d8 Compacting 4@0 + 1@1 files
-2026/05/18-20:08:22.448 52d8 Generated table #126@0: 7 keys, 32779 bytes
-2026/05/18-20:08:22.448 52d8 Compacted 4@0 + 1@1 files => 32779 bytes
-2026/05/18-20:08:22.450 52d8 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/05/18-20:08:22.451 52d8 Delete type=2 #114
-2026/05/18-20:08:22.451 52d8 Delete type=2 #116
-2026/05/18-20:08:22.451 52d8 Delete type=2 #119
-2026/05/18-20:08:22.451 52d8 Delete type=2 #122
-2026/05/18-20:08:22.451 52d8 Delete type=2 #125
+2026/05/20-00:22:48.022 49d0 Reusing MANIFEST E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/05/20-00:22:48.029 49d0 Recovering log #135
+2026/05/20-00:22:48.029 49d0 Level-0 table #137: started
+2026/05/20-00:22:48.035 49d0 Level-0 table #137: 67272 bytes OK
+2026/05/20-00:22:48.039 49d0 Delete type=0 #135
+2026/05/20-00:22:48.039 6764 Compacting 4@0 + 1@1 files
+2026/05/20-00:22:48.047 6764 Generated table #139@0: 7 keys, 34123 bytes
+2026/05/20-00:22:48.047 6764 Compacted 4@0 + 1@1 files => 34123 bytes
+2026/05/20-00:22:48.049 6764 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/05/20-00:22:48.050 6764 Delete type=2 #126
+2026/05/20-00:22:48.050 6764 Delete type=2 #128
+2026/05/20-00:22:48.050 6764 Delete type=2 #131
+2026/05/20-00:22:48.050 6764 Delete type=2 #134
+2026/05/20-00:22:48.050 6764 Delete type=2 #137

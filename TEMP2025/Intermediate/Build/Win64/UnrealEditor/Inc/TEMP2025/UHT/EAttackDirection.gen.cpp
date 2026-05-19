@@ -36,6 +36,8 @@ struct Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 		{ "Back.DisplayName", "Back" },
 		{ "Back.Name", "EAttackDirection::Back" },
+		{ "BlindSpot.DisplayName", "BlindSpot" },
+		{ "BlindSpot.Name", "EAttackDirection::BlindSpot" },
 		{ "BlueprintType", "true" },
 		{ "Left.DisplayName", "Left" },
 		{ "Left.Name", "EAttackDirection::Left" },
@@ -57,6 +59,7 @@ struct Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics
 		{ "EAttackDirection::Up", (int64)EAttackDirection::Up },
 		{ "EAttackDirection::Med", (int64)EAttackDirection::Med },
 		{ "EAttackDirection::Back", (int64)EAttackDirection::Back },
+		{ "EAttackDirection::BlindSpot", (int64)EAttackDirection::BlindSpot },
 	};
 	static const UECodeGen_Private::FEnumParams EnumParams;
 }; // struct Z_Construct_UEnum_TEMP2025_EAttackDirection_Statics 
@@ -86,10 +89,10 @@ UEnum* Z_Construct_UEnum_TEMP2025_EAttackDirection()
 struct Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EAttackDirection_StaticEnum, TEXT("EAttackDirection"), &Z_Registration_Info_UEnum_EAttackDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4247988245U) },
+		{ EAttackDirection_StaticEnum, TEXT("EAttackDirection"), &Z_Registration_Info_UEnum_EAttackDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3241566924U) },
 	};
 }; // Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_3650386929{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TempGames_2025TEMPGAMES_TEMP2025_Source_TEMP2025_EAttackDirection_h__Script_TEMP2025_2517006813{
 	TEXT("/Script/TEMP2025"),
 	nullptr, 0,
 	nullptr, 0,

@@ -12,4 +12,5 @@ enum class EAttackDirection : uint8
     Up      UMETA(DisplayName = "Up"),
     Med    UMETA(DisplayName = "Med"),
     Back UMETA(DisplayName = "Back"),
+    BlindSpot UMETA(DisplayName = "BlindSpot"),
 };

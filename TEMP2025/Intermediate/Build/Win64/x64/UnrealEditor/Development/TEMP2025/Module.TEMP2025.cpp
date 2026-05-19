@@ -38,6 +38,7 @@
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppInventoryManager.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppItemComponent.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppNPCInteraction.cpp"
+#include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/cppStatsCalcComponent.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/DBtool.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/MyClass.cpp"
 #include "E:/TempGames/2025TEMPGAMES/TEMP2025/Source/TEMP2025/Private/cppAsyncloadForInvenComponents.cpp"

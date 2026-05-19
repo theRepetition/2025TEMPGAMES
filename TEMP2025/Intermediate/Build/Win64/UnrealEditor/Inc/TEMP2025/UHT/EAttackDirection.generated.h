@@ -28,7 +28,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(EAttackDirection::Right) \
 	op(EAttackDirection::Up) \
 	op(EAttackDirection::Med) \
-	op(EAttackDirection::Back) 
+	op(EAttackDirection::Back) \
+	op(EAttackDirection::BlindSpot) 
 
 enum class EAttackDirection : uint8;
 template<> struct TIsUEnumClass<EAttackDirection> { enum { Value = true }; };
