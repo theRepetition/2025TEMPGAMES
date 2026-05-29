@@ -1,0 +1,22 @@
+[29480:3188:0522/212015.054:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[29480:3188:0522/212015.145:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[29480:27916:0522/212018.276:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[29480:27916:0522/212018.278:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[29480:22304:0522/212018.280:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[29480:22304:0522/212018.281:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[26520:17960:0522/212029.581:ERROR:frame_impl.cc(537)] frame 5-A2C04A98563EC9DDEAF389F7446D9A37 connection timeout
+[29480:22304:0522/212029.591:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[29480:22304:0522/212029.592:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[29480:3740:0522/212029.722:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[29480:24132:0522/212034.608:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
+[29480:3188:0522/212035.263:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[29480:3188:0522/212035.264:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[29480:3188:0522/212035.264:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[29480:3188:0522/212035.264:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[29480:24132:0522/212035.268:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[24292:26796:0522/212044.598:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[24292:26796:0522/212044.622:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[24292:23892:0522/212044.647:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[24292:23892:0522/212044.647:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[24292:23892:0522/212044.648:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[29480:3188:0523/043822.758:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
