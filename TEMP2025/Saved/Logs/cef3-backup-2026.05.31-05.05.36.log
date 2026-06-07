@@ -1,24 +1,0 @@
-[25976:22956:0531/135623.281:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[25976:22956:0531/135623.362:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[25976:24848:0531/135626.243:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25976:24848:0531/135626.245:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25976:24848:0531/135626.246:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25976:24848:0531/135626.247:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[21460:22048:0531/135637.334:ERROR:frame_impl.cc(537)] frame 5-D82180EB54241FA1A2BE236C292C4FA3 connection timeout
-[25976:24848:0531/135637.341:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25976:24848:0531/135637.343:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25976:24852:0531/135637.435:WARNING:leveldb_database.cc(141)] Unable to open E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: E:\TempGames\2025TEMPGAMES\TEMP2025\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[25976:24860:0531/135640.656:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
-[25976:22956:0531/135641.001:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
-[25976:22956:0531/135641.001:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
-[25976:22956:0531/135641.001:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
-[25976:22956:0531/135641.001:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
-[25976:24860:0531/135641.008:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
-[12936:22816:0531/135648.316:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
-[12936:22816:0531/135648.481:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
-[12936:22864:0531/135648.487:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
-[12936:22864:0531/135648.487:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
-[12936:22864:0531/135648.487:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
-[24824:24828:0531/135854.421:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[24824:24828:0531/135854.421:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[25976:22956:0531/140536.538:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
